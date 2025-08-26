@@ -26,3 +26,23 @@ Welcome! We are Team Ruwance proudly representing Perú in the 2025 World Robot 
 ### Assembly Instructions
 ### Performance Videos
 
+# Table of Contents
+1. Meet the Team!
+2. Vehicle Overview
+3. System Setup
+4. Mobility Management 
+5. Power & Sense Management
+6. Obstacle Management
+7. Assembly Instructions
+8. Performance Videos
+
+# Table of Contents
+## 1. Meet the Team!
+## 2. Vehicle Overview
+## 3. System Setup
+## 4. Mobility Management 
+## 5. Power & Sense Management
+## 6. Obstacle Management
+## 7. Assembly Instructions
+## 8. Performance Videos
+
