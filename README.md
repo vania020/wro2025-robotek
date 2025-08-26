@@ -50,9 +50,18 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
   
 </table>
 
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/cd42f154-b82e-4a67-900f-a1973eb5583c" alt="Vania" width="150"/> | <img src="https://github.com/user-attachments/assets/cd42f154-b82e-4a67-900f-a1973eb5583c" alt="Isabella" width="150"/> |
-| **Vania Pachas** | **Isabella Gonzales** |
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/cd42f154-b82e-4a67-900f-a1973eb5583c" alt="Vania" width="150"/><br>
+      <strong>Vania Pachas</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/cd42f154-b82e-4a67-900f-a1973eb5583c" alt="Isabella" width="150"/><br>
+      <strong>Isabella Gonzales</strong>
+    </td>
+  </tr>
+</table>
 
 
 
