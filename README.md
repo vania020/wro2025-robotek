@@ -35,14 +35,14 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="55%" valign="top">
       <strong>Vania Pachas</strong><br><br>
       <img width="15" alt="pencial" src="https://github.com/user-attachments/assets/cf4faf62-f43d-47b9-8fd1-917cc4955a78" /> <i>Responsible for Mechanical Design & Technical documentation</i><br>
        <img width="15" alt="mail" src="https://www.clipartmax.com/png/full/278-2785632_big-image-mail-icon-png-circle.png" /> vaniaapachas@gmail.com<br>
        <img width="15" alt="location" src="https://github.com/user-attachments/assets/11318a7b-9411-4503-9885-926fe4fb4ffb" /> Lima, Perú<br><br>
       Hi!! I'm Vania, a 17-year-old Peruvian passionate about innovation and STEM education. This is my first time participating in the WRO, and I'm excited to learn and take on this new challenge! I also love dancing salsa, crocheting, watching romcoms, and I’m a quantum computing enthusiast :)<br><br>
    
-  <td width="50%" align="center">
+  <td width="45%" align="center">
     <img src="https://github.com/user-attachments/assets/36a0b27f-ee27-486c-8914-90469e85a03d" alt="Vania"/>
     </td>
   </tr>
@@ -51,15 +51,15 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 <table>
   <tr>
-    <td width="60%" valign="top">
+    <td width="55%" valign="top">
       <strong>Isabella Gonzales</strong><br><br>
       <img width="15" alt="pencial" src="https://github.com/user-attachments/assets/cf4faf62-f43d-47b9-8fd1-917cc4955a78" /> <i>Responsible for Electronics and Technical Designer documentation</i><br>
        <img width="15" alt="mail" src="https://www.clipartmax.com/png/full/278-2785632_big-image-mail-icon-png-circle.png" /> isabellamilagros842@gmail.com<br>
        <img width="15" alt="location" src="https://github.com/user-attachments/assets/11318a7b-9411-4503-9885-926fe4fb4ffb" /> Lima, Perú<br><br>
       Hello!! My name is Isa Gonzales, I'm 16 years old, and I love robotics. I love music (singing and playing the guitar), making origami, and painting. A fun fact about me is that I sang in the National Theather wearing pijamas when I was 6.<br><br>
    
-  <td width="40%" align="center">
-    <img src="https://github.com/user-attachments/assets/9c705284-e097-490e-8162-c22ea6d35a06" alt="Isa"/>
+  <td width="45%" align="center">
+    <img src="https://github.com/user-attachments/assets/07735d5c-00a2-43e7-8e0f-f4cf62ae2247" alt="Isa"/>
     </td>
   </tr>
   
