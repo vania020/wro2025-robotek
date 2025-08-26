@@ -68,7 +68,6 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 <table width="60%" style="margin:auto; text-align:center;">
   <tr>
-    <!-- Primera fila: imágenes -->
     <td>
       <img src="https://github.com/user-attachments/assets/cd42f154-b82e-4a67-900f-a1973eb5583c" alt="Vania" width="120"/>
     </td>
@@ -77,7 +76,6 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
     </td>
   </tr>
   <tr>
-    <!-- Segunda fila: nombre y descripción -->
     <td>
       <strong>Vania Pachas</strong><br>
       <i>Responsible for Mechanical Design & Technical documentation</i><br>
