@@ -1,7 +1,7 @@
 # Ruwance - WRO 2025<img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="Peru Flag" width="30"/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner" width="100%">
+  <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner Ruwance" width="100%">
 </p>
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23FFA500.svg?style=for-the-badge&logo=Instagram&logoColor=white&style=plastic)](https://www.instagram.com/robotekperu/)
@@ -32,3 +32,11 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 
 ## Meet the Team!
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0d9450e9-e665-4665-b520-1ac0eebaf984" alt="Team Banner">
+</p>
+
+
+
+
