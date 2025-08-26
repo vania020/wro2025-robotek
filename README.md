@@ -17,6 +17,27 @@
 Welcome! 🎉<br>
 We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad! This GitHub repository contains the documentation, code, and full development journey of our autonomous vehicle, designed and built to compete in the Future Engineers Challenge.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+
+<div style="flex: 1; padding-right: 20px;">
+
+Welcome! 🎉  
+We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad!  
+This GitHub repository contains the documentation, code, and full development journey of our autonomous vehicle, designed and built to compete in the Future Engineers Challenge.  
+
+</div>
+
+<div style="flex: 1;">
+
+**Team Name:** Ruwance  
+**Car Name:** Riska  
+**Club Name:** Robotek  
+**Team Members:** Vania Pachas & Isabella Gonzales  
+
+</div>
+
+</div>
+
 # Table of Contents
 1. [Meet the Team!](#meet-the-team)
 2. [Vehicle Overview](#vehicle-overview)
