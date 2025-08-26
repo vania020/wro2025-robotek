@@ -7,4 +7,8 @@
 + Team Name: **Ruwance**
 + Car Name: **Riska**
 + Club Name: **Robotek**
-+ + Team Members: **Vania Pachas & Isabella Gonzales**
++ Team Members: **Vania Pachas & Isabella Gonzales**
+
+Welcome! We are Team Ruwance proudly representing Perú in the 2025 World Robot Olympiad! 🤖 In this GitHub repository, you will find the documentation, code and complete journey of our autonomous vehicle, designed to complete the Future Engineers Challenge.
+
+---
