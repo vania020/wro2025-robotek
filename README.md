@@ -38,15 +38,13 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
   <tr>
     <td width="40%" valign="top">
       <p>
-        <span style="font-size:28px; font-weight:bold;">Vania Pachas</span><br><br>
-        <i style="font-size:16px;">Responsible for Mechanical Design & Technical documentation</i><br><br>
-        <span style="font-size:14px;">
-          Hi!! I'm Vania, a 17-year-old Peruvian passionate about innovation and STEM. This is my first time participating in the WRO, and I'm excited to learn and take on this new challenge! I also love dancing salsa, crocheting, watching romcoms, and I’m a quantum computing enthusiast :)
-        </span>
+        <strong>Vania Pachas</strong><br><br>
+        <i>Responsible for Mechanical Design & Technical documentation<i><br><br>
+        Hi!! I'm Vania, a 17-year-old Peruvian passionate about innovation and STEM. This is my first time participating in the WRO, and I'm excited to learn and take on this new challenge! I also love dancing salsa, crocheting, watching romcoms, and I’m a quantum computing enthusiast :)
       </p>
     </td>
     <td width="60%" align="center">
-      <img src="https://github.com/user-attachments/assets/672962b7-0166-41bd-824b-7012d688deb0" alt="Vania" width="60%"/>
+      <img src=https://github.com/user-attachments/assets/6456a59b-320f-4a0d-804d-89e03aa68a70" alt="Vania" width="60%"/>
     </td>
   </tr>
 </table>
