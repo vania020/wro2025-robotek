@@ -44,7 +44,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
       </p>
           <img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" />
     </td>
-    <td width="50%" align="center">
+    <td width="40%" align="center">
       <img src="https://github.com/user-attachments/assets/6456a59b-320f-4a0d-804d-89e03aa68a70" alt="Vania"/>
     </td>
   </tr>
