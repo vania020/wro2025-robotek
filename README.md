@@ -68,9 +68,5 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 ### Why *Ruwance*?
 The name *Ruwance* comes from combining the Quechua word "**ruway**" and the English word "**chance**". Ruway means "to create" or "to do", which really reflects who we are, a team that is always making, building, and experimenting. As students of Robotek from Lima, Peru, we have learned that creativity and resilience are important traits to succeed in and enjoy our robotics journey.
 
-> [!NOTE]
-> Click [here] to Useful information that users should know, even when skimming content.
-
-> [!TIP|style:flat|label:My own heading|iconVisibility:hidden]
-> An alert of type 'tip' using alert specific style 'flat' which overrides global style 'callout'.
-> In addition, this alert uses an own heading and hides specific icon.
+> [!NOTE|style:flat|label:My own heading|iconVisibility:hidden]
+> Click here to see our team photos (official and funny ones)!
