@@ -2,7 +2,7 @@
 ![RUWANCE LOGO](https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e)
 
 <p align="center">
-  <img src="[https://ruta-de-tu-banner.png](https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e)" alt="Banner" width="100%">
+  <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner" width="100%">
 </p>
 
 
