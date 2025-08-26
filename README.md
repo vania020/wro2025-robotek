@@ -56,7 +56,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
       <img width="15" alt="pencial" src="https://github.com/user-attachments/assets/cf4faf62-f43d-47b9-8fd1-917cc4955a78" /> <i>Responsible for Electronics and Technical Designer documentation</i><br>
        <img width="15" alt="mail" src="https://www.clipartmax.com/png/full/278-2785632_big-image-mail-icon-png-circle.png" /> isabellamilagros842@gmail.com<br>
        <img width="15" alt="location" src="https://github.com/user-attachments/assets/11318a7b-9411-4503-9885-926fe4fb4ffb" /> Lima, Perú<br><br>
-      Hello!! My name is Isa Gonzales, I'm 16 years old, and I love robotics. I love music (singing and playing the guitar), making origami, and painting. A fun fact about me is that I sang in the National Theather wearing pijamas when I was 6.<br><br>
+      Hello!! My name is Isabella Gonzales, I'm 16 years old, and I love robotics. I love music (singing and playing the guitar), making origami, and painting. A fun fact about me is that I sang in the National Theather wearing pijamas when I was 6.<br><br>
    
   <td width="45%" align="center">
     <img src="https://github.com/user-attachments/assets/07735d5c-00a2-43e7-8e0f-f4cf62ae2247" alt="Isa"/>
@@ -65,4 +65,5 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
   
 </table>
 
-
+### Why *Ruwance*?
+The name *Ruwance* comes from combining the Quechua word "**ruway**" and the English word "**chance**". Ruway means "to create" or "to do", which really reflects who we are, a team that is always making, building, and experimenting. Chance represents the opportunities and the risks we take while bringing our ideas to life. As students of Robotek from Lima, Peru, we have learned that creativity and resilience are important traits to succeed in and enjoy our robotics journey.
