@@ -33,7 +33,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 ## Meet the Team!
 
-# Vania Pachas
+### Vania Pachas
 <table>
   <tr>
     <td width="65%" valign="top">
