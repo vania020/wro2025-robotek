@@ -43,7 +43,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
    
 <br>
 
-## Meet the Team!
+## 1. Meet the Team!
 
 <table>
   <tr>
@@ -85,7 +85,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 <br>
 
-## Vehicle Overview
+## 2. Vehicle Overview
 
 ### *General Description of the Car*
 Our autonomous vehicle is built to take on both the Open and Obstacle Challenges at the Future Engineers competition. Running on Ubuntu with ROS, it can process information and make decisions in real time. With an Ackermann steering system and a stable chassis, the car handles turns and straightaways smoothly, while a LiDAR sensor is primarily used to detect traffic sign obstacles and adapt the path, helping the vehicle count laps and complete the course efficiently.
@@ -99,7 +99,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 | :--: | :--: |:--: |  
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
 > [!NOTE]
-> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) file for more detailed photos
+> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) file for more detailed photos of the car.
 
 <br>
 
@@ -183,4 +183,15 @@ Our vehicle has gone through about **seven versions** (and since we are always i
     </td>
   </tr>
 
+<br>
 
+## 3. System Setup
+
+### *Operating Environment Cverview*
+The operating environment of our car is designed as a structure that connects hardware, software, and middleware into a single functional system.
+
+```mermaid
+flowchart LR
+    A[Hardware] --> B[Ubuntu]
+    B --> C[ROS 2]
+    C --> D[Nodes]
