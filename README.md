@@ -181,6 +181,7 @@ Our vehicle has gone through about **seven versions** (and since we are always i
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
   </tr>
+</table>
 
 <br>
 
