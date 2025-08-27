@@ -153,7 +153,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 5 -->
   <tr>
     <td align="center">Version N°5</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300" height="300"/>
     </td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
