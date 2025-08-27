@@ -206,7 +206,8 @@ We use ROS 2 because it helps us organize the car’s programs in a clear way. W
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
 </p>
-> This is an official animation to better understand how nodes work.In ROS, each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
+
+> This is an official animation to better understand how nodes work. Each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
 
 Another advantage is that ROS 2 already comes with many libraries and tools for things like sensor handling, visualization, and simulation.<br><br>
 In practice, this is the process:
