@@ -195,6 +195,7 @@ flowchart LR
     A[Hardware] --> B[Ubuntu]
     B --> C[ROS 2]
     C --> D[Nodes]
+```
 
 At the base, we have the hardware, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller.
 On top of this runs Ubuntu 24.04, which provides the necessary drivers, system libraries, and support for robotics applications.
