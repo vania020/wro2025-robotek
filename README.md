@@ -197,7 +197,10 @@ flowchart LR
     C --> D[Nodes]
 ```
 
-At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller. On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications. The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**. Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.
+* At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller. 
+* On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications. 
+* The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**. 
+* Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.
 
 
 
