@@ -214,19 +214,22 @@ We use ROS 2 because it helps us organize the car’s programs in a clear way. W
 
 > This is an official animation to better understand how nodes work. Each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
 
-Another advantage is that ROS 2 already comes with many libraries and tools for things like sensor handling, visualization, and simulation.In practice, this is the process:
+Another advantage is that ROS 2 already comes with many libraries and tools for tasks like sensor handling, visualization, and simulation.In practice, this is the process:
 1. Sensors send data to ROS 2 by publishing it on topics.
 2. Other nodes listen to that data, process it, and decide what the car should do.
 3. Finally, a controller node sends commands, making the car move accordingly.
 <br><br>
 
 ### *Ubuntu*
-Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br><br>
+Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br>
 
-*<ins>Role in the System?</ins>*<br>
+*<ins>Role in the System</ins>*<br>
 Ubuntu manages the Raspberry Pi’s resources efficiently, ensuring it runs correctly. It provides drivers and compatibility for sensors and external hardware, making integration easier. Ubuntu also allows us to install and run ROS 2 Jazzy and gives us access to important libraries and tools that simplify tasks such as sensor communication and system development.<br><br>
 
 We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since ROS 2 packages are officially distributed for Ubuntu, using this operating system guarantees that we can easily install and manage the software needed for our car.
+<br><br>
+
+### *Raspberry*
 
 
 
