@@ -86,8 +86,12 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 | Top | Bottom |
 | :--: | :--: | 
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
-| **Front** | **Back** |
+
+| Front | Back |
+| :--: | :--: | 
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
-| **Left** | **Right** |
+
+| Left | Right |
+| :--: | :--: | 
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
 
