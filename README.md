@@ -204,20 +204,6 @@ flowchart LR
 * Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br> 
 
 
+### *Robot Operating System (ROS)*
+For this project we use ROS 2 Jazzy, you can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
 
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
