@@ -220,7 +220,7 @@ Another advantage is that ROS 2 already comes with many libraries and tools for 
 3. Finally, a controller node sends commands, making the car move accordingly.
 <br><br>
 
-### *Ubuntu*
+### *Ubuntu* <img width="40" alt="UBUNTU" src="https://github.com/user-attachments/assets/38f176af-2d07-41f9-bb14-3ef8eb2c0022" />
 Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br>
 
 *<ins>Role in the System</ins>*<br>
@@ -229,7 +229,8 @@ Ubuntu manages the Raspberry Pi’s resources efficiently, ensuring it runs corr
 We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since ROS 2 packages are officially distributed for Ubuntu, using this operating system guarantees that we can easily install and manage the software needed for our car.
 <br><br>
 
-### *Raspberry*
+### *Raspberry* <img width="40" alt="Raspberry" src="<img width="1542" height="432" alt="RPI L_BIG-6ca2afa4" src="https://github.com/user-attachments/assets/6e218c1a-8fe1-47a2-8ae5-1719956508fa" />
+" />
 
 
 
