@@ -123,7 +123,8 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 2 -->
   <tr>
     <td align="center">Version N°2</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/e6ac6d55-3e3f-46f5-982f-9ac30f680f07" width="300"height="200"/>
+    </td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
