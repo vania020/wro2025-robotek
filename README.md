@@ -99,7 +99,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 | :--: | :--: |:--: |  
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
 > [!NOTE]
-> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) file for more detailed photos of the car.
+> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) file for more detailed photos of the car 📸🚗
 
 <br>
 
@@ -196,11 +196,16 @@ flowchart LR
     B --> C[ROS 2]
     C --> D[Nodes]
 ```
-At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller. On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications. The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**. Finally, in the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
++ At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller.
++ On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications.
++ The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**.
++ Finally, in the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
 
 
 ### *Robot Operating System (ROS)*
 For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br><br>
+
+*<ins>Why and How we use it?</ins>*
 We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
 
 <p align="center">
