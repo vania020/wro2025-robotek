@@ -201,9 +201,16 @@ flowchart LR
   <br><br>
 * On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications.<br><br> 
 * The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**.<br><br>  
-* Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br> 
+* Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
 
 
 ### *Robot Operating System (ROS)*
-For this project we use ROS 2 Jazzy, you can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
+For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
+We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
+Another advantage is that ROS 2 already comes with many libraries and tools for things like sensor handling, visualization, and simulation.
+In practice, this is the process:
+1. Sensors send data to ROS 2 by publishing it on topics.
+2. Other nodes listen to that data, process it, and decide what the car should do.
+3. Finally, a controller node sends commands, making the car move accordingly.
+
 
