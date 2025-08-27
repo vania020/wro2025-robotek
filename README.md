@@ -103,6 +103,14 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 Our vehicle has gone through about **seven versions**, each bringing new improvements (and there are still more to come!). It all started with a simple cardboard prototype, then moved on to acrylic and metal chassis designs. Later, we made major adjustments to a HiWonder kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
 
 <table>
+  <style>
+  img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* mantiene proporciones sin deformar */
+  }
+</style>
+  
   <tr>
     <th width="15%">Version</th>
     <th width="35%">Car Photo</th>
