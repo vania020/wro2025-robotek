@@ -102,18 +102,14 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 ### *Versions of the Car*
 Our vehicle has gone through about **seven versions**, each bringing new improvements (and there are still more to come!). It all started with a simple cardboard prototype, then moved on to acrylic and metal chassis designs. Later, we made major adjustments to a HiWonder kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
 
-| Version  | Car Photo  | Description |
-| :--: | :--: |:--: |  
-| Version N°1  | <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="900" />  | kit to better meet the competition’s challenges. Along the way, we alsoadopted a new operating environment with ROS and Ubuntu. |
-| Version N°2  | Car Photo  | kit to better meet the competition’s challengnd finally adopted a new operating environment with ROS and Ubuntu. |
-| Version N°3  | Car Photo  | kit to better meet the competition’s challenges. Ainally adopted a new operating environment with ROS and Ubuntu. |
-
 <table>
   <tr>
     <th width="15%">Version</th>
     <th width="35%">Car Photo</th>
     <th width="50%">Description</th>
   </tr>
+  
+  <!-- Version 1 -->
   <tr>
     <td align="center">Version N°1</td>
     <td align="center">
@@ -123,6 +119,8 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
   </tr>
+
+  <!-- Version 2 -->
   <tr>
     <td align="center">Version N°2</td>
     <td align="center">Car Photo</td>
@@ -130,6 +128,8 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
   </tr>
+
+  <!-- Version 3 -->
   <tr>
     <td align="center">Version N°3</td>
     <td align="center">Car Photo</td>
@@ -137,5 +137,41 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
   </tr>
-</table>
+
+  <!-- Version 4 -->
+  <tr>
+    <td align="center">Version N°4</td>
+    <td align="center">Car Photo</td>
+    <td>
+      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+    </td>
+  </tr>
+
+  <!-- Version 5 -->
+  <tr>
+    <td align="center">Version N°5</td>
+    <td align="center">Car Photo</td>
+    <td>
+      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+    </td>
+  </tr>
+
+  <!-- Version 6 -->
+  <tr>
+    <td align="center">Version N°6</td>
+    <td align="center">Car Photo</td>
+    <td>
+      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+    </td>
+  </tr>
+
+  <!-- Version 7 -->
+  <tr>
+    <td align="center">Version N°7</td>
+    <td align="center">Car Photo</td>
+    <td>
+      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+    </td>
+  </tr>
+
 
