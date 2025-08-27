@@ -84,13 +84,13 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 ## Vehicle Overview
 
 
-| *Front* | *Back* |
+| Angle | Image |
 | :--: | :--: |
-| <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
-| *Left* | *Right* |
-| :--: | :--: |
-| <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
-| *Top* | *Bottom* |
-| :--: | :--: |
-| <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Front* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Back* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Left* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Right* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Top* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+| *Bottom* | <img src="https://github.com/user-attachments/assets/3c767684-7429-4968-a733-a4c38947d4e5" width="200"/> |
+
 
