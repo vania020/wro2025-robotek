@@ -196,7 +196,7 @@ flowchart LR
     B --> C[ROS 2]
     C --> D[Nodes]
 ```
-At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller.On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications.The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**.Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
+At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller. On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications. The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**. Finally, in the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
 
 
 ### *Robot Operating System (ROS)*
@@ -216,7 +216,7 @@ Another advantage is that ROS 2 already comes with many libraries and tools for 
 <br><br>
 
 ### *Ubuntu*
-Ubuntu is a popular open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br><br>
+Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br><br>
 Ubuntu manages the Raspberry Pi’s resources efficiently, ensuring it runs correctly. It provides drivers and compatibility for sensors and external hardware, making integration easier. Ubuntu also allows us to install and run ROS 2 Jazzy and gives us access to important libraries and tools that simplify tasks such as sensor communication and system development.<br><br>
 
 We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since ROS 2 packages are officially distributed for Ubuntu, using this operating system guarantees that we can easily install and manage the software needed for our car.
