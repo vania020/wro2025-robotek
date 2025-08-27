@@ -84,8 +84,8 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 ## Vehicle Overview
 
 | *Top* | *Bottom* |
-| <img src="./robot-photos/front.png" width="90%" /> | <img src="./robot-photos/back.png" width="85%" /> | 
 | :--: | :--: | 
+| <img src="./robot-photos/front.png" width="90%" /> | <img src="./robot-photos/back.png" width="85%" /> | 
 | *Front* | *Back* |
 | <img src="./robot-photos/left.png" width="90%" /> | <img src="./robot-photos/right.png" width="85%" /> | 
 | *Left* | *Right* |
