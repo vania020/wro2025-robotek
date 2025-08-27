@@ -133,7 +133,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 3 -->
   <tr>
     <td align="center">Version N°3</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="300"height="200"/></td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
@@ -142,7 +142,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 4 -->
   <tr>
     <td align="center">Version N°4</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/80568426-a136-48a6-b219-9c05dd3e2584" width="300"height="200"/></td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
@@ -151,7 +151,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 5 -->
   <tr>
     <td align="center">Version N°5</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300"height="200"/></td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
@@ -160,7 +160,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <!-- Version 6 -->
   <tr>
     <td align="center">Version N°6</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/7e483e4c-2f35-48e9-8125-00a2123f06a2" width="300"height="200"/></td>
     <td>
       Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
     </td>
