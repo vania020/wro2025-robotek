@@ -235,9 +235,40 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 *<ins>Set up and configuration</ins>*<br>
 + With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
 + After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname.
-+ And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)<br><br>
++ And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
 
-## 3. Mobility Management 
+<br><br>
+## 4. Mobility Management 
+
+### *Motors and Powertrain*
+### *Steering System - Ackermann*
+### *Chassis Design Process*
+### *3D Printed Parts*
+
+
+<br><br>
+## 5. Power & Sense Management 
+
+### *Power Source*
+### *LIDAR & Additional Sensors Integration*
+### *BOM (Bill of Materials)*
+### *Wiring Diagram*
+
+
+<br><br>
+## 6. Obstacle Management 
+### *Autonomous Driving Logic*
+### *Flow Diagrams*
+### *Open Challenge*
+### *Obstacle Challenge*
+
+<br><br>
+## 7. Assembly Instructions 
+
+<br><br>
+## 8. Performance Videos 
+
+
 
 
 
