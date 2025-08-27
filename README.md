@@ -188,7 +188,7 @@ Our vehicle has gone through about **seven versions** (and since we are always i
 ## 3. System Setup
 
 ### *Operating Environment Overview*
-The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system shown in the diagram below:
+The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the diagram below:
 
 ```mermaid
 flowchart LR
@@ -196,8 +196,5 @@ flowchart LR
     B --> C[ROS 2]
     C --> D[Nodes]
 
-At the base, we have the hardware, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller.
-On top of this runs Ubuntu 24.04, which provides the necessary drivers, system libraries, and support for robotics applications.
-The next layer is ROS 2 Jazzy, the middleware that ensures communication between nodes.
-Finally, at the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.
+
 
