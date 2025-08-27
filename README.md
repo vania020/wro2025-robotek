@@ -87,7 +87,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 ### *General Description of the Car*
 Our autonomous vehicle is built to take on both the Open and Obstacle Challenges at the Future Engineers competition. Running on Ubuntu with ROS, it can process information and make decisions in real time. With an Ackermann steering system and a stable chassis, the car handles turns and straightaways smoothly, while a LiDAR sensor is primarily used to detect traffic sign obstacles and adapt the path, helping the vehicle count laps and complete the course efficiently.
-<br><br>
+<br>
 
 | Front | Left | Right |
 | :--: | :--: | :--: | 
