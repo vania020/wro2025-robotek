@@ -7,7 +7,6 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23FFA500.svg?style=for-the-badge&logo=Instagram&logoColor=white&style=plastic)](https://www.instagram.com/robotekperu/)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&style=plastic)](https://www.youtube.com)
 [![Facebook](https://img.shields.io/badge/Facebook-%232B25CF.svg?style=for-the-badge&logo=Facebook&logoColor=white&style=plastic)](https://www.facebook.com/p/Robotek-Per%C3%BA-61566493439700/)
-[![Facebook](https://img.shields.io/badge/Facebook-%232B25CF?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/p/Robotek-Per%C3%BA-61566493439700/)
 
 
 + Team Name: **Ruwance**
@@ -32,6 +31,18 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 6. [Obstacle Management](#obstacle-management)
 7. [Assembly Instructions](#assembly-instructions)
 8. [Performance Videos](#performance-videos)
+
+
+## Repository Structure
+
+## Content
+* `t-photos` team photos (official one and one funny)
+* `v-photos` photos of our vehicle (from every side, from top and bottom)
+* `video` demonstration video link of the robot in the challenges
+* `schemes` Wiring diagram with pins and electronic components
+* `src` code of the robotic vehicle system
+* `models` 3D printed parts and other chassis pieces 
+* `other` Documentation on datasets, and hardware specifications
 
 
 ## Meet the Team!
@@ -74,5 +85,6 @@ The name *Ruwance* comes from combining the Quechua word "**ruway**" and the Eng
 > [!NOTE]
 > Click [here](t-photos) to see our team photos (official and funny ones)📸!
 
-## Meet the Team!
+## Vehicle Overview!
+
 
