@@ -185,11 +185,6 @@ Our vehicle has gone through about **seven versions** (and since we are always i
 
 <br>
 
-## 3. System Setup
-
-### *Operating Environment Overview*
-The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the diagram below:
-
 
 
 
