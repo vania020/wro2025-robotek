@@ -20,7 +20,16 @@
 We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad! This GitHub repository contains the documentation, code, and full development journey of our autonomous vehicle, designed and built to compete in the Future Engineers Challenge.
 
 
-</div>
+
+# Repository Structure
+* `t-photos` team photos (official one and one funny)
+* `v-photos` photos of our vehicle (from every side, from top and bottom)
+* `video` demonstration video link of the robot in the challenges
+* `schemes` Wiring diagram with pins and electronic components
+* `src` code of the robotic vehicle system
+* `models` 3D printed parts and other chassis pieces 
+* `other` Documentation on datasets, and hardware specifications
+
 
 # Table of Contents
 1. [Meet the Team!](#meet-the-team)
@@ -31,16 +40,6 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 6. [Obstacle Management](#obstacle-management)
 7. [Assembly Instructions](#assembly-instructions)
 8. [Performance Videos](#performance-videos)
-
-
-# Repository Structure
-* `t-photos` team photos (official one and one funny)
-* `v-photos` photos of our vehicle (from every side, from top and bottom)
-* `video` demonstration video link of the robot in the challenges
-* `schemes` Wiring diagram with pins and electronic components
-* `src` code of the robotic vehicle system
-* `models` 3D printed parts and other chassis pieces 
-* `other` Documentation on datasets, and hardware specifications
 
 
 ## Meet the Team!
