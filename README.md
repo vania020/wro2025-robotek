@@ -6,7 +6,7 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23FFA500.svg?style=for-the-badge&logo=Instagram&logoColor=white&style=plastic)](https://www.instagram.com/robotekperu/)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&style=plastic)](https://www.youtube.com)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/p/Robotek-Per%C3%BA-61566493439700/)
+[![Facebook](https://img.shields.io/badge/Facebook-%232B25CF?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/p/Robotek-Per%C3%BA-61566493439700/)
 
 
 + Team Name: **Ruwance**
