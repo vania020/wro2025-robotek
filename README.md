@@ -202,7 +202,7 @@ flowchart LR
 + Finally, in the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
 
 
-### *Robot Operating System (ROS)* <img width="30" alt="ROS" src="https://github.com/user-attachments/assets/53574d65-315e-4dfd-a8d9-ffb38e892bab" />
+### *Robot Operating System (ROS) * <img height="40" alt="ROS" src="https://github.com/user-attachments/assets/53574d65-315e-4dfd-a8d9-ffb38e892bab" />
 For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br>
 
 *<ins>Why and How we use it?</ins>*<br>
