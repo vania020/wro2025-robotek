@@ -30,7 +30,8 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 * `models` 3D printed parts and other chassis pieces 
 * `other` Documentation on datasets, and hardware specifications
 
-<br><br>
+<br>
+
 # Table of Contents
 1. [Meet the Team!](#meet-the-team)
 2. [Vehicle Overview](#vehicle-overview)
@@ -40,6 +41,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 6. [Obstacle Management](#obstacle-management)
 7. [Assembly Instructions](#assembly-instructions)
 8. [Performance Videos](#performance-videos)
+   
 <br><br>
 
 ## Meet the Team!
