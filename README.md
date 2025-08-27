@@ -41,7 +41,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 7. [Assembly Instructions](#assembly-instructions)
 8. [Performance Videos](#performance-videos)
    
-<br><br>
+<br>
 
 ## Meet the Team!
 
@@ -99,7 +99,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 | :--: | :--: |:--: |  
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
 > [!NOTE]
-> Visit our `v-photos` file for more detailed photos
+> Visit our `v-photos`(#v-photos) file for more detailed photos
 
 <br>
 
