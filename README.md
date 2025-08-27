@@ -205,7 +205,7 @@ flowchart LR
 ### *Robot Operating System (ROS)*
 For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br><br>
 
-*<ins>Why and How we use it?</ins>*
+*<ins>Why and How we use it?</ins>*<br>
 We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
 
 <p align="center">
@@ -222,6 +222,8 @@ Another advantage is that ROS 2 already comes with many libraries and tools for 
 
 ### *Ubuntu*
 Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br><br>
+
+*<ins>Role in the System?</ins>*<br>
 Ubuntu manages the Raspberry Pi’s resources efficiently, ensuring it runs correctly. It provides drivers and compatibility for sensors and external hardware, making integration easier. Ubuntu also allows us to install and run ROS 2 Jazzy and gives us access to important libraries and tools that simplify tasks such as sensor communication and system development.<br><br>
 
 We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since ROS 2 packages are officially distributed for Ubuntu, using this operating system guarantees that we can easily install and manage the software needed for our car.
