@@ -104,7 +104,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 <br>
 
 ### *Versions of the Car*
-Our vehicle has gone through about **seven versions** (and since we are always improving, there are still more to come!). It all started with a cardboard prototype, then moved on to acrylic and metal chassis designs, and later, we made personalized adjustments to a HiWonder kit. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+Our vehicle has gone through **7 versions** (and since we are always improving, there are still more to come!). It all started with a cardboard prototype, then moved on to acrylic and metal chassis designs, and later, we made personalized adjustments to a HiWonder kit. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
 <table>  
   <tr>
     <th width="15%">Version</th>
@@ -202,6 +202,11 @@ At the base, we have the **hardware**, including sensors such as LiDAR and a cam
 ### *Robot Operating System (ROS)*
 For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
 We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
+</p>
+
 Another advantage is that ROS 2 already comes with many libraries and tools for things like sensor handling, visualization, and simulation.<br><br>
 In practice, this is the process:
 1. Sensors send data to ROS 2 by publishing it on topics.
