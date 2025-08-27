@@ -12,7 +12,7 @@
 + Team Name: **Ruwance**
 + Car Name: **Riska**
 + Club Name: **Robotek**
-+ Team Members: **Vania Pachas & Isabella Gonzales**
++ Team Members: **Isabella Gonzales & Vania Pachas**
 
 ---
 
@@ -82,6 +82,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 > The name *Ruwance* comes from combining the Quechua word "**ruway**" and the English word "**chance**". Ruway means "to create" or "to do", which really reflects who we are, a team that is always making, building, and experimenting. As students of Robotek from Lima, Peru, we have learned that creativity and resilience are important traits to succeed in and enjoy our robotics journey.
 
 ## Vehicle Overview
+Our autonomous vehicle is built to take on both the Open and Obstacle Challenges at the Future Engineers competition. Running on Ubuntu with ROS, it can process information and make decisions in real time. With an Ackermann steering system and a stable chassis, the car handles turns and straightaways smoothly, while a LiDAR sensor is primarily used to detect traffic sign obstacles and adapt the path, helping the vehicle count laps and complete the course efficiently.
 
 | Top | Bottom |
 | :--: | :--: | 
