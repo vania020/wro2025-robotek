@@ -112,7 +112,7 @@ Our vehicle has gone through about **seven versions**, each bringing new improve
   <tr>
     <th width="15%">Version</th>
     <th width="35%">Car Photo</th>
-    <th width="40%">Description</th>
+    <th width="50%">Description</th>
   </tr>
   <tr>
     <td align="center">Version N°1</td>
