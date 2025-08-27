@@ -200,12 +200,13 @@ At the base, we have the **hardware**, including sensors such as LiDAR and a cam
 
 
 ### *Robot Operating System (ROS)*
-For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
+For this project, we use ROS 2 Jazzy. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br><br>
 We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
 </p>
+> This is an official animation to better understand how nodes work.In ROS, each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
 
 Another advantage is that ROS 2 already comes with many libraries and tools for things like sensor handling, visualization, and simulation.<br><br>
 In practice, this is the process:
