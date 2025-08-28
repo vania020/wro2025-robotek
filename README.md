@@ -196,7 +196,6 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
       <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
       <li>The car successfully detected and avoided the first traffic signs.</li>
       <li>New lithium batteries were installed.</li>
-    </ul>
     </td>
   </tr>
 </table>
