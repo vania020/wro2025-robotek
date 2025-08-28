@@ -234,6 +234,7 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 
 *<ins>Set up and configuration</ins>*<br>
 + With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
+
 | Step 1 | Step 2 | Step 3 | Step 4 |
 | :--: | :--: | :--: |  :--: |
 | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/> | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/>  | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/>  | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/> |
