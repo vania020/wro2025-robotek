@@ -184,11 +184,13 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     </td>
     <td>
       Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.
-      + The two-motor system was replaced by a single motor on one wheel.
-      + New housing pieces were created.
-      + The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.
-      + The car successfully detected and avoided the first traffic signs.
-      + New lithium batteries were installed.
+      <ul>
+      <li>The two-motor system was replaced by a single motor on one wheel.</li>
+      <li>New housing pieces were created.</li>
+      <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
+      <li>The car successfully detected and avoided the first traffic signs.</li>
+      <li>New lithium batteries were installed.</li>
+    </ul>
     </td>
   </tr>
 </table>
