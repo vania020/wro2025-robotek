@@ -186,7 +186,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
-      <ul style="list-style-type: none; padding-left: 0;">
+      <ul style="list-style-type: none; padding-left: 0; margin: 0;">
       <li>🔹 Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
       <li>🔹 The two-motor system was replaced by a single motor on one wheel.</li>
       <li>🔹 New housing pieces were created.</li>
