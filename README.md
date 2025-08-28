@@ -173,7 +173,10 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/7e483e4c-2f35-48e9-8125-00a2123f06a2" width="300" height="200"/>
     </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      <ul>
+        <li>Wheels were changed to adjust the car’s height so the Lidar could detect walls within the 10 cm range (previously it was too high and failed). </li>
+        <li>Housing material was upgraded from PLA to polycarbonate for greater resistance. </li>
+        <li>The Open Challenge logic (autonomous 3 rounds driving) was completed. </li>
     </td>
   </tr>
 
@@ -183,8 +186,8 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
-      Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.
       <ul>
+      <li>Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
       <li>The two-motor system was replaced by a single motor on one wheel.</li>
       <li>New housing pieces were created.</li>
       <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
