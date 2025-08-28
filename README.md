@@ -236,7 +236,7 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 + With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
 | Step 1 | Step 2 | Step 3 | Step 4 |
 | :--: | :--: | :--: |  :--: |
-|  <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334" width="50%"> | <img src="" alt="S1" width="50%"> |  <img src="" alt="S1" width="50%"> |<img src="" alt="S1" width="50%"> |
+|  <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/> | <img src="" alt="S1" width="50%"> |  <img src="" alt="S1" width="50%"> |<img src="" alt="S1" width="50%"> |
 + After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname.
 + And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
 
