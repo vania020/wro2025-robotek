@@ -3,7 +3,7 @@
 
 <table>
   <tr>
-    <td>Fila 1, Columna 1</td>
+    <td><img src= "![Version1_1](https://github.com/user-attachments/assets/dd2ff4be-09f4-4046-8131-a181efec529f)"/> , Columna 1</td>
     <td>Fila 1, Columna 2</td>
   </tr>
   <tr>
