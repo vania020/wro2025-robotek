@@ -164,8 +164,8 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     </td>
     <td>
       <ul>
-        <li>Improved and reinforced the chassis structure (drilled and joined the two bases).<li>
-        VPacked and organized components and Raspberry Pi.<li>
+        <li>Improved and reinforced the chassis structure (drilled and joined the two bases).</li>
+        <li>Packed and organized components and Raspberry Pi.</li>
         <li>Mounted the LiDAR on top to avoid blocked vision.</li>
         <li>Completed and installed the camera housing.</li>
     </td>
@@ -190,12 +190,13 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
-      <li>Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
-      <li>The two-motor system was replaced by a single motor on one wheel.</li>
-      <li>New housing pieces were created.</li>
-      <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
-      <li>The car successfully detected and avoided the first traffic signs.</li>
-      <li>New lithium batteries were installed.</li>
+      <ul>
+        <li>Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
+        <li>The two-motor system was replaced by a single motor on one wheel.</li>
+        <li>New housing pieces were created.</li>
+        <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
+        <li>The car successfully detected and avoided the first traffic signs.</li>
+        <li>New lithium batteries were installed.</li>
     </td>
   </tr>
 </table>
