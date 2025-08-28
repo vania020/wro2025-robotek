@@ -123,7 +123,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
       <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="300"height="200"/>
     </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      We built a cardboard prototype to test and understand the Ackermann steering system and wheel movement. This served as a reference to learn about the placement of components and systems.
     </td>
   </tr>
 
@@ -133,7 +133,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="300" height="200"/>
     </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      We cut and incorporated an acrylic chassis and designed/3D-printed housing pieces for the camera, Ackermann system, and other components. The Ackermann used a stepper motor. Infrared sensors and a webcam were added to detect and analyze the surroundings. The main controllers were a Raspberry Pi 4 and an Arduino Nano, powered by a power bank and lithium batteries.
     </td>
   </tr>
 
@@ -143,7 +143,9 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="300" height="200"/>
     </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      We replaced the power bank with a smaller one, adjusted component placement into a two-level car system, and installed new wheels.
+Lithium batteries were replaced with higher-current ones.
+Infrared sensors were moved to the front, enabling more precise turns.
     </td>
   </tr>
 
