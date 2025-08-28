@@ -180,9 +180,15 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
   <!-- Version 7 -->
   <tr>
     <td align="center">Version N°7</td>
-    <td align="center">Car Photo</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
+    </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.
+      + The two-motor system was replaced by a single motor on one wheel.
+      + New housing pieces were created.
+      + The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.
+      + The car successfully detected and avoided the first traffic signs.
+      + New lithium batteries were installed.
     </td>
   </tr>
 </table>
