@@ -163,7 +163,11 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300" height="200"/>
     </td>
     <td>
-      Kit to better meet the competition’s challenges. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
+      <ul>
+        <li>Improved and reinforced the chassis structure (drilled and joined the two bases).<li>
+        VPacked and organized components and Raspberry Pi.<li>
+        <li>Mounted the LiDAR on top to avoid blocked vision.</li>
+        <li>Completed and installed the camera housing.</li>
     </td>
   </tr>
 
@@ -186,13 +190,12 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
-      <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-      <li>🔹 Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
-      <li>🔹 The two-motor system was replaced by a single motor on one wheel.</li>
-      <li>🔹 New housing pieces were created.</li>
-      <li>🔹 The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
-      <li>🔹 The car successfully detected and avoided the first traffic signs.</li>
-      <li>🔹 New lithium batteries were installed.</li>
+      <li>Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components.</li>
+      <li>The two-motor system was replaced by a single motor on one wheel.</li>
+      <li>New housing pieces were created.</li>
+      <li>The two-level structure was removed to provide better airflow and accessibility for the Raspberry Pi.</li>
+      <li>The car successfully detected and avoided the first traffic signs.</li>
+      <li>New lithium batteries were installed.</li>
     </ul>
     </td>
   </tr>
