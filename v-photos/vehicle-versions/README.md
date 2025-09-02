@@ -1,6 +1,5 @@
 # Vehicle Versions
 
-# Table of Contents
 + [Version 1](#version-1)
 + [Version 2](#version-2)
 + [Version 3](#version-3)
