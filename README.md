@@ -103,7 +103,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 | :--: | :--: |:--: |  
 | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
 > [!NOTE]
-> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) file for more detailed photos of the car 📸🚗
+> Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) folder for more detailed photos of the car 📸🚗
 
 <br>
 
@@ -196,7 +196,9 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 <br>
 
 > [!NOTE]
-> Visit our [`vehicle-versions`](v-photos/vehicle-versions/README.md)to see photos and videos of our car evolution 🔝
+> Visit our [`vehicle-versions`](v-photos/vehicle-versions/README.md) folder to see photos and videos of our car evolution 🔝
+
+<br>
 
 ## 3. System Setup
 
