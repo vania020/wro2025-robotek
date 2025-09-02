@@ -17,7 +17,7 @@
 
 ## Version 3
 
-| ![Version_3](https://github.com/user-attachments/assets/a2986282-7b73-4101-8faf-f39e6a7cb4e1) | ![Version3_1](https://github.com/user-attachments/assets/234014cd-42dc-4055-bdf9-4436505fc393)|
+| ![Version_3](https://github.com/user-attachments/assets/a2986282-7b73-4101-8faf-f39e6a7cb4e1) | ![Version3_1](https://github.com/user-attachments/assets/5a9e1c57-e1fa-452f-b4c7-dc7fc60d6c62)|
 |---|---|
 
 | ![img3](https://github.com/user-attachments/assets/730168c3-3f19-454e-a7f7-e1bfff9fa958) | ![Version1_4](https://github.com/user-attachments/assets/7e2b3408-7797-4b18-b33a-d16d3ebf01c3)
