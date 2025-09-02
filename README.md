@@ -194,6 +194,8 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 </table>
 
 <br>
+> [!NOTE]
+> Visit our [`vehicle-versions`](v-photos/vehicle-versions/README.md)to see photos and videos of our car evolution 🔝
 
 ## 3. System Setup
 
