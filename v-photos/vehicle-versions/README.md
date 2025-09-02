@@ -17,7 +17,7 @@
 
 ## Version 3
 
-| ![Version_3](https://github.com/user-attachments/assets/a2986282-7b73-4101-8faf-f39e6a7cb4e1) | ![Version3_1](https://github.com/user-attachments/assets/fd72e86e-8c45-4dfb-a142-84d6eaf3d010) |
+|![Version_3](https://github.com/user-attachments/assets/efcde86d-a09a-418c-ad12-9508b480f953) | ![Version3_1](https://github.com/user-attachments/assets/cec2c1da-a35e-4edf-8a42-08c9f7c7c777)|
 |---|---|
 
 
