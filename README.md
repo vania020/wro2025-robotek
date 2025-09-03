@@ -284,22 +284,15 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
-<details>
-  <summary>Formula & Geometry</summary>
+The ideal relationship between the steering angles of the inner and outer wheels can be defined by the following formula. This equation ensures that the tires follow a pure rolling motion without lateral slip.
 
-  The ideal relationship between the steering angles of the inner and outer wheels can be defined by the following formula. This equation ensures that the tires follow a pure rolling motion without lateral slip.
-  
-  \[
-  \cot(\delta_i) - \cot(\delta_o) = \frac{l}{w}
-  \]
+<img width="356" height="130" alt="image" src="https://github.com/user-attachments/assets/e57183b6-4917-4f66-aec2-bc4f899426f5" />
 
   where:  
   - \( \delta_i \) = inner wheel angle  
   - \( \delta_o \) = outer wheel angle  
   - \( l \) = wheelbase  
   - \( w \) = track width  
-
-</details>
 
 <details>
   <summary>Ackermann Flow</summary>
