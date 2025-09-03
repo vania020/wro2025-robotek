@@ -283,12 +283,12 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
-*<ins>Our own modifications</ins>*<br>
+*<ins>Our own modifications</ins>*<br><br>
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%">
-  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="45%">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%" height="200">
+  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="45%" height="200">
 </p>
 
 ### <ins>**Chassis Design Process**</ins>
