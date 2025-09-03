@@ -223,7 +223,7 @@ ROS is a framework that connects a robot’s software and hardware, making senso
 Without ROS, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.<br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
+  <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="70%">
 </p>
 
 > This is an official animation to better understand how nodes work. Each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
@@ -233,7 +233,7 @@ Without ROS, everything would have to be written in one long, complicated progra
 > 3. Finally, a controller node sends commands, making the car move accordingly.
 
 
-*<ins>Reasons for using ROS</ins>*<br>
+*<ins>Reasons for using ROS</ins>*<br><br>
 We use ROS 2 because it helps us clearly organize the car’s programs. Here are some advantages:
 
 + **Sensor & Actuator Integration:** ROS connects all sensors and actuators in one system, ensuring seamless coordination, providing our autonomous car with continuous information about its surroundings, and optimizing the overall system performance.
