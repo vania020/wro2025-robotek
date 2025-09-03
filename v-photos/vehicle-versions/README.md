@@ -66,6 +66,17 @@
 
 </details>
 
+<details>
+  <summary>🚗 Version 7</summary>
+
+
+| ![Version7_3](https://github.com/user-attachments/assets/6da113cc-d42f-426c-ac88-ba77da94a6bc)|![Version7_4](https://github.com/user-attachments/assets/2be49cf9-7904-436d-bdba-75579814c3f2)|
+|---|---|
+| <video src="https://github.com/user-attachments/assets/7f9c4723-8aec-46f7-922d-036e9eb88da0" controls width="300"></video> | <video src="https://github.com/user-attachments/assets/6fb51656-d793-4519-9e96-b810b5ebbbea" controls width="300"></video> |
+
+
+</details>
+
 </details>
 
 
