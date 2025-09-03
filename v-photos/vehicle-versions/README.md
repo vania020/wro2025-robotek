@@ -27,8 +27,8 @@
 
 |![Version_3](https://github.com/user-attachments/assets/efcde86d-a09a-418c-ad12-9508b480f953) | ![Version3_1](https://github.com/user-attachments/assets/cec2c1da-a35e-4edf-8a42-08c9f7c7c777)|
 |---|---|
+| <video src="https://github.com/user-attachments/assets/6eacc7fe-c0a3-41d3-8a91-9b308436cb5c" controls width="300"></video> | <video src="https://github.com/user-attachments/assets/b95e6bf3-f4a5-498e-a463-fc855877e273" controls width="300"></video> |
 
-🔗 [Extra Image](https://github.com/user-attachments/assets/d6d41754-5c8e-4fe3-825b-8c7afaa6a4c8)
 
 </details>
 
