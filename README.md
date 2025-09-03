@@ -277,17 +277,29 @@ Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm 
 
 The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
 
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9084a317-b240-41f0-a42a-a9f9108c9fde" alt="Ackermann" width="70%">
 </p>
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
+*<ins>Our own modifications</ins>*<br>
+In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%">
+  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="45%">
+</p>
 
 ### <ins>**Chassis Design Process**</ins>
+This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
+
+The base and upper casing were crafted from aluminum to provide strength and lightweight support for all components. The base was designed to securely mount the Raspberry Pi and support the weight of the vehicle’s systems, offering a stable foundation and balanced weight distribution critical for stability. The upper casing, which houses the LiDAR sensor, was designed to ensure the sensor has an unobstructed view while protecting it from potential impacts and environmental factors.
+
+<p align = "center">
+  <img src = "https://github.com/user-attachments/assets/b878388c-313e-4fd7-aca1-75f875a06fa5" width="70%">
+  </p>
+
 ### <ins>**3D Printed Parts**</ins>
 
 
