@@ -315,7 +315,6 @@ Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We 
 + The first battery powers the **motors** through the L298N Motor Driver. Motors require high and sometimes variable current, especially during acceleration or speed changes. By giving them a dedicated battery, we can adjust motor speed and power without risking voltage drops or instability in the rest of the system.
 + The second powers the **Raspberry Pi** and the rest of the electronic components, ensuring the control system and sensors remain stable and unaffected by the current demands of the motors.
 
-<br>
 This battery setup helps prevent voltage drops and ensures both the motors and the processing unit can operate at their best performance.
 
 ### <ins>**LIDAR & Additional Sensors Integration**</ins>
