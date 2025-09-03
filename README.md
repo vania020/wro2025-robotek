@@ -274,6 +274,27 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 ### *Power Source*
 ### *LIDAR & Additional Sensors Integration*
 ### *BOM (Bill of Materials)*
+
+# Bill of Materials (BOM)
+
+# Bill of Materials (BOM)
+
+| Component | Quantity | Description | Image |
+|-----------|----------|-------------|-------|
+| Raspberry Pi 5 | 1 | Main processing unit for running ROS, sensor integration, and autonomous navigation. | ![Raspberry Pi 5](https://www.raspberrypi.com/documentation/computers/images/pi5.png) |
+| Low-profile Plus Cooler for Raspberry Pi 5 | 1 | Keeps the Raspberry Pi 5 at optimal temperature during heavy processing. | ![Cooler](https://www.raspberrypi.com/documentation/computers/images/cooler.png) |
+| RRC Lite Controller | 1 | Motor controller for precise mobility management. | ![RRC Lite Controller](https://cdn-shop.adafruit.com/1200x900/3297-00.jpg) |
+| STL-19P TOF Lidar | 1 | Lidar sensor for distance measurement and obstacle detection. | ![TOF Lidar](https://cdn.sparkfun.com//assets/parts/1/3/7/3/0/14577-Time_of_Flight_Sensor_-_VL53L0X__Qwiic_-01.jpg) |
+| 15 kg.cm Digital Servo | 1 | Provides accurate steering control. | ![Servo](https://upload.wikimedia.org/wikipedia/commons/6/60/Servo.jpg) |
+| 65 mm Anti-Slip Rubber Wheel | 1 | High grip wheels to improve traction and stability. | ![Wheels](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/LEGO_wheel_56mm_Dia.x34mm.JPG/320px-LEGO_wheel_56mm_Dia.x34mm.JPG) |
+| 25MM Metal Gear Motor | 1 | Core drive motors for powering the wheels with torque and speed. | ![DC Motor](https://www.electronicscomp.com/image/cache/catalog/dc-motor/25mm-dc-gear-motor-500x500.jpg) |
+| Monocular Camera | 1 | Provides vision input for line detection and obstacle recognition. | ![Camera](https://www.raspberrypi.com/documentation/accessories/camera/images/camera-hero.jpg) |
+| L298N Motor Driver | 1 | Controls motor direction and speed from the Raspberry Pi. | ![L298N](https://www.electronicshub.org/wp-content/uploads/2015/07/L298N-Motor-Driver-Module-Image-1.jpg) |
+| Jumper Cables | 4–8 | Electrical connections between sensors, drivers, and Pi. | ![Jumper Wires](https://cdn.sparkfun.com//assets/parts/1/1/0/0/3/11026-01.jpg) |
+| USB Cable | 3 | For powering and connecting sensors and modules. | ![USB Cable](https://upload.wikimedia.org/wikipedia/commons/4/40/USB-C_plug_and_USB-C_receptacle.jpg) |
+| Li-Po Battery 7.4 V 2200mAh 20C | 1 | Main power source for the system (capacity may vary). | ![LiPo Battery](https://upload.wikimedia.org/wikipedia/commons/4/4f/LiPo-battery.jpg) |
+
+
 ### *Wiring Diagram*
 
 
