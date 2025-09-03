@@ -220,14 +220,6 @@ flowchart LR
 ### **<ins>Robot Operating System (ROS)</ins>** <img width="50" alt="ROS" src="https://github.com/user-attachments/assets/53574d65-315e-4dfd-a8d9-ffb38e892bab" />
 ROS is a framework that connects a robot’s software and hardware, making sensors, motors, and programs work together so the robot can perform tasks smoothly. For this project, we use ROS 2 Jazzy, one of the latest versions of ROS 2. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br>
 
-*<ins>Reasons for using it</ins>*<br>
-We use ROS 2 because it helps us clearly organize the car’s programs. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
-
-+ **Integration of Sensors and Actuators:** With ROS, we can easily connect and coordinate multiple sensors and actuators within a single system. This allows each component to work together seamlessly, providing our autonomous car with continuous information about its surroundings and optimizing the overall system performance.
-+ **Environmental Perception with LiDAR:** By using LiDAR, we obtain precise 360-degree distance data, which is essential for detecting obstacles and walls. ROS packages like `laser_scan_matcher` and `gmapping` help us process this data to create real-time maps of the environment.
-+ **Autonomous Navigation and Path Planning:** ROS provides us with advanced navigation tools, such as `move_base`, which allow our car to plan optimal routes and adjust them in real-time. This is particularly important for the Obstacle Challenge. With ROS, we can combine data from various sensors to make real-time decisions about the path.
-+ **Efficient Simulation and Debugging:** We simulate the car’s behavior in virtual environments like `Gazebo` to prevent physical damage during testing and to fine-tune our parameters. Additionally, tools like rviz let us visualize sensor data and the car’s status in real-time, which makes debugging much easier.
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
 </p>
@@ -237,6 +229,15 @@ We use ROS 2 because it helps us clearly organize the car’s programs. Without 
 > 1. Sensors send data to ROS 2 by publishing it on topics.
 > 2. Other nodes listen to that data, process it, and decide what the car should do.
 > 3. Finally, a controller node sends commands, making the car move accordingly.
+
+
+*<ins>Reasons for using it</ins>*<br>
+We use ROS 2 because it helps us clearly organize the car’s programs. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
+
++ **Sensor & Actuator Integration:** ROS connects all sensors and actuators in one system, ensuring seamless coordination, providing our autonomous car with continuous information about its surroundings, and optimizing the overall system performance.
++ **Environmental Perception with LiDAR:** By using LiDAR, we obtain precise 360-degree distance data, which is essential for detecting obstacles and walls. ROS packages like `laser_scan_matcher` and `gmapping` help us process this data to create real-time maps of the environment.
++ **Autonomous Navigation and Path Planning:** ROS navigation tools such as `move_base` allow our car to plan optimal routes and adjust them in real-time. This is particularly important for the Obstacle Challenge.
++ **Efficient Simulation and Debugging:** We simulate the car’s behavior in virtual environments like [`Gazebo`](https://gazebosim.org/home) to fine-tune our parameters before implementation. Also, tools like [`RViz`](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html) let us visualize sensor data and the car’s status in real-time, making debugging easier.
 
 
 <br><br>
