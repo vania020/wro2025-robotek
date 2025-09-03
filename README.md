@@ -36,7 +36,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 2. [Vehicle Overview](#2-vehicle-overview)
 3. [System Setup](#3-system-setup)
 4. [Mobility Management](#4-mobility-management)
-5. [Power & Sense Management](#5-power-sense-management)
+5. [Power & Sense Management](#5-power--sense-management)
 6. [Obstacle Management](#6-obstacle-management)
 7. [Assembly Instructions](#7-assembly-instructions)
 8. [Performance Videos](#8-performance-videos)
