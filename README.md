@@ -36,7 +36,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 2. [Vehicle Overview](#2-vehicle-overview)
 3. [System Setup](#3-system-setup)
 4. [Mobility Management](#4-mobility-management)
-5. [Power & Sense Management](#5-power-&-sense-management)
+5. [Power & Sense Management](#5-power-sense-management)
 6. [Obstacle Management](#6-obstacle-management)
 7. [Assembly Instructions](#7-assembly-instructions)
 8. [Performance Videos](#8-performance-videos)
@@ -278,19 +278,19 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 
 | Component | Quantity | Description | Image |
 |-----------|----------|-------------|-------|
-| Raspberry Pi 5 | 1 | Main processing unit for running ROS, sensor integration, and autonomous navigation. | <img width="600" alt="Raspberry Pi 5" src="https://github.com/user-attachments/assets/ee89c342-6957-4551-b429-e7731c2a28df" /> |
+| Raspberry Pi 5 | 1 | Main processing unit for running ROS, microcomputer that acts as the main brain and the Host Controller of the system, capable of running operating systems and handling complex processing tasks. | <img width="600" alt="Raspberry Pi 5" src="https://github.com/user-attachments/assets/ee89c342-6957-4551-b429-e7731c2a28df" /> |
 | Low-profile Plus Cooler for Raspberry Pi 5 | 1 | Keeps the Raspberry Pi 5 at optimal temperature during heavy processing. | <img width="600" alt="Cooler" src="https://github.com/user-attachments/assets/d8217edc-ebfc-4288-bd3b-4651305057c0" /> |
 | RRC Lite Controller | 1 |Integrates several elements: ROS expansion board, High-Frequency PID Control, Motor Closed-Loop Control, Servo Control and Feedback, IMU Data Acquisition, Power Status Monitoring, and a Power Switch.| <img width="600" alt="Controller" src="https://github.com/user-attachments/assets/929afeb7-4486-4cd3-bb9e-a8a51bd91e83" /> |
-| STL-19P TOF Lidar | 1 | Lidar sensor for distance measurement and obstacle detection. | <img width="600" alt="Lidar" src="https://github.com/user-attachments/assets/927d47f4-c856-461d-9e6e-ba1c35318990" /> |
+| STL-19P TOF Lidar | 1 | Provides precise, 360-degree distance measurements for real-time navigation and obstacle detection in dynamic environments.| <img width="600" alt="Lidar" src="https://github.com/user-attachments/assets/927d47f4-c856-461d-9e6e-ba1c35318990" /> |
 | Lidar Adapter Board | 1 | Converts the LiDAR’s UART signals to USB for PC connection and data reading. | <img width="600" alt="Adapter" src="https://github.com/user-attachments/assets/407671ef-bed2-4a04-8aef-0cb69cab464a" /> |
 | 15 kg.cm Digital Servo | 1 | Provides accurate steering control. | <img width="600" alt="Servo" src="https://github.com/user-attachments/assets/b949c033-fc6d-4032-8d41-b136ea6ddc90" /> |
-| 65 mm Anti-Slip Rubber Wheel | 1 | High grip wheels to improve traction and stability. | <img width="600" alt="Wheel" src="https://github.com/user-attachments/assets/3f50620d-b008-4426-86f5-2c4f5ee6aff6" /> |
+| 65 mm Anti-Slip Rubber Wheel | 1 | High-grip wheels to improve traction and stability. | <img width="600" alt="Wheel" src="https://github.com/user-attachments/assets/3f50620d-b008-4426-86f5-2c4f5ee6aff6" /> |
 | 25MM Metal Gear Motor | 1 | Core drive motors for powering the wheels with torque and speed. | <img width="600" alt="Motor" src="https://github.com/user-attachments/assets/de6786ac-3dc2-4d36-89e3-03435708c338" /> |
 | Monocular Camera | 1 | A camera used for capturing images and videos, can be used for computer vision or live streaming. | <img width="600" alt="Camera" src="https://github.com/user-attachments/assets/c0966a05-8bad-4da5-b012-cc7dbcc65617" /> |
 | L298N Motor Driver | 1 | Controls motor direction and speed from the Raspberry Pi. | <img width="600" alt="Motor Driver" src="https://github.com/user-attachments/assets/3ab3c2e0-8b73-4996-9412-b28877301502" /> |
-| Jumper Cables | 4–8 | Electrical connections between sensors, drivers, and Pi. | <img width="600" alt="Jumper Cables" src="https://github.com/user-attachments/assets/44758ea5-a6b2-4366-a1fb-7a0eeac5135b" /> |
+| Jumper Cables | 4–8 | Electrical connections between the motor driver and Pi. | <img width="600" alt="Jumper Cables" src="https://github.com/user-attachments/assets/44758ea5-a6b2-4366-a1fb-7a0eeac5135b" /> |
 | USB-USB Cable | 1 | A cable to connect the Raspberry Pi to the camera, Lidar, and Controller. | <img width="600" alt="USB Cable" src="https://github.com/user-attachments/assets/e28195ef-1993-4163-a3de-d2299c443eb0" /> |
-| Li-Po Battery 7.4 V 2200mAh 20C | 1 | Main power source for the system (capacity may vary). | <img width="600" alt="Battery" src="https://github.com/user-attachments/assets/204ea520-4bc6-4757-93e2-d99036c49403" /> |
+| Li-Po Battery 7.4 V 2200mAh 20C | 1 | A lithium polymer battery that provides portable, high-density power. | <img width="600" alt="Battery" src="https://github.com/user-attachments/assets/204ea520-4bc6-4757-93e2-d99036c49403" /> |
 
 
 
