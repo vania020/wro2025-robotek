@@ -91,7 +91,6 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
   <img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" alt="Vehicle Overview" width="100%">
 </p>
 
-### *<ins>General Description of the Car</ins>*
 ### **<ins>General Description of the Car</ins>**
 Our autonomous vehicle is built to take on both the Open and Obstacle Challenges at the Future Engineers competition. Running on Ubuntu with ROS, it can process information and make decisions in real time. With an Ackermann steering system and a stable chassis, the car handles turns and straightaways smoothly, while a LiDAR sensor is primarily used to detect traffic sign obstacles and adapt the path, helping the vehicle count laps and complete the course efficiently.
 <br>
@@ -108,7 +107,7 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 
 <br>
 
-### *Versions of the Car*
+### **<ins>Versions of the Car</ins>**
 Our vehicle has gone through **7 versions** (and since we are always improving, there are still more to come!). It all started with a cardboard prototype, then moved on to acrylic and metal chassis designs, and later, we made personalized adjustments to a HiWonder kit. Along the way, we also experimented with different wheel designs, repositioned components, tested sensors like LiDAR, and finally adopted a new operating environment with ROS and Ubuntu.
 <table>  
   <tr>
@@ -203,7 +202,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
 ## 3. System Setup
 
-### *<ins>Operating Environment Overview</ins>*
+### **<ins>Operating Environment Overview</ins>**
 The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the mermaid diagram below:
 
 ```mermaid
@@ -221,8 +220,13 @@ flowchart LR
 ### *Robot Operating System (ROS)* <img width="50" alt="ROS" src="https://github.com/user-attachments/assets/53574d65-315e-4dfd-a8d9-ffb38e892bab" />
 ROS is a framework that connects a robot’s software and hardware, making sensors, motors, and programs work together so the robot can perform tasks smoothly. For this project, we use ROS 2 Jazzy, one of the latest versions of ROS 2. You can find the documentation here:  [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)<br>
 
-*<ins>Why and How we use it?</ins>*<br>
+*<ins>Reasons for using it</ins>*<br>
 We use ROS 2 because it helps us organize the car’s programs in a clear way. Without it, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.
+
++ **Integration of Sensors and Actuators:** With ROS, we can easily connect and coordinate multiple sensors and actuators within a single system. This allows each component to work together seamlessly, providing our autonomous car with continuous information about its surroundings and optimizing the overall system performance.
++ **Environmental Perception with LiDAR:** By using LiDAR, we obtain precise 360-degree distance data, which is essential for detecting obstacles and walls. ROS packages like `laser_scan_matcher` and `gmapping` help us process this data to create real-time maps of the environment.
++ **Autonomous Navigation and Path Planning:** ROS provides us with advanced navigation tools, such as `move_base`, which allow our car to plan optimal routes and adjust them in real-time. This is particularly important for the Obstacle Challenge. With ROS, we can combine data from various sensors to make real-time decisions about the path.
++ **Efficient Simulation and Debugging:** We simulate the car’s behavior in virtual environments like `Gazebo` to prevent physical damage during testing and to fine-tune our parameters. Additionally, tools like rviz let us visualize sensor data and the car’s status in real-time, which makes debugging much easier.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="50%">
@@ -234,7 +238,6 @@ We use ROS 2 because it helps us organize the car’s programs in a clear way. W
 2. Other nodes listen to that data, process it, and decide what the car should do.
 3. Finally, a controller node sends commands, making the car move accordingly.
 
-Another advantage is that ROS 2 already comes with many libraries and tools for tasks like sensor handling, visualization, and simulation.
 
 <br><br>
 
