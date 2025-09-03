@@ -242,8 +242,7 @@ We use ROS 2 because it helps us clearly organize the car’s programs. Here are
 + **Autonomous Navigation and Path Planning:** ROS navigation tools such as `move_base` allow our car to plan optimal routes and adjust them in real-time. This is particularly important for the Obstacle Challenge.
 + **Efficient Simulation and Debugging:** We simulate the car’s behavior in virtual environments like [`Gazebo`](https://gazebosim.org/home) to fine-tune our parameters before implementation. Also, tools like [`RViz`](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html) let us visualize sensor data and the car’s status in real-time, making debugging easier.
 
-
-<br><br>
+<br>
 
 ### **<ins>Ubuntu</ins>** <img width="60" alt="UBUNTU" src="https://github.com/user-attachments/assets/38f176af-2d07-41f9-bb14-3ef8eb2c0022" />
 Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project, we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br>
