@@ -275,10 +275,6 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 ### *LIDAR & Additional Sensors Integration*
 ### *BOM (Bill of Materials)*
 
-# Bill of Materials (BOM)
-
-# Bill of Materials (BOM)
-
 | Component | Quantity | Description | Image |
 |-----------|----------|-------------|-------|
 | Raspberry Pi 5 | 1 | Main processing unit for running ROS, sensor integration, and autonomous navigation. | ![Raspberry Pi 5](https://www.raspberrypi.com/documentation/computers/images/pi5.png) |
