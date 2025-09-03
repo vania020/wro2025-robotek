@@ -275,11 +275,14 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 ### <ins>**Steering System - Ackermann**</ins>
 Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm digital servo, which provides precise and stable control for navigation and turns. <br>
 
+The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5ab13eec-f821-4a59-8978-19483a6a15ba" alt="Ackermann" width="70%">
 </p>
 
-> This is an  animation to better understand the Ackerman Steering system. Credits: The Automotives By M-KAT
+> This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
 ### <ins>**Chassis Design Process**</ins>
 ### <ins>**3D Printed Parts**</ins>
