@@ -271,17 +271,25 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 <br><br>
 ## 4. Mobility Management 
 
-### *Motors and Powertrain*
-### *Steering System - Ackermann*
-### *Chassis Design Process*
-### *3D Printed Parts*
+### <ins>**Motors and Powertrain**</ins>
+### <ins>**Steering System - Ackermann**</ins>
+Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm digital servo, which provides precise and stable control for navigation and turns. <br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5ab13eec-f821-4a59-8978-19483a6a15ba" alt="Ackermann" width="70%">
+</p>
+
+> This is an  animation to better understand the Ackerman Steering system. Credits: The Automotives By M-KAT
+
+### <ins>**Chassis Design Process**</ins>
+### <ins>**3D Printed Parts**</ins>
 
 
 <br><br>
 ## 5. Power & Sense Management 
 
-### *Power Source*
-### *LIDAR & Additional Sensors Integration*
+### <ins>**Power Source**</ins>
+### <ins>**LIDAR & Additional Sensors Integration**</ins>
 ### **<ins>BOM (Bill of Materials)</ins>**
 | Component | Quantity | Description | Image |
 |-----------|----------|-------------|-------|
@@ -302,15 +310,15 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 
 
 
-### *Wiring Diagram*
+### <ins>**Wiring Diagram**<ins>
 
 
 <br><br>
 ## 6. Obstacle Management 
-### *Autonomous Driving Logic*
-### *Flow Diagrams*
-### *Open Challenge*
-### *Obstacle Challenge*
+### <ins>**Autonomous Driving Logic**<ins>
+### <ins>**Flow Diagrams**</ins>
+### <ins>**Open Challenge**</ins>
+### <ins>**Obstacle Challenge**</ins>
 
 <br><br>
 ## 7. Assembly Instructions 
