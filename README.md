@@ -279,7 +279,7 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5ab13eec-f821-4a59-8978-19483a6a15ba" alt="Ackermann" width="70%">
+  <img src="https://github.com/user-attachments/assets/9084a317-b240-41f0-a42a-a9f9108c9fde" alt="Ackermann" width="70%">
 </p>
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
