@@ -284,13 +284,41 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
+<details>
+  <summary>🔍 What is Ackermann Steering?</summary>
+  Ackermann steering geometry ensures the **inner and outer wheels turn at different angles**.  
+  This is necessary because each wheel follows a unique radius during a turn.  
+  Without this mechanism, wheels would skid or lose efficiency.
+</details>
+
+<details>
+  <summary>📐 Formula & Geometry</summary>
+  
+  The steering angles are related by:
+  
+  \[
+  \cot(\delta_i) - \cot(\delta_o) = \frac{l}{w}
+  \]
+
+  where:  
+  - \( \delta_i \) = inner wheel angle  
+  - \( \delta_o \) = outer wheel angle  
+  - \( l \) = wheelbase  
+  - \( w \) = track width  
+
+</details>
+
+---
+
+### 🗺️ Ackermann Flow (Mermaid Diagram)
+
 ```mermaid
-flowchart TB
-    P[Desired turning radius R] --> L[Wheelbase L]
-    L --> W[Track width w]
-    W --> S[Compute wheel angles]
-    S -->|θ_in = arctan( L / (R - w/2) )| IN[Inner wheel θ_in]
-    S -->|θ_out = arctan( L / (R + w/2) )| OUT[Outer wheel θ_out]
+flowchart TD
+    A[Steering Input] --> B{Ackermann Geometry}
+    B --> C[Inner Wheel Angle]
+    B --> D[Outer Wheel Angle]
+    C --> E[All wheels follow circular paths]
+    D --> E
 ```
 
 ### <ins>**Chassis Design Process**</ins>
