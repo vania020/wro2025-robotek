@@ -58,13 +58,8 @@
 <details>
   <summary>🚗 Version 6</summary>
 
-![Version_6](https://github.com/user-attachments/assets/b16dda15-6cde-49fb-b830-c61d5cca7061)
 
-🎥 Demo Videos:  
-<video src="https://github.com/user-attachments/assets/f36f642c-d2df-405a-8f7c-5bf95a052c07" controls width="400"></video>  
-<video src="https://github.com/user-attachments/assets/267cbbfe-3e4c-4b7d-ae23-0c0a9ceb5a3c" controls width="400"></video>
-
-| Video 1 | Video 2 |
+| ![Version_6](https://github.com/user-attachments/assets/b16dda15-6cde-49fb-b830-c61d5cca7061) | ![Version_6](https://github.com/user-attachments/assets/b16dda15-6cde-49fb-b830-c61d5cca7061)|
 |---|---|
 | <video src="https://github.com/user-attachments/assets/f36f642c-d2df-405a-8f7c-5bf95a052c07" controls width="300"></video> | <video src="https://github.com/user-attachments/assets/267cbbfe-3e4c-4b7d-ae23-0c0a9ceb5a3c" controls width="300"></video> |
 
