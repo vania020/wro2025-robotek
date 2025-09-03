@@ -202,7 +202,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
 ## 3. System Setup
 
-### *Operating Environment Overview*
+### *<ins>Operating Environment Overview</ins>*
 The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the mermaid diagram below:
 
 ```mermaid
