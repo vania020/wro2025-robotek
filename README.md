@@ -276,7 +276,7 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 ### *BOM (Bill of Materials)*
 | Component | Quantity | Description | Image |
 |-----------|----------|-------------|-------|
-| Raspberry Pi 5 | 1 | Main processing unit for running *ROS*.Acts as the main brain and the Host Controller of the system, capable of running operating systems and handling complex processing tasks. | <img width="800" alt="Raspberry Pi 5" src="https://github.com/user-attachments/assets/ee89c342-6957-4551-b429-e7731c2a28df" /> |
+| Raspberry Pi 5 | 1 | Main processing unit for running **ROS**. Acts as the main brain and the Host Controller of the system, capable of running operating systems and handling complex processing tasks. | <img width="800" alt="Raspberry Pi 5" src="https://github.com/user-attachments/assets/ee89c342-6957-4551-b429-e7731c2a28df" /> |
 | Low-profile Plus Cooler for Raspberry Pi 5 | 1 | Keeps the Raspberry Pi 5 at optimal temperature during heavy processing. | <img width="800" alt="Cooler" src="https://github.com/user-attachments/assets/d8217edc-ebfc-4288-bd3b-4651305057c0" /> |
 | RRC Lite Controller | 1 | Integrates: ROS expansion board, High-Frequency PID Control, Motor Closed-Loop Control, Servo Control and Feedback, IMU Data Acquisition, Power Status Monitoring, and a Power Switch. | <img width="800" alt="Controller" src="https://github.com/user-attachments/assets/929afeb7-4486-4cd3-bb9e-a8a51bd91e83" /> |
 | STL-19P TOF Lidar | 1 | Provides precise, 360-degree distance measurements for real-time navigation and obstacle detection in dynamic environments. | <img width="800" alt="Lidar" src="https://github.com/user-attachments/assets/927d47f4-c856-461d-9e6e-ba1c35318990" /> |
