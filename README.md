@@ -290,6 +290,9 @@ In the first versions of the car, we implemented the Ackermann steering system u
   <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%" height="200">
   <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="45%" height="200">
 </p>
+One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
+
+For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
 
 ### <ins>**Chassis Design Process**</ins>
 This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
@@ -307,6 +310,13 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 ## 5. Power & Sense Management 
 
 ### <ins>**Power Source**</ins>
+Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package, which is better suited for robotics applications where weight and power delivery are critical. Each battery serves a different part of the system to ensure stable and efficient operation: <br>
+
++ The first battery powers the **motors** through the L298N Motor Driver. Motors require high and sometimes variable current, especially during acceleration or speed changes. By giving them a dedicated battery, we can adjust motor speed and power without risking voltage drops or instability in the rest of the system.
++ The second powers the **Raspberry Pi** and the rest of the electronic components, ensuring the control system and sensors remain stable and unaffected by the current demands of the motors.
+
+
+
 ### <ins>**LIDAR & Additional Sensors Integration**</ins>
 ### **<ins>BOM (Bill of Materials)</ins>**
 | Component | Quantity | Description | Image |
