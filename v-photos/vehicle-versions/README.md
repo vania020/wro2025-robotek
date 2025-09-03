@@ -1,5 +1,3 @@
-# Vehicle Versions
-
 ## Vehicle Versions  
 
 <details>
