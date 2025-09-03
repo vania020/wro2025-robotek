@@ -284,6 +284,14 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 
 > This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
+flowchart TB
+    P[Desired turning radius R] --> L[Wheelbase L]
+    L --> W[Track width w]
+    W --> S[Compute wheel angles]
+    S -->|θ_in = arctan( L / (R - w/2) )| IN[Inner wheel θ_in]
+    S -->|θ_out = arctan( L / (R + w/2) )| OUT[Outer wheel θ_out]
+
+
 ### <ins>**Chassis Design Process**</ins>
 ### <ins>**3D Printed Parts**</ins>
 
