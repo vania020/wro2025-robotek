@@ -287,7 +287,8 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%" height="200">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="45%" height="200"> 
+  <br>
   <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="45%" height="200">
 </p>
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
@@ -320,8 +321,21 @@ This battery setup helps prevent voltage drops and ensures both the motors and t
 ### <ins>**LIDAR & Additional Sensors Integration**</ins>
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
 
-#### Lidar 
+*<ins>STL-19P TOF LiDAR</ins>*<br><br>
+<img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
 
+Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
+
++ Especificaciones 📊
+
+| Característica        | Valor                        |
+|------------------------|------------------------------|
+| Ranging distance       | 0.03 – 12 m                 |
+| Size                   | 38.59 x 38.59 x 34.8 mm     |
+| Scanning Angle         | 360°                        |
+| Scanning Frequency     | 5 – 13 Hz                   |
+| Ranging Accuracy       | ±45 mm                      |
+| Ranging Frequency      | 5000 Hz                     |
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
