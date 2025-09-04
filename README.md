@@ -326,9 +326,12 @@ This battery setup helps prevent voltage drops and ensures both the motors and t
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
  + LiDAR
  + Monocular Camara
+Together, these sensors give the robot a better understanding of its environment, combining depth perception with visual input. This setup is essential to meet the Future Engineers challenges, which involve advanced navigation and obstacle avoidance.
+
 
 ### <ins>**STL-19P TOF LiDAR**</ins>
 <img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
+<br>
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
 
@@ -347,15 +350,26 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 
 > [!IMPORTANT]
 > **Placement:**
-> It was positioned at an altitude of under 10 cm, so it is able to detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight.
->  <img width="1206" alt="Screenshot 2024-11-10 at 18 18 03" src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
+> The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br>
+
+>  <img width="1206"  src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
   
 ### <ins>**2DOF Monocular Camera**</ins>
 
-<br><br>
-<img src="https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" width=60% />
+<p align = "center">
+  <img src = "https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" width="70%">
+  </p>
+<br>
 
-2DOF Monocular Camera: The camera complements the LiDAR by adding visual perception. This allows the robot to recognize its environment beyond distance data, enabling future applications such as detecting the obstacles’ colors.
+The 2DOF Monocular Camera complements the LiDAR by adding visual perception. This allows the robot to recognize its environment beyond distance data, enabling future applications such as detecting the obstacles’ colors:
+
+ + **Color detection**: Since graphical color detection is a core part of our  project, the camera can precisely identify various colors on the course. This allows our car to interact with the different traffic signs in the Obstacle challenge.
+  + **Spatial awareness through data fusion**: When combining camera data with our sensor, the robot gains a richer understanding of its environment. The camera provides detailed visual context that leads to an adaptable navigation strategy.
+
+> [!IMPORTANT]
+> **Placement:**
+> It was located at the front of the car, providing a front-facing view from the car and enhancing the car's ability to detect and classify obstacles by color.  This location allows the camera to complement the Lidar without interference, capturing detailed visual information about the obstacles. <br> 
+> <img width="1049" alt="Screenshot 2024-11-10 at 18 17 18" src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
 
 
 
