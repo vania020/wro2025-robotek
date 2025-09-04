@@ -43,8 +43,8 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
    
 <br>
 
-## 1. Meet the Team!
 
+## 1. Meet the Team!
 <table>
   <tr>
     <td width="55%" valign="top">
@@ -85,8 +85,8 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 <br>
 
-## 2. Vehicle Overview
 
+## 2. Vehicle Overview
 <p align="center">
   <img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" alt="Vehicle Overview" width="100%">
 </p>
@@ -200,8 +200,8 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
 <br>
 
-## 3. System Setup
 
+## 3. System Setup
 ### **<ins>Operating Environment Overview</ins>**
 The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the mermaid diagram below:
 
@@ -309,7 +309,6 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 
 ### <ins>**3D Printed Parts**</ins>
 
-
 <br><br>
 ## 5. Power & Sense Management 
 
@@ -321,22 +320,18 @@ Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We 
 
 This battery setup helps prevent voltage drops and ensures both the motors and the processing unit can operate at their best performance.
 
-<br> 
 <br>
 
 ### <ins>**LIDAR & Additional Sensors Integration**</ins>
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
+ + LiDAR
+ + Monocular Camara
 
----
-
-*<ins>STL-19P TOF LiDAR</ins>*
-
-<br><br>
+### <ins>*STL-19P TOF LiDAR**</ins>
+<br>
 <img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
-
-+ Specification 📊
 
 | Characteristic        | Vaue                        |
 |------------------------|------------------------------|
@@ -347,12 +342,15 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 | Ranging Accuracy       | ±45 mm                      |
 | Ranging Frequency      | 5000 Hz                     |
 
----
-
-*<ins>2DOF Monocular Camera: </ins>*
+> [!IMPORTANT]
+> **Placement:**
+> It was positioned at an altitude of under 10 cm, so it is able to detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight.
+>  <img width="1206" alt="Screenshot 2024-11-10 at 18 18 03" src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
+  
+### <ins>**2DOF Monocular Camera**</ins>
 
 <br><br>
-<img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" />
+<img src="https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" width=60% />
 
 2DOF Monocular Camera: The camera complements the LiDAR by adding visual perception. This allows the robot to recognize its environment beyond distance data, enabling future applications such as detecting the obstacles’ colors.
 
