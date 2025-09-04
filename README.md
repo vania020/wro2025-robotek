@@ -371,6 +371,8 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 > It was located at the front of the car, providing a front-facing view from the car and enhancing the car's ability to detect and classify obstacles by color.  This location allows the camera to complement the Lidar without interference, capturing detailed visual information about the obstacles. <br><br> 
 > <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
 
+<br><br>
+
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
