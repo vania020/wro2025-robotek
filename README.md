@@ -293,7 +293,9 @@ In the first versions of the car, we implemented the Ackermann steering system u
 </p>
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
 
-For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.<br>
+For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+<br>
+<br>
 
 ### <ins>**Chassis Design Process**</ins>
 This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
@@ -318,20 +320,25 @@ Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We 
 + The second powers the **Raspberry Pi** and the rest of the electronic components, ensuring the control system and sensors remain stable and unaffected by the current demands of the motors.
 
 This battery setup helps prevent voltage drops and ensures both the motors and the processing unit can operate at their best performance.
+
+<br> 
 <br>
 
-
-## <ins>**LIDAR & Additional Sensors Integration**</ins>
+### <ins>**LIDAR & Additional Sensors Integration**</ins>
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
 
-## *<ins>STL-19P TOF LiDAR</ins>*<br><br>
+---
+
+*<ins>STL-19P TOF LiDAR</ins>*
+
+<br><br>
 <img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
 
-+ Especificaciones 📊
++ Specification 📊
 
-| Característica        | Valor                        |
+| Characteristic        | Vaue                        |
 |------------------------|------------------------------|
 | Ranging distance       | 0.03 – 12 m                 |
 | Size                   | 38.59 x 38.59 x 34.8 mm     |
@@ -339,6 +346,16 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 | Scanning Frequency     | 5 – 13 Hz                   |
 | Ranging Accuracy       | ±45 mm                      |
 | Ranging Frequency      | 5000 Hz                     |
+
+---
+
+*<ins>2DOF Monocular Camera: </ins>*
+
+<br><br>
+<img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" />
+
+2DOF Monocular Camera: The camera complements the LiDAR by adding visual perception. This allows the robot to recognize its environment beyond distance data, enabling future applications such as detecting the obstacles’ colors.
+
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
