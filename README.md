@@ -331,7 +331,8 @@ Together, these sensors give the robot a better understanding of its environment
 
 ### <ins>**STL-19P TOF LiDAR**</ins>
 <img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
-<br>
+<br><br>
+
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
 
@@ -350,14 +351,13 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 
 > [!IMPORTANT]
 > **Placement:**
-> The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br>
-
->  <img width="1206"  src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
+> The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br><br>
+> <img width="1206"  src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
   
 ### <ins>**2DOF Monocular Camera**</ins>
 
 <p align = "center">
-  <img src = "https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" width="70%">
+  <img src = "https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03" width="50%">
   </p>
 <br>
 
@@ -369,7 +369,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 > [!IMPORTANT]
 > **Placement:**
 > It was located at the front of the car, providing a front-facing view from the car and enhancing the car's ability to detect and classify obstacles by color.  This location allows the camera to complement the Lidar without interference, capturing detailed visual information about the obstacles. <br> 
-> <img width="1049" alt="Screenshot 2024-11-10 at 18 17 18" src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
+> <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
 
 
 
