@@ -294,6 +294,7 @@ In the first versions of the car, we implemented the Ackermann steering system u
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
 
 For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+
 <br>
 <br>
 
@@ -309,7 +310,9 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 
 ### <ins>**3D Printed Parts**</ins>
 
-<br><br>
+<br>
+<br>
+
 ## 5. Power & Sense Management 
 
 ### <ins>**Power Source**</ins>
@@ -320,6 +323,7 @@ Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We 
 
 This battery setup helps prevent voltage drops and ensures both the motors and the processing unit can operate at their best performance.
 
+<br>
 <br>
 
 ### <ins>**LIDAR & Additional Sensors Integration**</ins>
@@ -366,13 +370,14 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
  + **Color detection**: Since graphical color detection is a core part of our  project, the camera can precisely identify various colors on the course. This allows our car to interact with the different traffic signs in the Obstacle challenge.
   + **Spatial awareness through data fusion**: When combining camera data with our sensor, the robot gains a richer understanding of its environment. The camera provides detailed visual context that leads to an adaptable navigation strategy.
 
+<br>
+
 > [!IMPORTANT]
 > **Placement:**
 > It was located at the front of the car, providing a front-facing view from the car and enhancing the car's ability to detect and classify obstacles by color.  This location allows the camera to complement the Lidar without interference, capturing detailed visual information about the obstacles. <br><br> 
 > <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
 
-<br><br>
-
+<br>
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
