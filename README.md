@@ -327,11 +327,12 @@ To allow the robot to perceive its environment and handle the Future Engineers c
  + LiDAR
  + Monocular Camara
 
-### <ins>*STL-19P TOF LiDAR**</ins>
-<br>
+### <ins>**STL-19P TOF LiDAR**</ins>
 <img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
+
+<br>
 
 | Characteristic        | Vaue                        |
 |------------------------|------------------------------|
@@ -341,6 +342,8 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 | Scanning Frequency     | 5 – 13 Hz                   |
 | Ranging Accuracy       | ±45 mm                      |
 | Ranging Frequency      | 5000 Hz                     |
+
+<br>
 
 > [!IMPORTANT]
 > **Placement:**
