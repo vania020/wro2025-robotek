@@ -355,7 +355,6 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 > **Placement:**
 > The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br><br>
 > <img width="1206"  src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
-<br>
 
   
 ### <ins>**2DOF Monocular Camera**</ins>
