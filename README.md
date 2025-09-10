@@ -329,8 +329,7 @@ To allow the robot to perceive its environment and handle the Future Engineers c
  + LiDAR
  + Monocular Camara
 
-<br><br> 
-
+<br> 
 Together, these sensors give the robot a better understanding of its environment, combining depth perception with visual input. This setup is essential to meet the Future Engineers challenges, which involve advanced navigation and obstacle avoidance.
 
 
