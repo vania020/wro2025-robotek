@@ -310,8 +310,6 @@ The base and upper casing were crafted from aluminum to provide strength and lig
   </p>
 
 <p align="center">
-  <img src= "https://github.com/user-attachments/assets/b878388c-313e-4fd7-aca1-75f875a06fa5" width="70%">
-  <br>
   <img src= "https://github.com/user-attachments/assets/a7e03c80-81c3-4c2b-8987-456c6a52a2d0" width="70%">
 </p>
 
