@@ -294,6 +294,9 @@ In the first versions of the car, we implemented the Ackermann steering system u
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
 
 For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="45%" height="200">
+</p>
 
 <br>
 
