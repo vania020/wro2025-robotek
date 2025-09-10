@@ -328,7 +328,6 @@ This battery setup helps prevent voltage drops and ensures both the motors and t
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
  + LiDAR
  + Monocular Camara
-
 <br> 
 Together, these sensors give the robot a better understanding of its environment, combining depth perception with visual input. This setup is essential to meet the Future Engineers challenges, which involve advanced navigation and obstacle avoidance.
 
