@@ -187,7 +187,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
-      <br> Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components, new housing pieces were created, and the two-motor system was replaced by a single motor on one wheel.<br><br>
+      <br> Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components, new housing pieces were created, and the two-motor system was replaced by a single motor in a gear system.<br><br>
     We also moved from a two-level structure to a single-level layout, placing all the components on the same surface to give the Raspberry Pi better airflow and easier access. The car successfully detected and avoided the first traffic signs.<br><br>
     </td>
   </tr>
@@ -324,7 +324,7 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 ## 5. Power & Sense Management 
 
 ### <ins>**Power Source**</ins>
-Our autonomous car is powered by two Li-Po batteries (7.4 V, 2200 mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package, which is better suited for robotics applications where weight and power delivery are critical. Each battery serves a different part of the system to ensure stable and efficient operation: <br>
+Our autonomous car is powered by two Li-Po batteries (7.4 V, 5000 mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package, which is better suited for robotics applications where weight and power delivery are critical. Each battery serves a different part of the system to ensure stable and efficient operation: <br>
 
 + The first battery powers the **motors** through the L298N Motor Driver. Motors require high and sometimes variable current, especially during acceleration or speed changes. By giving them a dedicated battery, we can adjust motor speed and power without risking voltage drops or instability in the rest of the system.
 + The second powers the **Raspberry Pi** and the rest of the electronic components, ensuring the control system and sensors remain stable and unaffected by the current demands of the motors.
@@ -404,7 +404,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 | L298N Motor Driver | 1 | Controls motor direction and speed from the Raspberry Pi. | <img width="800" alt="Motor Driver" src="https://github.com/user-attachments/assets/3ab3c2e0-8b73-4996-9412-b28877301502" /> |
 | Jumper Cables | 4–8 | Electrical connections between the motor driver and Pi. | <img width="800" alt="Jumper Cables" src="https://github.com/user-attachments/assets/44758ea5-a6b2-4366-a1fb-7a0eeac5135b" /> |
 | USB-USB Cable | 1 | A cable to connect the Raspberry Pi to the camera, Lidar, and Controller. | <img width="800" alt="USB Cable" src="https://github.com/user-attachments/assets/e28195ef-1993-4163-a3de-d2299c443eb0" /> |
-| Li-Po Battery 7.4 V 2200mAh 20C | 1 | A lithium polymer battery that provides portable, high-density power. | <img width="800" alt="Battery" src="https://github.com/user-attachments/assets/204ea520-4bc6-4757-93e2-d99036c49403" /> |
+| Li-Po Battery 7.4 V 5000mAh 20C | 1 | A lithium polymer battery that provides portable, high-density power. | <img width="800" alt="Battery" src="https://github.com/user-attachments/assets/204ea520-4bc6-4757-93e2-d99036c49403" /> |
 
 
 
