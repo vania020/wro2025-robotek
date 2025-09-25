@@ -202,7 +202,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
   <!-- Version 8 -->
   <tr>
     <td align="center"><i>Version N°8</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/9b4a836a-8bd3-4805-998e-63cbb333f442" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/054d96dd-d6f4-4c8a-b543-5f29732aba8b" width="330" height="200"/>
     </td>
     <td>
       <br> <b>Car dimensions:</b> 15 x 23 cm <br><br>
