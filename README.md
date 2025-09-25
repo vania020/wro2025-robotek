@@ -124,6 +124,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
     </td>
     <td>
       We built a cardboard prototype to test and understand the Ackermann steering system and wheel movement. This served as a reference to learn about the placement of components and systems.
+      <a href="v-photos/vehicle-versions/README.md#version-1">➡️ See more photos 🚗</a>
     </td>
   </tr>
 
