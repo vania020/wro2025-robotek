@@ -28,7 +28,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 * `schemes` Wiring diagram with pins and electronic components
 * `src` code of the robotic vehicle system
 * `models` 3D printed parts and other chassis pieces 
-* `other` Documentation on datasets, and hardware specifications
+* `other` Extra documentation
 
 
 # Table of Contents
