@@ -130,77 +130,77 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
 
   <!-- Version 2 -->
   <tr>
-    <td align="center">Version N°2️⃣</td>
+    <td align="center"><i>Version N°2</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="300" height="200"/>
     </td>
     <td>
       <br>We cut and incorporated an acrylic chassis and designed/3D-printed housing pieces for the camera, Ackermann system, and other components. The Ackermann used a stepper motor, and to perceive its surroundings, the car relied on infrared sensors and a webcam. 
       <br><br>The main controllers were a Raspberry Pi 4 and an Arduino Nano, powered by a power bank and lithium batteries. The car’s movement was driven by a single motor.<br><br> 
-      <a href="v-photos/vehicle-versions/README.md#version-2">➡️ See more photos 🚗</a>
+      <a href="v-photos/vehicle-versions/README.md#version-2">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 3 -->
   <tr>
-    <td align="center">Version N°3️⃣</td>
+    <td align="center"><i>Version N°3</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="300" height="200"/>
     </td>
     <td>
       We replaced the power bank with a smaller one, adjusted component placement into a two-level car system, and installed new wheels. Lithium batteries were replaced with higher-current ones, and the infrared sensors were moved to the front, so the vehicle could make more precise turns.<br>
-      <a href="v-photos/vehicle-versions/README.md#version-3">➡️ See more photos 🚗</a>
+      <a href="v-photos/vehicle-versions/README.md#version-3">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 4 -->
   <tr>
-    <td align="center">Version N°4️⃣</td>
+    <td align="center"><i>Version N°4</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/80568426-a136-48a6-b219-9c05dd3e2584" width="300" height="200"/>
     </td>
     <td>
     <br> We upgraded the chassis to a modified HiWonder Kit and replaced the infrared sensors with a LiDAR for more accurate obstacle detection. The webcam was also switched to a monocular camera. The original car motor was replaced by two encoder motors, adapted with gears to drive a single wheel in compliance with competition guidelines.<br><br>
 
 For the Ackermann steering, we replaced the stepper motor with a servomotor. On top of that, we moved away from the Arduino Nano and began implementing the ROS framework.<br><br>
-<a href="v-photos/vehicle-versions/README.md#version-4">➡️ See more photos 🚗</a>
+<a href="v-photos/vehicle-versions/README.md#version-4">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 5 -->
   <tr>
-    <td align="center">Version N°5️⃣</td>
+    <td align="center"><i>Version N°5</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300" height="200"/>
     </td>
     <td>
       <br>Our main improvement was the chassis. We joined the two bases by drilling them together and carefully organized the components with the Raspberry Pi inside. The LiDAR was placed on top so nothing would block its view, and we also completed and installed the camera housing.<br><br>
-      <a href="v-photos/vehicle-versions/README.md#version-5">➡️ See more photos 🚗</a>
+      <a href="v-photos/vehicle-versions/README.md#version-5">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 6 -->
   <tr>
-    <td align="center">Version N°6️⃣</td>
+    <td align="center"><i>Version N°6</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/7e483e4c-2f35-48e9-8125-00a2123f06a2" width="300" height="200"/>
     </td>
     <td>
       Wheels were changed to adjust the car’s height so the Lidar could detect walls within the 10 cm range (previously it was too high and failed). The housing material was upgraded from PLA to polycarbonate for greater resistance, and the Open Challenge (autonomous 3 rounds driving) was completed.<br><br>
-      <a href="v-photos/vehicle-versions/README.md#version-6">➡️ See more photos 🚗</a>
+      <a href="v-photos/vehicle-versions/README.md#version-6">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 7 -->
   <tr>
-    <td align="center">Version N°7️⃣</td>
+    <td align="center"><i>Version N°7</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
       <br> Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components, new housing pieces were created, and the two-motor system was replaced by a single motor in a gear system.<br><br>
     We also moved from a two-level structure to a single-level layout, placing all the components on the same surface to give the Raspberry Pi better airflow and easier access. The car successfully detected and avoided the first traffic signs.<br><br>
-      <a href="v-photos/vehicle-versions/README.md#version-7">➡️ See more photos 🚗</a>
+      <a href="v-photos/vehicle-versions/README.md#version-7">➡️ See more photos 🚗</a><br>
     </td>
   </tr>
 
   <!-- Version 8 -->
   <tr>
-    <td align="center">Version N°8️⃣</td>
+    <td align="center"><i>Version N°7</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
     </td>
     <td>
