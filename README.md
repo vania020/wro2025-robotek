@@ -269,10 +269,7 @@ Without ROS, everything would have to be written in one long, complicated progra
 
 <br>
 
-*<ins>Reasons for using ROS</ins>*<br><br>
-### <ins>Reasons for using ROS</ins>
-
-We use ROS 2 because it helps us clearly organize the car’s programs. Here are some advantages:
+*<ins>Why we use ROS?</ins>*<br><br>
 
 | **Reason** | **Description** |
 |------------|-----------------|
