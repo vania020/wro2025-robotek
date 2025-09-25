@@ -118,12 +118,12 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
   
   <!-- Version 1 -->
   <tr>
-    <td align="center">Version N°1️⃣</td>
+    <td align="center"><b>Version N°1</b></td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="300"height="200"/>
     </td>
     <td>
-      We built a cardboard prototype to test and understand the Ackermann steering system and wheel movement. This served as a reference to learn about the placement of components and systems.
+      We built a cardboard prototype to test and understand the Ackermann steering system and wheel movement. This served as a reference to learn about the placement of components and systems.<br><br>
       <a href="v-photos/vehicle-versions/README.md#version-1">➡️ See more photos 🚗</a>
     </td>
   </tr>
