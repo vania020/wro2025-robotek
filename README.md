@@ -315,10 +315,8 @@ Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm 
 The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9084a317-b240-41f0-a42a-a9f9108c9fde" alt="Ackermann" width="70%">
+  <img src="https://github.com/user-attachments/assets/9db57493-bcd5-47e7-8a6c-50a7e773108a" alt="Ackermann" width="70%">
 </p>
-
-> This is an  animation to better understand the Ackerman Steering system. Credits: @The Automotives By M-KAT
 
 *<ins>Our own modifications</ins>*<br><br>
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
