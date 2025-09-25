@@ -118,7 +118,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
   
   <!-- Version 1 -->
   <tr>
-    <td align="center">Version N°1</td>
+    <td align="center">Version N°1️⃣</td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="300"height="200"/>
     </td>
@@ -129,7 +129,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
 
   <!-- Version 2 -->
   <tr>
-    <td align="center">Version N°2</td>
+    <td align="center">Version N°2️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="300" height="200"/>
     </td>
     <td>
@@ -140,7 +140,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
 
   <!-- Version 3 -->
   <tr>
-    <td align="center">Version N°3</td>
+    <td align="center">Version N°3️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="300" height="200"/>
     </td>
     <td>
@@ -150,7 +150,7 @@ Our vehicle has gone through **7 versions** (and since we are always improving, 
 
   <!-- Version 4 -->
   <tr>
-    <td align="center">Version N°4</td>
+    <td align="center">Version N°4️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/80568426-a136-48a6-b219-9c05dd3e2584" width="300" height="200"/>
     </td>
     <td>
@@ -162,7 +162,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
   <!-- Version 5 -->
   <tr>
-    <td align="center">Version N°5</td>
+    <td align="center">Version N°5️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="300" height="200"/>
     </td>
     <td>
@@ -172,8 +172,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
   <!-- Version 6 -->
   <tr>
-    <td align="center">Version N°6
-    </td>
+    <td align="center">Version N°6️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/7e483e4c-2f35-48e9-8125-00a2123f06a2" width="300" height="200"/>
     </td>
     <td>
@@ -183,7 +182,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
   <!-- Version 7 -->
   <tr>
-    <td align="center">Version N°7</td>
+    <td align="center">Version N°7️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="300" height="200"/>
     </td>
     <td>
@@ -194,12 +193,13 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
   <!-- Version 8 -->
   <tr>
-    <td align="center">Version N°8</td>
+    <td align="center">Version N°8️⃣</td>
     <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
     </td>
     <td>
-      <br> Car dimensions: 15 x 23 cm. We 3D-printed new, slimmer front wheels because the original ones stuck out too much from the chassis. A custom housing was also printed for the batteries, and most importantly, the Ackermann steering servo was mounted vertically to save space and allow for a wider turning angle.<br><br>
-During previous testing, we realized the LiDAR was struggling to properly detect the walls of the field, so we 3D-printed and implemented a small angled mount to give it a slight tilt and positioned it at the front of the car .<br><br>
+      <br> <b>Car dimensions:</b> 15 x 23 cm <br><br>
+      We 3D-printed new, slimmer front wheels because the original ones stuck out too much from the chassis. A custom housing was also printed for the batteries, and most importantly, the Ackermann steering servo was mounted vertically to save space and allow for a wider turning angle.<br><br>
+During previous testing, we realized the LiDAR was struggling to properly detect the walls of the field, so we 3D-printed and implemented a small angled mount to give it a slight tilt.<br><br>
     </td>
   </tr>
   
