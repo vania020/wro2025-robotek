@@ -183,7 +183,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
     </td>
     <td>
       <br> Wheels were changed to adjust the car’s height so the Lidar could detect walls within the 10 cm range (previously it was too high and failed). The housing material was upgraded from PLA to polycarbonate for greater resistance, and the Open Challenge (autonomous 3 rounds driving) was completed.<br><br>
-      <a href="v-photos/vehicle-versions/README.md#version-6">➡️ See more photos 🚗</a><br>
+      <a href="v-photos/vehicle-versions/README.md#version-6">➡️ See more photos 🚗</a><br><br>
     </td>
   </tr>
 
@@ -202,7 +202,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
   <!-- Version 8 -->
   <tr>
     <td align="center"><i>Version N°8</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/54dc08bb-f5cc-4894-983e-4b413c089e35" width="300" height="200"/>
     </td>
     <td>
       <br> <b>Car dimensions:</b> 15 x 23 cm <br><br>
