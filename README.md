@@ -200,7 +200,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 
   <!-- Version 8 -->
   <tr>
-    <td align="center"><i>Version N°7</i></td>
+    <td align="center"><i>Version N°8</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
     </td>
     <td>
@@ -209,6 +209,19 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
 During previous testing, we realized the LiDAR was struggling to properly detect the walls of the field, so we 3D-printed and implemented a small angled mount to give it a slight tilt.<br><br>
     </td>
   </tr>
+
+<!-- Version 8 -->
+  <tr>
+    <td align="center"><i>Version N°9</i></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
+    </td>
+    <td>
+      <br> <b>Car dimensions:</b> 15 x 20 cm <br><br>
+In this version, the components were arranged more efficiently to save space. We added a custom housing for the battery, placed the Pi5 controller on top, and mounted the Raspberry above it, creating a layered system.<br><br>
+A new chassis base was printed in MDF, and the Ackermann was moved slightly back since in the previous version the rack was colliding with the servo. To improve traction, we added a groove to the wheels and printed small cylinders between them to prevent contact with the screws. With these adjustments, the robot managed to complete a lap in just 20 seconds.
+    </td>
+  </tr>
+  
   
 </table>
 
