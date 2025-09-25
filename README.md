@@ -121,7 +121,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <tr>
     <td align="center"><i>Version N°1</i></td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="300"height="200"/>
+      <img src="https://github.com/user-attachments/assets/88cb9f71-715d-41d5-8dcd-54870af7fa87" width="320"height="200"/>
     </td>
     <td>
       We built a cardboard prototype to test and understand the Ackermann steering system and wheel movement. This served as a reference to learn about the placement of components and systems.<br><br>
@@ -212,7 +212,7 @@ During previous testing, we realized the LiDAR was struggling to properly detect
     </td>
   </tr>
 
-<!-- Version 8 -->
+<!-- Version 9 -->
   <tr>
     <td align="center"><i>Version N°9</i></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
