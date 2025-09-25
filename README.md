@@ -191,6 +191,18 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
     We also moved from a two-level structure to a single-level layout, placing all the components on the same surface to give the Raspberry Pi better airflow and easier access. The car successfully detected and avoided the first traffic signs.<br><br>
     </td>
   </tr>
+
+  <!-- Version 8 -->
+  <tr>
+    <td align="center">Version N°8</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/6ea20912-9c67-49e5-8073-3852778a0d76" width="300" height="200"/>
+    </td>
+    <td>
+      <br> Car dimensions: 15 x 23 cm. We 3D-printed new, slimmer front wheels because the original ones stuck out too much from the chassis. A custom housing was also printed for the batteries, and most importantly, the Ackermann steering servo was mounted vertically to save space and allow for a wider turning angle.<br><br>
+During previous testing, we realized the LiDAR was struggling to properly detect the walls of the field, so we 3D-printed and implemented a small angled mount to give it a slight tilt and positioned it at the front of the car .<br><br>
+    </td>
+  </tr>
+  
 </table>
 
 <br>
