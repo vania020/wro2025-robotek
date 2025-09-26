@@ -441,8 +441,7 @@ Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose L
    In parallel, the battery also powers the **L298N motor driver** directly with **7.4 V**.  
    This driver regulates how much current goes to the **25 mm metal DC motor**, which is responsible for moving the car forward.  
 
-
-**⚡Why this setup?** By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
+By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
 
 
 ### <ins>**Sensors Integration**</ins>
