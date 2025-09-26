@@ -416,7 +416,6 @@ The base and upper casing were crafted from aluminum to provide strength and lig
   <img src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" width="90%">
 </p>
 
-
 <br>
 
 Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package. The battery provides two main energy lines: one for the electronics and another for the motor: <br>
@@ -432,24 +431,29 @@ Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose L
    In parallel, the battery also powers the **L298N motor driver** directly with **7.4 V**.  
    This driver regulates how much current goes to the **25 mm metal DC motor**, which is responsible for moving the car forward.  
 
-> [!NOTE]
-> ⚡ Why this setup? By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
+<br>
+
+**⚡Why this setup?** By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
 
 
 <br>
 
 ### <ins>**Sensors Integration**</ins>
-To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
- + LiDAR
- + Monocular Camara
-<br> 
-Together, these sensors give the robot a better understanding of its environment, combining depth perception with visual input. This setup is essential to meet the Future Engineers challenges, which involve advanced navigation and obstacle avoidance.
+To perceive its environment and handle the Future Engineers challenges, the car uses a combination of:  
+
+- **STL-19P TOF LiDAR**: provides 360° distance data.  
+- **2DOF Monocular Camera**: detects colors and obstacles.  
+
+Together, these sensors give the robot a better understanding of its environment by combining depth perception with visual input.
 
 
 ### <ins>**STL-19P TOF LiDAR**</ins>
-<img width="1442" height="556" alt="LiDar" src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" />
-<br><br>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" width="90%">
+</p>
+
+<br>
 
 Unlike simpler sensors such as ultrasonic or infrared, which measure only in a single direction and have limited precision, the LiDAR sensor is capable of a **360° scanning** and provides precise distance measurements by using laser pulses. It helps the robot map its surroundings over a wide range, detect obstacles, and navigate more accurately in dynamic environments.
 
@@ -492,75 +496,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 > <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
 
 <br>
-
-## 5. Power & Sense Management  
-
-### Power Source  
-
-![Power Distribution Diagram](https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e)  
-
-Our autonomous car is powered by a **7.4 V Li-Po battery (2000 mAh, 20C)**. We chose Li-Po batteries because they provide high energy density—more power in a small and lightweight package.  
-
-The battery provides two main energy lines:  
-
-1. **Electronics & Sensors (5 V)**  
-   The battery first connects to the **RRC Lite Controller**, which regulates the power down to a safe **5 V**. From there, it distributes electricity to:  
-   - **Raspberry Pi 5**: the main processing unit running ROS 2.  
-   - **Digital servomotor**: controls the Ackermann steering system.  
-   - **STL-19P TOF LiDAR and monocular camera**: provide vision and distance perception.  
-
-2. **Drive Motor (7.4 V via L298N Driver)**  
-   In parallel, the battery also powers the **L298N motor driver** directly with **7.4 V**.  
-   - The driver regulates the current and powers the **25 mm metal DC motor**, responsible for moving the car forward.  
-
-> **Note:** By splitting the power into two paths (regulated for electronics, direct for the motor), the system ensures stability. Motors usually demand sudden current spikes, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.  
-
----
-
-### Sensors Integration  
-
-To perceive its environment and handle the Future Engineers challenges, the car uses a combination of:  
-
-- **STL-19P TOF LiDAR**: provides 360° distance data.  
-- **2DOF Monocular Camera**: detects colors and obstacles.  
-
-Together, these sensors give the robot a better understanding of its environment by combining depth perception with visual input.  
-
----
-
-### STL-19P TOF LiDAR  
-
-![LiDAR](https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9)  
-
-The LiDAR performs a **360° scan** with high precision, allowing the robot to:  
-
-- Map its surroundings.  
-- Detect walls and obstacles.  
-- Navigate more accurately in dynamic environments.  
-
-| Characteristic        | Value                       |
-|------------------------|-----------------------------|
-| Ranging distance       | 0.03 – 12 m                |
-| Size                   | 38.59 × 38.59 × 34.8 mm    |
-| Scanning Angle         | 360°                       |
-| Scanning Frequency     | 5 – 13 Hz                  |
-| Ranging Accuracy       | ±45 mm                     |
-| Ranging Frequency      | 5000 Hz                    |  
-
-> **Placement:** The LiDAR is mounted at a height of under 10 cm, allowing it to detect the 10 cm walls of the field without obstruction from other components.  
-
----
-
-### 2DOF Monocular Camera  
-
-![Camera](https://github.com/user-attachments/assets/546b6072-3ab9-4a02-b0a2-437478ac0b03)  
-
-The monocular camera complements the LiDAR by adding visual perception. It enables:  
-
-- **Color detection**: identifies red and green pillars in the Obstacle Challenge.  
-- **Spatial awareness**: when fused with LiDAR data, provides richer environmental context for navigation.  
-
-> **Placement:** Mounted at the front of the car, giving it a clear forward view without interfering with the LiDAR.  
+  
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
