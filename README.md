@@ -413,19 +413,22 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 <br>
 
 ## 5. Power & Sense Management 
-<img width="1600" height="1080" alt="power_diagram" src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" />
 
 ### <ins>**Power Source**</ins>
+<img width="1600" height="1080" alt="power_diagram" src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" />
+
 Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package. The battery provides two main energy lines: one for the electronics and another for the motor: <br>
 
-1. Electronics & Sensors
-The battery first connects to the RRC Lite Controller, which regulates the power down to a safe 5 V.From there, it distributes electricity to:
-  -  The Raspberry Pi 5, which acts as the brain of the car.
-  -  The digital servomotor, which controls the Ackermann steering system.
-  -  The LiDAR and the monocular camera, which provide vision and distance perception.
+1. **Electronics & Sensors**  
+   The battery first connects to the **RRC Lite Controller**, which regulates the power down to a safe **5 V**.  
+   From there, it distributes electricity to:  
+   - **Raspberry Pi 5** → acts as the brain of the car, running ROS 2 and processing sensor data.  
+   - **Digital servomotor** → controls the Ackermann steering system.  
+   - **STL-19P TOF LiDAR & monocular camera** → provide vision and distance perception.  
 
-2. Drive Motor (via L298N Motor Driver)
-In parallel, the battery also powers the L298N motor driver directly with 7.4 V. This driver regulates how much current goes to the 25 mm metal DC motor, which is responsible for moving the car forward.
+2. **Drive Motor (via L298N Motor Driver)**  
+   In parallel, the battery also powers the **L298N motor driver** directly with **7.4 V**.  
+   This driver regulates how much current goes to the **25 mm metal DC motor**, which is responsible for moving the car forward.  
 
 > [!NOTE]
 > ⚡ Why this setup? By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
