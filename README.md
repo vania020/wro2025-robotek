@@ -380,11 +380,9 @@ We brainstormed how to make it more efficient and changed the position of the se
 
 <br>
 
-### <ins>**Motor and Drivetrain **</ins>
+### <ins>**Motor and Drivetrain**</ins>
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/e9b996e6-d67b-4131-87eb-83cadbc83e98" width="45%" />
-</p>
+
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" />
