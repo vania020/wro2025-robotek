@@ -132,7 +132,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <!-- Version 2 -->
   <tr>
     <td align="center"><i>Version N°2</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="330" height="220"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="330" height="230"/>
     </td>
     <td>
       <br>We cut and incorporated an acrylic chassis and designed/3D-printed housing pieces for the camera, Ackermann system, and other components. The Ackermann used a stepper motor, and to perceive its surroundings, the car relied on infrared sensors and a webcam. 
@@ -144,7 +144,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <!-- Version 3 -->
   <tr>
     <td align="center"><i>Version N°3</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="330" height="220"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="330" height="230"/>
     </td>
     <td>
       <br> We replaced the power bank with a smaller one, adjusted component placement into a two-level car system, and installed new wheels. Lithium batteries were replaced with higher-current ones, and the infrared sensors were moved to the front, so the vehicle could make more precise turns.<br><br>
@@ -155,7 +155,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <!-- Version 4 -->
   <tr>
     <td align="center"><i>Version N°4</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/80568426-a136-48a6-b219-9c05dd3e2584" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/80568426-a136-48a6-b219-9c05dd3e2584" width="330" height="230"/>
     </td>
     <td>
     <br> We upgraded the chassis to a modified HiWonder Kit and replaced the infrared sensors with a LiDAR for more accurate obstacle detection. The webcam was also switched to a monocular camera. The original car motor was replaced by two encoder motors, adapted with gears to drive a single wheel in compliance with competition guidelines.<br><br>
@@ -168,7 +168,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
   <!-- Version 5 -->
   <tr>
     <td align="center"><i>Version N°5</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fe6757a1-3fe5-4b12-b856-bedcc28a5b50" width="330" height="230"/>
     </td>
     <td>
       <br>Our main improvement was the chassis. We joined the two bases by drilling them together and carefully organized the components with the Raspberry Pi inside. The LiDAR was placed on top so nothing would block its view, and we also completed and installed the camera housing.<br><br>
@@ -244,16 +244,6 @@ The operating environment of our robotic car is designed as a structure that con
   <img src="https://github.com/user-attachments/assets/94d8b0e1-d5f1-4a22-9ba9-11ce9cd6ee5d" alt="diagram" width="90%">
 </p>
 
-```mermaid
-flowchart LR
-    A[Hardware] --> B[Ubuntu]
-    B --> C[ROS 2]
-    C --> D[Nodes]
-```
-+ At the base, we have the **hardware**, including sensors such as LiDAR and a camera, along with actuators like motors and servos. All of these devices are controlled by the Raspberry Pi, which acts as the main controller.
-+ On top of this runs **Ubuntu 24.04**, which provides the necessary drivers, system libraries, and support for robotics applications.
-+ The next layer is **ROS 2 Jazzy**, the middleware that ensures communication between **nodes**.
-+ Finally, in the application, we implement our own algorithms for perception, navigation, and control that directly solve the challenges of the competition.<br><br>
 
 
 ### **<ins>Robot Operating System (ROS)</ins>** <img width="50" alt="ROS" src="https://github.com/user-attachments/assets/53574d65-315e-4dfd-a8d9-ffb38e892bab" />
