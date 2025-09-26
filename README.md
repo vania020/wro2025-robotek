@@ -411,7 +411,9 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 ## 5. Power & Sense Management 
 
 ### <ins>**Power Source**</ins>
-<img width="1600" height="1080" alt="power_diagram" src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" />
+<img width="90%" src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" />
+
+<br>
 
 Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package. The battery provides two main energy lines: one for the electronics and another for the motor: <br>
 
@@ -432,7 +434,7 @@ Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose L
 
 <br>
 
-### <ins>**LIDAR & Additional Sensors Integration**</ins>
+### <ins>**Sensors Integration**</ins>
 To allow the robot to perceive its environment and handle the Future Engineers category challenges, we use a combination of sensors:
  + LiDAR
  + Monocular Camara
