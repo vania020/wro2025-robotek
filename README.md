@@ -238,7 +238,11 @@ A new chassis base was printed in MDF, and the Ackermann was moved slightly beca
 
 ## 3. System Setup
 ### **<ins>Operating Environment Overview</ins>**
-The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the mermaid diagram below:
+The operating environment of our robotic car is designed as a structure that connects hardware, software, and middleware into a single functional system, shown in the diagram below:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94d8b0e1-d5f1-4a22-9ba9-11ce9cd6ee5d" alt="diagram" width="90%">
+</p>
 
 ```mermaid
 flowchart LR
