@@ -346,14 +346,15 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 ### **Our own modifications ⚒️**
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
 
-|  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" | <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" |
+| <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300"> | <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300"> |
 |----------|----------|
-| Cardboard idea  | 3D-printed implementation |
+| Cardboard idea | 3D-printed implementation |
 
 
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
 
 For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="45%" height="200">
 </p>
@@ -377,10 +378,6 @@ This way, the rack could move freely with more angles, and we also freed up extr
 <p align="center">
   <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" width="50%">
 </p>
-
-<p align="center">
-  <img src="<img width="1400" height="1080" alt="4" src="https://github.com/user-attachments/assets/5aff82d4-4809-4c6b-b33a-2557b801c380" />
-" width="50%">
 
 
 <br>
