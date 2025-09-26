@@ -308,7 +308,6 @@ Without ROS, everything would have to be written in one long, complicated progra
 ### **<ins>Ubuntu</ins>** <img width="60" alt="UBUNTU" src="https://github.com/user-attachments/assets/38f176af-2d07-41f9-bb14-3ef8eb2c0022" />
 Ubuntu is a popular, free, open-source operating system based on Linux. It is known for being reliable, flexible, and widely used in both research and industry. In our project, we use Ubuntu 24.04 as the **foundation that runs on the Raspberry Pi**.<br>
 
-*<ins>Role in the System</ins>*<br>
 Ubuntu manages the Raspberry Pi’s resources efficiently, ensuring it runs correctly. It provides drivers and compatibility for sensors and external hardware, making integration easier. Ubuntu also allows us to install and run ROS 2 Jazzy and gives us access to important libraries and tools that simplify tasks such as sensor communication and system development.<br>
 
 We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since ROS 2 packages are officially distributed for Ubuntu, using this operating system guarantees that we can easily install and manage the software needed for our car.
@@ -319,13 +318,11 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 
 *<ins>Set up and configuration</ins>*<br>
 
-With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
+With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry. After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname. And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
 
 | Step 1 | Step 2 | Step 3 | Step 4 |
 | :--: | :--: | :--: |  :--: |
 | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/> | <img src="https://github.com/user-attachments/assets/0990b9f5-a0a7-408b-a90b-2e9086ae6032" /> | <img src="https://github.com/user-attachments/assets/8b716aad-e25b-4ff4-a92a-8e5e1b085319" /> | <img src="https://github.com/user-attachments/assets/c0f70529-b1b9-4ce7-b0c2-3803a02c44db"/> |
-
-After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname. And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
 
 
 
