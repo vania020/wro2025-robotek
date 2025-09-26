@@ -383,7 +383,6 @@ We brainstormed how to make it more efficient and changed the position of the se
 ### <ins>**Motor and Drivetrain**</ins>
 
 
-
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" />
 </p>
@@ -520,9 +519,11 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 ### <ins>**Autonomous Driving Logic**<ins>
 
 ### <ins>**Open Challenge**</ins>
-<img width="1600" height="1080" alt="main_node_1" src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" />
 
-<img width="1600" height="1080" alt="main_node_2" src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="45%">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="45%">
+</p>
 
 ### <ins>**Obstacle Challenge**</ins>
 <img width="2000" height="1080" alt="obstacle_adjustment" src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" />
