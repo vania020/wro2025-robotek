@@ -345,7 +345,7 @@ Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm 
 The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9db57493-bcd5-47e7-8a6c-50a7e773108a" alt="Ackermann" width="70%">
+  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="70%">
 </p>
 
 *<ins>Our own modifications</ins>*<br><br>
