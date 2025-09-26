@@ -132,7 +132,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <!-- Version 2 -->
   <tr>
     <td align="center"><i>Version N°2</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/14afa30d-317e-43f8-b6ef-d63897212c88" width="330" height="220"/>
     </td>
     <td>
       <br>We cut and incorporated an acrylic chassis and designed/3D-printed housing pieces for the camera, Ackermann system, and other components. The Ackermann used a stepper motor, and to perceive its surroundings, the car relied on infrared sensors and a webcam. 
@@ -144,7 +144,7 @@ Our vehicle has gone through **10 versions** (and since we are always improving,
   <!-- Version 3 -->
   <tr>
     <td align="center"><i>Version N°3</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/5299a922-0fb3-43a8-9a32-9bdbc77225d7" width="330" height="220"/>
     </td>
     <td>
       <br> We replaced the power bank with a smaller one, adjusted component placement into a two-level car system, and installed new wheels. Lithium batteries were replaced with higher-current ones, and the infrared sensors were moved to the front, so the vehicle could make more precise turns.<br><br>
