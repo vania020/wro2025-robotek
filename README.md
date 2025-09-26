@@ -342,7 +342,7 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 ### <ins>**Steering System - Ackermann**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="80%">
+  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="70%">
 </p>
 
 Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm digital servo, which provides precise and stable control for navigation and turns. <br>
