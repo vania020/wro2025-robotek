@@ -258,7 +258,7 @@ ROS is a framework that connects a robot’s software and hardware, making senso
 Without ROS, everything would have to be written in one long, complicated program that’s hard to manage. We can now divide the system into smaller parts, or nodes, that each do one job, making the system easier to build, fix, and expand.<br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="70%">
+  <img src="https://github.com/user-attachments/assets/b94b35c9-c47d-48f0-9a54-57789c4cc455" alt="Nodes" width="80%">
 </p>
 
 > This is an official animation to better understand how nodes work. Each node does one clear job, like moving wheels or reading sensors, and they talk to each other using topics, services, actions, or parameters.
@@ -340,13 +340,14 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 
 ### <ins>**Motors and Powertrain**</ins>
 ### <ins>**Steering System - Ackermann**</ins>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="80%">
+</p>
+
 Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm digital servo, which provides precise and stable control for navigation and turns. <br>
 
 The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="70%">
-</p>
 
 *<ins>Our own modifications</ins>*<br><br>
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.
