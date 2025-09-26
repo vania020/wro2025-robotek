@@ -269,11 +269,10 @@ Without ROS, everything would have to be written in one long, complicated progra
 
 <br>
 
-*<ins>Why we use ROS?</ins>*<br><br>
+*<ins>Why we use ROS?</ins>*<br>
 
-| **Reason** | **Description** |
-|------------|-----------------|
 | **Sensor & Actuator Integration** | ROS connects all sensors and actuators in one system, ensuring seamless coordination. This provides our autonomous car with continuous information about its surroundings and optimizes the overall system performance. |
+|------------|-----------------|
 | **Environmental Perception with LiDAR** | Using LiDAR, we obtain precise 360° distance data, essential for detecting obstacles and walls. ROS packages like `laser_scan_matcher` and `gmapping` process this data to create real-time maps of the environment. |
 | **Autonomous Navigation and Path Planning** | With ROS navigation tools such as `move_base`, the car can plan optimal routes and adjust them in real time—especially useful for the Obstacle Challenge. |
 | **Efficient Simulation and Debugging** | Virtual environments like [Gazebo](https://gazebosim.org/home) let us fine-tune parameters before implementation. Tools like [RViz](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html) allow real-time visualization of sensor data and car status, making debugging much easier. |
