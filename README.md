@@ -413,14 +413,23 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 <br>
 
 ## 5. Power & Sense Management 
+<img width="1600" height="1080" alt="power_diagram" src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" />
 
 ### <ins>**Power Source**</ins>
-Our autonomous car is powered by two Li-Po batteries (7.4 V, 5000 mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package, which is better suited for robotics applications where weight and power delivery are critical. Each battery serves a different part of the system to ensure stable and efficient operation: <br>
+Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package. The battery provides two main energy lines: one for the electronics and another for the motor: <br>
 
-+ The first battery powers the **motors** through the L298N Motor Driver. Motors require high and sometimes variable current, especially during acceleration or speed changes. By giving them a dedicated battery, we can adjust motor speed and power without risking voltage drops or instability in the rest of the system.
-+ The second powers the **Raspberry Pi** and the rest of the electronic components, ensuring the control system and sensors remain stable and unaffected by the current demands of the motors.
+1. Electronics & Sensors
+The battery first connects to the RRC Lite Controller, which regulates the power down to a safe 5 V.From there, it distributes electricity to:
+  -  The Raspberry Pi 5, which acts as the brain of the car.
+  -  The digital servomotor, which controls the Ackermann steering system.
+  -  The LiDAR and the monocular camera, which provide vision and distance perception.
 
-This battery setup helps prevent voltage drops and ensures both the motors and the processing unit can operate at their best performance.
+2. Drive Motor (via L298N Motor Driver)
+In parallel, the battery also powers the L298N motor driver directly with 7.4 V. This driver regulates how much current goes to the 25 mm metal DC motor, which is responsible for moving the car forward.
+
+> [!NOTE]
+> ⚡ Why this setup? By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
+
 
 <br>
 
@@ -508,9 +517,14 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 <br><br>
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
-### <ins>**Flow Diagrams**</ins>
+
 ### <ins>**Open Challenge**</ins>
+<img width="1600" height="1080" alt="main_node_1" src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" />
+
+<img width="1600" height="1080" alt="main_node_2" src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" />
+
 ### <ins>**Obstacle Challenge**</ins>
+<img width="2000" height="1080" alt="obstacle_adjustment" src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" />
 
 <br><br>
 ## 7. Assembly Instructions 
