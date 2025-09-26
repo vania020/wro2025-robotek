@@ -501,7 +501,9 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
 
 ### <ins>**Wiring Diagram**<ins>
+<img width="1200" height="810" alt="WiringDiagram" src="https://github.com/user-attachments/assets/75a531b1-c191-43b7-b555-98c2a317f091" />
 
+<img width="1200" height="810" alt="RaspberryConnections" src="https://github.com/user-attachments/assets/9cba8c7a-eb0b-40ae-ac6e-878fcfedd928" />
 
 <br><br>
 ## 6. Obstacle Management 
