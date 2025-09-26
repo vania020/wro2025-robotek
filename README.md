@@ -354,6 +354,7 @@ In the first versions of the car, we implemented the Ackermann steering system u
 
 </div>
 
+<br> 
 
 One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
 
@@ -366,22 +367,17 @@ For this reason, we decided to switch to the system we currently use, which is p
 > [!WARNING]
 > At first, the Ackermann of the Hiwonderkit worked fine, the car could turn and even get through some obstacles. But after a lot of testing, we noticed that whenever the car turned left, the Ackermann didn’t rotate as much as it did when turning right. This made obstacle avoidance harder, especially in the field corners, so we knew we had to make adjustments.
 
-We realized that the servo needed to be repositioned. First, it was placed horizontally under the Ackerman linkages, like the picture above: <br>
+We realized that the servo needed to be repositioned. First, it was placed horizontally under the Ackerman linkages, like the picture below: <br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd" width="50%">
+  <img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd" width="40%">
 </p>
 
-We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis.<br><br>
+We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis. This way, the linkages could move freely with more angles, and we also freed up extra space for the other components. This new placement also allowed us to reduce the length of the chassis. <br><br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8" width="50%">
-</p>
-
-This way, the linkages could move freely with more angles, and we also freed up extra space for the other components. This new placement also allowed us to reduce the length of the chassis. <br><br>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" width="50%">
+  <img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8" width="45%">
+  <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" width="45%">
 </p>
 
 
