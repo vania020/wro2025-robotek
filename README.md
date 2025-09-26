@@ -271,11 +271,44 @@ Without ROS, everything would have to be written in one long, complicated progra
 
 *<ins>Why we use ROS?</ins>*<br>
 
-| **Sensor & Actuator Integration** | ROS connects all sensors and actuators in one system, ensuring seamless coordination. This provides our autonomous car with continuous information about its surroundings and optimizes the overall system performance. |
-|------------|-----------------|
-| **Environmental Perception with LiDAR** | Using LiDAR, we obtain precise 360° distance data, essential for detecting obstacles and walls. ROS packages like `laser_scan_matcher` and `gmapping` process this data to create real-time maps of the environment. |
-| **Autonomous Navigation and Path Planning** | With ROS navigation tools such as `move_base`, the car can plan optimal routes and adjust them in real time—especially useful for the Obstacle Challenge. |
-| **Efficient Simulation and Debugging** | Virtual environments like [Gazebo](https://gazebosim.org/home) let us fine-tune parameters before implementation. Tools like [RViz](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html) allow real-time visualization of sensor data and car status, making debugging much easier. |
+<p><ins>Why we use ROS?</ins></p>
+
+<table>
+  <tr>
+    <td><b>Sensor & Actuator Integration</b></td>
+    <td>
+      ROS connects all sensors and actuators in one system, ensuring seamless coordination. 
+      This gives our autonomous car continuous information about its surroundings 
+      and optimizes overall performance.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Environmental Perception with LiDAR</b></td>
+    <td>
+      Using LiDAR, we obtain precise 360° distance data, essential for detecting obstacles and walls. 
+      ROS packages like <code>laser_scan_matcher</code> and <code>gmapping</code> process this data 
+      to create real-time maps of the environment.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Autonomous Navigation & Path Planning</b></td>
+    <td>
+      With ROS navigation tools such as <code>move_base</code>, the car can plan optimal routes 
+      and adjust them in real time—especially useful for the Obstacle Challenge.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Efficient Simulation & Debugging</b></td>
+    <td>
+      Virtual environments like 
+      <a href="https://gazebosim.org/home">Gazebo</a> let us fine-tune parameters before implementation. 
+      Tools like 
+      <a href="https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html">RViz</a> 
+      allow real-time visualization of sensor data and car status, making debugging much easier.
+    </td>
+  </tr>
+</table>
+
 
 
 <br>
