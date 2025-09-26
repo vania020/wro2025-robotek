@@ -271,8 +271,6 @@ Without ROS, everything would have to be written in one long, complicated progra
 
 *<ins>Why we use ROS?</ins>*<br>
 
-<p><ins>Why we use ROS?</ins></p>
-
 <table>
   <tr>
     <td><b>Sensor & Actuator Integration</b></td>
