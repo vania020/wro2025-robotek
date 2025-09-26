@@ -537,10 +537,11 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 ### <ins>**Autonomous Driving Logic**<ins>
 
 ### <ins>**Open Challenge**</ins>
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="50%">
-  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="50%">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="90%">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="90%">
 </p>
 
 ### <ins>**Obstacle Challenge**</ins>
