@@ -332,7 +332,6 @@ The Raspberry Pi is a small computer that works as the brain of our car. It is p
 <br><br>
 ## 4. Mobility Management 
 
-### <ins>**Motors and Powertrain**</ins>
 ### <ins>**Steering System - Ackermann**</ins>
 
 <p align="center">
@@ -346,13 +345,11 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 ### **Our own modifications ⚒️**
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels. <br><br>
 
-<div align="center">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300">
+</p>
 
-| <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300"> | <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300"> |
-|----------|----------|
-| Cardboard idea | 3D-printed implementation |
-
-</div>
 
 <br> 
 
@@ -382,6 +379,17 @@ We brainstormed how to make it more efficient and changed the position of the se
 
 
 <br>
+
+### <ins>**Motor and Drivetrain **</ins>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e9b996e6-d67b-4131-87eb-83cadbc83e98" width="45%" />
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" />
+</p>
+
 
 ### <ins>**Chassis Design Process**</ins>
 This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
@@ -482,7 +490,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 | Lidar Adapter Board | 1 | Converts the LiDAR’s UART signals to USB for PC connection and data reading. | <img width="800" alt="Adapter" src="https://github.com/user-attachments/assets/407671ef-bed2-4a04-8aef-0cb69cab464a" /> |
 | 15 kg.cm Digital Servo | 1 | Provides accurate steering control. | <img width="800" alt="Servo" src="https://github.com/user-attachments/assets/b949c033-fc6d-4032-8d41-b136ea6ddc90" /> |
 | 65 mm Anti-Slip Rubber Wheel | 1 | High-grip wheels to improve traction and stability. | <img width="800" alt="Wheel" src="https://github.com/user-attachments/assets/3f50620d-b008-4426-86f5-2c4f5ee6aff6" /> |
-| 25MM Metal Gear Motor | 1 | Core drive motors for powering the wheels with torque and speed. | <img width="800" alt="Motor" src="https://github.com/user-attachments/assets/de6786ac-3dc2-4d36-89e3-03435708c338" /> |
+| 25MM Metal Gear Motor | 1 | Core drive motor for powering the wheels with torque and speed. | <img width="800" alt="Motor" src="https://github.com/user-attachments/assets/de6786ac-3dc2-4d36-89e3-03435708c338" /> |
 | Monocular Camera | 1 | A camera used for capturing images and videos, can be used for computer vision or live streaming. | <img width="800" alt="Camera" src="https://github.com/user-attachments/assets/c0966a05-8bad-4da5-b012-cc7dbcc65617" /> |
 | L298N Motor Driver | 1 | Controls motor direction and speed from the Raspberry Pi. | <img width="800" alt="Motor Driver" src="https://github.com/user-attachments/assets/3ab3c2e0-8b73-4996-9412-b28877301502" /> |
 | Jumper Cables | 4–8 | Electrical connections between the motor driver and Pi. | <img width="800" alt="Jumper Cables" src="https://github.com/user-attachments/assets/44758ea5-a6b2-4366-a1fb-7a0eeac5135b" /> |
