@@ -190,7 +190,7 @@ For the Ackermann steering, we replaced the stepper motor with a servomotor. On 
   <!-- Version 7 -->
   <tr>
     <td align="center"><i>Version N°7</i></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="330" height="200"/>
+    <td align="center"><img src="https://github.com/user-attachments/assets/105155b6-ddb2-4885-aa63-7e07f1468315" width="330" height="230"/>
     </td>
     <td>
       <br> Using our HiWonder kit as the base, we designed and cut a completely new, smaller chassis with personalized mounting holes for all components, new housing pieces were created, and the two-motor system was replaced by a single motor in a gear system.<br><br>
