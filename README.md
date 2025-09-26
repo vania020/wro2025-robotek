@@ -384,7 +384,7 @@ We brainstormed how to make it more efficient and changed the position of the se
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" width="200"/>
+<img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" width="70%"/>
 </p>
 
 ### <ins>**Chassis Design Process**</ins>
@@ -395,10 +395,6 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 <p align = "center">
   <img src = "https://github.com/user-attachments/assets/b878388c-313e-4fd7-aca1-75f875a06fa5" width="70%">
   </p>
-
-<p align="center">
-  <img src= "https://github.com/user-attachments/assets/a7e03c80-81c3-4c2b-8987-456c6a52a2d0" width="70%">
-</p>
 
 
 <br>
@@ -431,7 +427,6 @@ Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose L
    In parallel, the battery also powers the **L298N motor driver** directly with **7.4 V**.  
    This driver regulates how much current goes to the **25 mm metal DC motor**, which is responsible for moving the car forward.  
 
-<br>
 
 **⚡Why this setup?** By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
 
@@ -493,10 +488,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 > [!IMPORTANT]
 > **Placement:**
 > It was located at the front of the car, providing a front-facing view from the car and enhancing the car's ability to detect and classify obstacles by color.  This location allows the camera to complement the Lidar without interference, capturing detailed visual information about the obstacles. <br><br> 
-> <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">
-
-<br>
-  
+> <img src="https://github.com/user-attachments/assets/198d3541-ec12-4232-97b8-b4fb0fde5850">  
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
