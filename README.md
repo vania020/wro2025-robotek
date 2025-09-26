@@ -384,9 +384,8 @@ We brainstormed how to make it more efficient and changed the position of the se
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" width="45%"/>
+<img src="https://github.com/user-attachments/assets/6428a503-7cb3-4397-a09d-19dff1e91ecf" width="200"/>
 </p>
-
 
 ### <ins>**Chassis Design Process**</ins>
 This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
