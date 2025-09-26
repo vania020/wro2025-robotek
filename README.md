@@ -318,14 +318,14 @@ We use Ubuntu because of its stability and compatibility with ROS 2 Jazzy. Since
 The Raspberry Pi is a small computer that works as the brain of our car. It is powerful enough to run Ubuntu, ROS 2, and our algorithms in real time. In our project, we use the Raspberry Pi 5, which you can find here: [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)<br>
 
 *<ins>Set up and configuration</ins>*<br>
-+ With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
+
+With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash Ubuntu 24.04 into the microSD card of the Raspberry
 
 | Step 1 | Step 2 | Step 3 | Step 4 |
 | :--: | :--: | :--: |  :--: |
 | <img src="https://github.com/user-attachments/assets/f6ee9449-517c-443a-aad2-c7a4913f8334"/> | <img src="https://github.com/user-attachments/assets/0990b9f5-a0a7-408b-a90b-2e9086ae6032" /> | <img src="https://github.com/user-attachments/assets/8b716aad-e25b-4ff4-a92a-8e5e1b085319" /> | <img src="https://github.com/user-attachments/assets/c0f70529-b1b9-4ce7-b0c2-3803a02c44db"/> |
 
-+ After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname.
-+ And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
+After that, we configure the basics like Wi-Fi, SSH for remote access, and hostname. And finally, we install ROS 2 Jazzy by following these steps: [Installation Ubuntu (deb packages)](https://www.google.com/url?q=https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html&sa=D&source=docs&ust=1756316032253380&usg=AOvVaw24eBtKhOAoYRVzp4xh2Rkh)
 
 
 
@@ -346,8 +346,8 @@ The Ackermann steering geometry is designed to reduce tire slip by ensuring that
 In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels. <br><br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300">
-  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300">
+  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300" height= "200">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300" height= "200">
 </p>
 
 
@@ -358,7 +358,7 @@ One of the challenges we faced was the 3D printing process itself. Printing smal
 For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="45%" height="200">
+  <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="300" height="200">
 </p>
 
 > [!WARNING]
@@ -366,13 +366,40 @@ For this reason, we decided to switch to the system we currently use, which is p
 
 We realized that the servo needed to be repositioned. First, it was placed horizontally under the Ackerman linkages. We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis. This way, the linkages could move freely with more angles, and we also freed up extra space for the other components. This new placement also allowed us to reduce the length of the chassis. <br><br>
 
-| Initial position | Idea | Final position |
-|--------------|--------------------|--------------------|
-| <img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd" width="250"> | <img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8" width="250"> | <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" width="250"> |
-| Servo mounted horizontally (limited angles) | Servo repositioned vertically | Final placement with improved steering |
 
-<br>
+<table>  
+  <tr>
+    <th width="30%">Initial position</th>
+    <th width="30%">Idea</th>
+    <th width="30%">Final Position</th>
+  </tr>
+  
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" />
+    </td>
+  </tr>
 
+  <tr>
+    <td>
+      Servo mounted horizontally (limited angles)
+    </td>
+    <td>
+      Servo repositioned vertically
+    </td>
+    <td>
+      Final placement with improved steering
+    </td>
+  </tr>
+  
+</table>
+  
 ### <ins>**Motor and Drivetrain**</ins>
 
 
