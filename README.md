@@ -396,9 +396,6 @@ The base and upper casing were crafted from aluminum to provide strength and lig
   <img src = "https://github.com/user-attachments/assets/b878388c-313e-4fd7-aca1-75f875a06fa5" width="70%">
   </p>
 
-
-<br>
-
 ### <ins>**3D Printed Parts**</ins>
 
 <br>
@@ -430,8 +427,6 @@ Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose L
 
 **⚡Why this setup?** By splitting the power into two paths (one regulated for sensitive electronics and one direct for the motor), the system ensures stability. Motors usually demand sudden spikes of current, and separating their supply avoids crashes or interruptions in the Raspberry Pi and sensors.
 
-
-<br>
 
 ### <ins>**Sensors Integration**</ins>
 To perceive its environment and handle the Future Engineers challenges, the car uses a combination of:  
