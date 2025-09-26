@@ -78,6 +78,17 @@
 
 </details>
 
+<details>
+  <summary>🚗 Version 8</summary>
+
+
+| ![Version8_1](https://github.com/user-attachments/assets/f9f32ad0-9e32-4cbf-9098-d24612606c3d)|![Version8_2](https://github.com/user-attachments/assets/5613653d-a9dd-4be1-9191-d12d57866fbf)|
+|---|---|
+| ![Version8_3](https://github.com/user-attachments/assets/6913e075-1ace-4db3-8e91-8ba46d8305a5)| ![Version8_4](https://github.com/user-attachments/assets/98dff06a-7fa2-4964-afeb-c466b9faf55d) |
+
+
+</details>
+
 </details>
 
 
