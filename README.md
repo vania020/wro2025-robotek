@@ -411,7 +411,7 @@ Our drivetrain includes a gear reduction system:
 + The result is a reduction ratio that increases torque at the wheels, providing more force for acceleration and stability, even if the motor speed itself remains constant
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" width="300" height="200"/>
+<img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" />
 </p>
 
 During assembly, we noticed a gap between the metal chassis part and the axle supports. This caused instability in the drivetrain. To fix it, we designed custom 3D-printed cylindrical spacers that fill the gap and keep the axle firmly in place.
