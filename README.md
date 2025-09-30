@@ -399,6 +399,10 @@ We realized that the servo needed to be repositioned. First, it was placed horiz
   
 ### <ins>**Motor and Drivetrain**</ins>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f636176b-af6a-4b72-bb31-53f025ab41b1" width= 80% />
+</p>
+
 The drivetrain of our autonomous car is powered by a **25 mm metal gear DC motor**, chosen for its compact size and high torque. The motor is mounted on the chassis and directly connected to the rear axle through a system of gears, ensuring efficient transfer of power to the wheels.  
 
 Our drivetrain includes a gear reduction system:
@@ -406,20 +410,16 @@ Our drivetrain includes a gear reduction system:
 + This small gear drives a larger gear connected to the rear axle.
 + The result is a reduction ratio that increases torque at the wheels, providing more force for acceleration and stability, even if the motor speed itself remains constant
 
-<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/c455b004-75ec-442d-895c-29c28c7d9064" />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c455b004-75ec-442d-895c-29c28c7d9064" width="300" height="200"/>
+</p>
 
 During assembly, we noticed a gap between the metal chassis part and the axle supports. This caused instability in the drivetrain. To fix it, we designed custom 3D-printed cylindrical spacers that fill the gap and keep the axle firmly in place.
 This simple solution reduces vibrations, prevents misalignment, and ensures smoother transmission of power from the motor to the wheels.
 
 <p align="center">
-<img src="![motor](https://github.com/user-attachments/assets/31ee82f6-272a-42a3-b696-27ff1b9430d6)
-" width="70%"/>
+<img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width="70%"/>
 </p>
-
-![Motor General View](https://github.com/user-attachments/assets/31ee82f6-272a-42a3-b696-27ff1b9430d6)  
-![Motor Gears]("https://github.com/user-attachments/assets/49868e85-8b58-4d00-acb5-760cdfe612af")  
-![Bearings Detail](https://github.com/user-attachments/assets/feeff937-bce1-4d34-aaa7-f808bfc74d4d")  
-
 
 ### <ins>**Chassis Design Process**</ins>
 This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
