@@ -544,6 +544,7 @@ The following diagrams illustrate how all the main components of the car are int
 <p align="center">
   <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
 </p>
+
 #### **1. Raspberry Pi 5 Connections**
 The Raspberry Pi 5 works as the brain of the car. Its USB ports connect the main sensors and the controller:
 
@@ -576,7 +577,8 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 - **Direct line (7.4 V):** powers the L298N motor driver and DC motor.  
 - **Regulated line (via RRC Lite Controller):** delivers 5 V to the Raspberry Pi, servomotor, and sensors.  
 
-<br><br>
+<br>
+
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
 
