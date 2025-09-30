@@ -440,10 +440,8 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 ### <ins>**Power Source**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/04c9e28f-5a7f-4c14-971c-3a8469ff366e" width="90%">
+  <img src="https://github.com/user-attachments/assets/8d83ffe1-569e-4fe6-a97f-a14b833fa9ac" width="80%">
 </p>
-
-<br>
 
 Our autonomous car is powered by 7.4V Li-Po batteries (2000mAh, 20C). We chose Li-Po batteries because they provide a high energy density, meaning more power in a small and lightweight package. The battery provides two main energy lines: one for the electronics and another for the motor: <br>
 
@@ -473,7 +471,7 @@ Together, these sensors give the robot a better understanding of its environment
 ### <ins>**STL-19P TOF LiDAR**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" width="90%">
+  <img src="https://github.com/user-attachments/assets/853f8730-a645-47b5-bacf-ded61b21a6c9" width="80%">
 </p>
 
 <br>
@@ -541,13 +539,42 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
 ### <ins>**Wiring Diagram**<ins>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/75a531b1-c191-43b7-b555-98c2a317f091" width="90%">
-</p>
+The following diagrams illustrate how all the main components of the car are interconnected, ensuring proper communication and stable power distribution across the system.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9cba8c7a-eb0b-40ae-ac6e-878fcfedd928" width="90%">
+  <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
 </p>
+#### **1. Raspberry Pi 5 Connections**
+The Raspberry Pi 5 works as the brain of the car. Its USB ports connect the main sensors and the controller:
+
++ Camera → provides visual input for detecting traffic signs and colored obstacles.
++ LiDAR → provides distance and wall detection for navigation.
++ RRC Lite Controller → interfaces with the digital servomotor and forwards control signals to the motor driver.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b2efa85-6dec-49f6-ba25-af40653e8c89" width="80%">
+</p>
+
+#### **2. RRC Lite Controller**
+The RRC Lite Controller acts as a bridge between the Raspberry Pi and the actuators. It regulates incoming power from the Li-Po battery (down to a safe 5 V) and distributes it to:  
+- The **Raspberry Pi 5**  
+- The **digital servomotor** for Ackermann steering  
+
+It also handles communication with the motor driver to send PWM control signals.
+
+---
+
+#### **3. Motor Driver and DC Motor**
+The **L298N Motor Driver** is powered directly by the **7.4 V Li-Po battery**.  
+- It regulates both the **speed** and **direction** of the **25 mm metal gear DC motor**.  
+- The motor then powers the rear axle through a gear reduction system, increasing torque for smoother acceleration.  
+
+---
+
+#### **4. Power Source**
+The **7.4 V Li-Po battery** supplies energy to the entire system, split into two paths:  
+- **Direct line (7.4 V):** powers the L298N motor driver and DC motor.  
+- **Regulated line (via RRC Lite Controller):** delivers 5 V to the Raspberry Pi, servomotor, and sensors.  
 
 <br><br>
 ## 6. Obstacle Management 
@@ -555,16 +582,16 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
 ### <ins>**Open Challenge**</ins>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="90%">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="80%">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="90%">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="80%">
 </p>
 
 ### <ins>**Obstacle Challenge**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="90%">
+  <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="80%">
 </p>
 
 <br><br>
