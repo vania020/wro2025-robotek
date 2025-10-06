@@ -537,7 +537,8 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 > [!IMPORTANT]
 > **📍Placement:**
 > The camera is located in a special 3D mounting piece with a certain  inclination angle that points to the floor so it can better detect obstacles. At first it was placed at the front of the car but this location provided a limited vision and sticked out of the chassis lenght. See more detailed info of the housing piece in the [`3D Printed Parts`](#3d-printed-parts) section. <br><br> 
-> < img  src="https://github.com/user-attachments/assets/a286367c-681d-473b-807f-c9e470b2fb0d">
+> <img width="1206"  src="https://github.com/user-attachments/assets/a286367c-681d-473b-807f-c9e470b2fb0d">
+
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
