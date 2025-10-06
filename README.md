@@ -441,7 +441,7 @@ During assembly, we noticed a gap between the metal chassis part and the axle su
 This simple solution reduces vibrations, prevents misalignment, and ensures smoother transmission of power from the motor to the wheels.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width="300" height="200"/>
+<img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width=50%/>
 </p>
 
 ### <ins>**Chassis Design Process**</ins>
@@ -607,11 +607,10 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 
 ### <ins>**Open Challenge**</ins>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="80%">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="40%">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="40%">
 </p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="80%">
-</p>
+
 
 ### <ins>**Obstacle Challenge**</ins>
 
