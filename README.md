@@ -515,7 +515,7 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 <br>
 
 > [!IMPORTANT]
-> **Placement:**
+> **📍Placement:**
 > The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br><br>
 > <img width="1206"  src="https://github.com/user-attachments/assets/9e9d9df4-cfc6-4875-b832-435c4d2ebb1c">
 
@@ -535,9 +535,9 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 <br>
 
 > [!IMPORTANT]
-> **Placement:**
+> **📍Placement:**
 > The camera is located in a special 3D mounting piece with a certain  inclination angle that points to the floor so it can better detect obstacles. At first it was placed at the front of the car but this location provided a limited vision and sticked out of the chassis lenght. See more detailed info of the housing piece in the [`3d-printed-parts`](#3d-printed-parts). <br><br> 
-> <img src="https://github.com/user-attachments/assets/6c78d99b-4e52-42ed-a2a9-99984e831627" height= "50%">  
+> <img src="https://github.com/user-attachments/assets/6c78d99b-4e52-42ed-a2a9-99984e831627" width= "50%">  
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
