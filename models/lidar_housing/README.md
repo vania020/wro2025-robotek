@@ -3,9 +3,7 @@
 ![LiDAR Housing](./lidar_housing.png)
 
 **Description:**  
-This component serves as the mounting structure for the LiDAR sensor.  
-It is slightly **inclined** to optimize the scanning angle and improve wall-distance measurements.  
-The design includes **four screw holes** for secure attachment to the vehicle base and the LiDAR unit, ensuring mechanical stability during operation.
+This component serves as the mounting structure for the LiDAR sensor. It is slightly **inclined** to optimize the scanning angle and improve wall-distance measurements. The design includes **four screw holes** for secure attachment to the vehicle base and the LiDAR unit, ensuring mechanical stability during operation.
 
 **Model Details**
 - Format: `.stl`
