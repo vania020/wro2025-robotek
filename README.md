@@ -1,4 +1,4 @@
-# Ruwance - WRO 2025<img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="Peru Flag" width="30"/>
+<img width="1600" height="400" alt="RUWANCE" src="https://github.com/user-attachments/assets/f62e61d4-6ade-4c75-b03e-b109d2be9b4d" /># Ruwance - WRO 2025<img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="Peru Flag" width="30"/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner Ruwance" width="100%">
@@ -536,8 +536,8 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
 > [!IMPORTANT]
 > **📍Placement:**
-> The camera is located in a special 3D mounting piece with a certain  inclination angle that points to the floor so it can better detect obstacles. At first it was placed at the front of the car but this location provided a limited vision and sticked out of the chassis lenght. See more detailed info of the housing piece in the [`3d-printed-parts`](#3d-printed-parts). <br><br> 
-> < img width= "200" src="https://github.com/user-attachments/assets/6c78d99b-4e52-42ed-a2a9-99984e831627">  
+> The camera is located in a special 3D mounting piece with a certain  inclination angle that points to the floor so it can better detect obstacles. At first it was placed at the front of the car but this location provided a limited vision and sticked out of the chassis lenght. See more detailed info of the housing piece in the [`3D Printed Parts`](#3d-printed-parts) section. <br><br> 
+> < img  src="https://github.com/user-attachments/assets/a286367c-681d-473b-807f-c9e470b2fb0d" />
 
 
 ### **<ins>BOM (Bill of Materials)</ins>**
