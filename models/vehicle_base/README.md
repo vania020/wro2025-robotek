@@ -1,6 +1,5 @@
 # Vehicle Base
 
-**Preview**
 ![Vehicle Base](./vehicle_base.png)
 
 **Description:**  
