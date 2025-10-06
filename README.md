@@ -34,17 +34,34 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 # Table of Contents
 1. [Meet the Team!](#1-meet-the-team)
-2. [Vehicle Overview](#2-vehicle-overview)
+   
+3. [Vehicle Overview](#2-vehicle-overview)
    + [General Description of the Car](#general-description-of-the-car)
    + [Versions of the Car](#versions-of-the-car)
-3. [System Setup](#3-system-setup)
+     
+4. [System Setup](#3-system-setup)
    + [Operating Environment Overview](#operating-environment-overview)
    + [ROS](#ros)
    + [Ubuntu](#ubuntu)
    + [Raspberry Pi](#raspberry-pi)
+     
 5. [Mobility Management](#4-mobility-management)
+   + [Steering System - Ackermann](#steering-system-ackermann)
+   + [Motor and Drivetrain](#motor-and-drivetrain)
+   + [Chassis Design Process](#chassis-design-process)
+   + [3D Printed Parts](#3d-printed-parts)
+   
 6. [Power & Sense Management](#5-power--sense-management)
+   + [Power Source](#power-source)
+   + [Sensors Integration](#sensors-integration)
+   + [BOM (Bill of Materials)](#bom-bill-of-materials)
+   + [Wiring Diagram](#wiring-diagram)
+
 7. [Obstacle Management](#6-obstacle-management)
+   + [Autonomous Driving Logic](#autonomous-driving-logic)
+   + [Open Challenge](#open-challenge)
+   + [Obstacle Challenge](#obstacle-challenge)
+     
 8. [Assembly Instructions](#7-assembly-instructions)
 9. [Performance Videos](#8-performance-videos)
    
