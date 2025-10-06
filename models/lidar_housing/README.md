@@ -7,7 +7,7 @@ This component serves as the mounting structure for the LiDAR sensor. It is slig
 
 **Model Details**
 - Format: `.stl`
-- Material: PLA+
+- Material: PLA
 - Layer height: 0.20 mm
 - Infill: 25%
 - Supports: Yes, for internal cavities
