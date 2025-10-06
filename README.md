@@ -34,9 +34,14 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 # Table of Contents
 1. [Meet the Team!](#1-meet-the-team)
+2. [Vehicle Overview](#2-vehicle-overview)
    + [General Description of the Car](#general-description-of-the-car)
-3. [Vehicle Overview](#2-vehicle-overview)
-4. [System Setup](#3-system-setup)
+   + [Versions of the Car](#versions-of-the-car)
+3. [System Setup](#3-system-setup)
+   + [Operating Environment Overview](#operating-environment-overview)
+   + [ROS](#ros)
+   + [Ubuntu](#ubuntu)
+   + [Raspberry Pi](#raspberry-pi)
 5. [Mobility Management](#4-mobility-management)
 6. [Power & Sense Management](#5-power--sense-management)
 7. [Obstacle Management](#6-obstacle-management)
