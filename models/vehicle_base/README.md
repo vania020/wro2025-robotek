@@ -2,9 +2,7 @@
 
 ![Vehicle Base](./vehicle_base.png)
 
-**Description:**  
-Main platform that supports all the modules of the robot, including the Raspberry Pi, LiDAR, and camera housings.  
-It is designed to provide mechanical stability and enough space for cable routing and component placement.
+This is the main platform that supports all the modules of the robot, including the Raspberry Pi, LiDAR, and camera housings. It is designed to provide mechanical stability and enough space for cable routing and component placement and was printed in MDF.
 
 **Model Details**
 - Format: `.stl` (Fusion 360 export)
