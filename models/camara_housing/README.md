@@ -1,5 +1,4 @@
 # Camera Housing
-**Preview**
 ![Camera Housing](./camara_housing.png)
 
 **Description:**  
