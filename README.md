@@ -1,4 +1,4 @@
-<img width="1600" height="400" alt="RUWANCE" src="https://github.com/user-attachments/assets/f62e61d4-6ade-4c75-b03e-b109d2be9b4d" /># Ruwance - WRO 2025<img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="Peru Flag" width="30"/>
+# Ruwance - WRO 2025<img width="40" alt="robotek" src="https://github.com/user-attachments/assets/bffadef9-b0aa-4810-93ff-13db445ac044" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="Peru Flag" width="30"/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner Ruwance" width="100%">
