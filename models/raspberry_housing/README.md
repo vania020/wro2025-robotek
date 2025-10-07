@@ -2,8 +2,7 @@
 
 ![Raspberry Housing](./raspberry_housing.png)
 
-**Description:**  
-This structure serves as a **space-efficient housing** that holds the **RRC Lite Controller** with the **Raspberry Pi 5**, our **7.4 V batteries**, and the L298N Motor Driver at the back. The design integrates components vertically to minimize the overall footprint of the robot.
+We designed this structure as a **space-efficient housing** that could hold the **RRC Lite Controller** with the **Raspberry Pi 5**, our **7.4 V batteries**, and the L298N Motor Driver at the back. The design integrates components vertically to reduce the length of the car.
 
 **Design Highlights**
 - Vertical design that saves horizontal space within the vehicle chassis.  
