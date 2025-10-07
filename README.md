@@ -704,16 +704,16 @@ A **message type** is like a template that defines **what kind of data** is sent
 
 
 ### <ins>**Open Challenge**</ins>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="50%">
-  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="50%">
-</p>
 
----
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="48%">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="48%">
+</div>
+
 ### ➡️ **Open Challenge Flowchart**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="50%">
+  <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%">
 </p>
 
 
@@ -724,11 +724,10 @@ A **message type** is like a template that defines **what kind of data** is sent
   <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="80%">
 </p>
 
----
 ### ➡️ **Obstacle Challenge Flowchart**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/def1b241-3253-4e54-824d-86904a846773" width="50%">
+  <img src="https://github.com/user-attachments/assets/def1b241-3253-4e54-824d-86904a846773" width="80%">
 </p>
 
 
