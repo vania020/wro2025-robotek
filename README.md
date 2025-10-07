@@ -445,19 +445,19 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
 
 ### <ins>**3D Pieces**</ins>
 
-<table align="center" width="100%">
+<table align="center" width="100%" style="table-layout: fixed;">
   <thead>
     <tr>
-      <th>Component</th>
-      <th>Preview</th>
-      <th>Folder</th>
+      <th width="33%">Component</th>
+      <th width="34%">Preview</th>
+      <th width="33%">Folder</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center"><b>Vehicle Base</b></td>
       <td align="center">
-        <img src="models/vehicle_base/vehicle_base.png" width="220px">
+        <img src="models/vehicle_base/vehicle_base.png" width="90%">
       </td>
       <td align="center">
         <a href="models/vehicle_base/">View</a>
@@ -466,7 +466,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
     <tr>
       <td align="center"><b>Vehicle Wheels</b></td>
       <td align="center">
-        <img src="models/vehicle_wheels/vehicle_wheels.png" width="220px">
+        <img src="models/vehicle_wheels/vehicle_wheels.png" width="90%">
       </td>
       <td align="center">
         <a href="models/vehicle_wheels/">View</a>
@@ -475,7 +475,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
     <tr>
       <td align="center"><b>Camera Housing</b></td>
       <td align="center">
-        <img src="models/camara_housing/camara_housing.png" width="220px">
+        <img src="models/camara_housing/camara_housing.png" width="90%">
       </td>
       <td align="center">
         <a href="models/camara_housing/">View</a>
@@ -484,7 +484,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
     <tr>
       <td align="center"><b>LiDAR Housing</b></td>
       <td align="center">
-        <img src="models/lidar_housing/lidar_housing.png" width="220px">
+        <img src="models/lidar_housing/lidar_housing.png" width="90%">
       </td>
       <td align="center">
         <a href="models/lidar_housing/">View</a>
@@ -493,7 +493,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
     <tr>
       <td align="center"><b>Raspberry Housing</b></td>
       <td align="center">
-        <img src="models/raspberry_housing/raspberry_housing.png" width="220px">
+        <img src="models/raspberry_housing/raspberry_housing.png" width="90%">
       </td>
       <td align="center">
         <a href="models/raspberry_housing/">View</a>
