@@ -1,5 +1,3 @@
-# Camera Housing
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/18663c6d-ac6f-460e-a705-aba01630a73f" width="100%">
 </p>
@@ -8,11 +6,7 @@
   <img src=./camara_housing.png width="80%">
 </p>
 
-![Camera Housing](./camara_housing.png)
-
-**Description:**  
-This component holds the main camera. It ensures the correct viewing angle.
-The mount features screw holes for M3 fasteners and is designed to fit the front section of the robot chassis.
+This component holds our DOF camera. It ensures a correct viewing of the obstacles thanks to the inclination angle. The mount features screw holes and is designed to fit the front section of the robot chassis.
 
 **Model Details**
 - Format: `.stl`
