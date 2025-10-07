@@ -558,8 +558,6 @@ Unlike simpler sensors such as ultrasonic or infrared, which measure only in a s
 | Ranging Accuracy       | ±45 mm                      |
 | Ranging Frequency      | 5000 Hz                     |
 
-<br>
-
 > [!IMPORTANT]
 > **📍Placement:**
 > The LiDAR was positioned at an altitude of under 10 cm, so it can detect the walls of the path, which are also 10 cm high. This placement ensures the Lidar has a clear view of the obstacles while remaining unobstructed by other components. All other elements on the car were arranged to avoid blocking the Lidar’s line of sight. <br><br>
@@ -577,8 +575,6 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
  + **Color detection**: Since graphical color detection is a core part of our  project, the camera can precisely identify various colors on the course. This allows our car to interact with the different traffic signs in the Obstacle challenge.
   + **Spatial awareness through data fusion**: When combining camera data with our sensor, the robot gains a richer understanding of its environment. The camera provides detailed visual context that leads to an adaptable navigation strategy.
-
-<br>
 
 > [!IMPORTANT]
 > **📍Placement:**
