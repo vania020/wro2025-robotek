@@ -675,7 +675,6 @@ This table better explains our ROS topics and messages:
 | **Raspberry Pi 5 Controller Node**      | Subscriber         | `/positionServo`               | `ros_robot_controller_msgs/SetAckerServoState`                     | Executes servo position commands and moves the front wheels to reach the target angle.                                                      |
 | **RRC Controller Button**               | Publisher          | `/button`                      | `ros_robot_controller_msgs/ButtonState`                            | Sends an activation signal when the onboard button is pressed, starting the robot’s control loop.                                           |
 
----
 
 ### 🧩 **Notes**
 
@@ -691,7 +690,6 @@ This table better explains our ROS topics and messages:
 * The **AckerLidar Node** acts as the core controller that links everything:
   it subscribes to LiDAR and camera data, processes the PID control, and publishes both the steering and velocity commands.
 
----
 ### 📨 **Message types**
 
 A **message type** is like a template that defines **what kind of data** is sent through a *topic*. For example, ROS already includes many built-in types, such as:
@@ -701,6 +699,8 @@ A **message type** is like a template that defines **what kind of data** is sent
 * `sensor_msgs/LaserScan` → used to send LiDAR data (distance readings around 360°).
 * `geometry_msgs/Twist` → used to send linear and angular velocities (very common in mobile robots).
 * And you can also have **custom message types**, like the ones included in your own package `ros_robot_controller_msgs`.
+
+---
 
 
 ### <ins>**Open Challenge**</ins>
@@ -725,8 +725,7 @@ When this balance holds true, it means that both walls are equidistant, and the 
 
 ### **How It Works: LiDAR + Control Loop**
 
-The LiDAR sensor scans the surrounding environment in real time, detecting obstacles and measuring the distances around the car.  
-From these scans, two zones are analyzed — one on the **left** and one on the **right** — to extract D₁ and D₂.
+The LiDAR sensor scans the surrounding environment in real time, detecting obstacles and measuring the distances around the car. From these scans, two zones are analyzed, one on the **left** and one on the **right** — to extract D₁ and D₂.
 
 These values are sent to the **AckerLidarNode**, the main control node in charge of:
 - Reading and processing LiDAR data  
@@ -749,13 +748,17 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
   <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="80%">
 </div>
 
-### ➡️ **Open Challenge Flowchart**
+### **Open Challenge Flowchart**
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%">
-</p>
+<table>
+  <tr>
+    <!-- Columna izquierda: imagen -->
+    <td align="center" width="45%">
+      <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="95%">
+    </td>
 
-#### Step-by-Step Description
+    <!-- Columna derecha: texto explicativo -->
+    <td width="55%" valign="top">
 
 1. **Start Robot & Initialization**  
    ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics).
@@ -781,9 +784,12 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
 8. **3 Laps Completed → Stop Vehicle**  
    After completing three full laps, the system safely reduces speed and stops the motor node.
 
----
+    </td>
+  </tr>
+</table>
 
-### <ins>**Nodes and Communication**</ins>
+
+### **Nodes and Communication**
 
 During the Open Challenge, three ROS2 nodes work together in real time:
 
@@ -792,6 +798,8 @@ During the Open Challenge, three ROS2 nodes work together in real time:
 | **`AckerLidarNode`** | 🧠 Main Control Node | Subscribes to LiDAR data, calculates the distance difference, runs the PID controller, and sends steering/motor commands. |
 | **`MotorPWMNode`** | ⚙️ Motor Control | Receives speed values (`Float32`) and controls the DC motor through PWM signals, ensuring smooth acceleration. |
 | **`SetAckerServoState`** | 🔄 Steering Control | Adjusts the steering servo angle according to PID output, maintaining Ackermann kinematics. |
+
+---
 
 
 ### <ins>**Obstacle Challenge**</ins>
