@@ -757,7 +757,33 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
 
 ### **Open Challenge Flowchart**
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%"> </p> 1. **Start Robot & Initialization** ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics). 2. **Continuous Loop** The system enters a continuous loop (while rclpy.ok()), running dozens of times per second. Each cycle updates sensor readings and steering actions. 3. **LiDAR Scan Environment** The sensor performs a 360° scan to detect the walls and extract points on both sides of the track. 4. **Extract Wall Distances (D₁, D₂)** The algorithm filters the LiDAR data to isolate the left and right regions, computes the average distance for each, and updates D₁ and D₂. 5. **Compute Error (D₁ - D₂)** The difference between these distances represents how “off-center” the car is from the ideal middle of the lane. 6. **PID Steering Adjustment** The PID controller processes this error and outputs an angle correction, which is sent to the **servo motor** using an Ackermann steering model. 7. **Update Lap Counter** The control node counts laps based on internal flags or distance traveled (depending on the implementation in the ROS2 package). 8. **3 Laps Completed → Stop Vehicle** After completing three full laps, the system safely reduces speed and stops the motor node.
+<p align="center"> <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%"> </p> 
+
+#### Step-by-Step Description
+
+1. **Start Robot & Initialization**  
+   ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics).
+
+2. **Continuous Loop**  
+   The system enters a continuous loop (`while rclpy.ok()`), running dozens of times per second. Each cycle updates sensor readings and steering actions.
+
+3. **LiDAR Scan Environment**  
+   The sensor performs a 360° scan to detect the walls and extract points on both sides of the track.
+
+4. **Extract Wall Distances (D₁, D₂)**  
+   The algorithm filters the LiDAR data to isolate the left and right regions, computes the average distance for each, and updates D₁ and D₂.
+
+5. **Compute Error (D₁ - D₂)**  
+   The difference between these distances represents how “off-center” the car is from the ideal middle of the lane.
+
+6. **PID Steering Adjustment**  
+   The PID controller processes this error and outputs an angle correction, which is sent to the **servo motor** using an Ackermann steering model.
+
+7. **Update Lap Counter**  
+   The control node counts laps based on internal flags or distance traveled (depending on the implementation in the ROS2 package).
+
+8. **3 Laps Completed → Stop Vehicle**  
+   After completing three full laps, the system safely reduces speed and stops the motor node.
 
 ### **Nodes and Communication**
 
