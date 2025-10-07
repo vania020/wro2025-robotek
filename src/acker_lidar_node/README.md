@@ -1,6 +1,10 @@
 # Code Explanation — acker_lidar_node.py
 
-1. Libraries and Initialization
+---
+
+### **1. Libraries and Constants**
+
+```python
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
@@ -8,123 +12,143 @@ from std_msgs.msg import Float32, String
 from ros_robot_controller_msgs.msg import SetAckerServoState, ButtonState
 import numpy as np
 import time
+```
 
+**Explanation:**
 
-Explanation:
-This code imports all the essential ROS 2 and Python libraries:
+* Imports the required libraries for the robot’s LIDAR control system.
 
-rclpy – The main ROS 2 client library for Python. It lets us create publishers, subscribers, and timers.
+  * `rclpy`: Main ROS 2 library that manages communication between nodes.
+  * `sensor_msgs/LaserScan`: Used to receive LiDAR distance data.
+  * `std_msgs/Float32` and `String`: Standard ROS message types for simple values and text.
+  * `ros_robot_controller_msgs`: Custom message types to control the steering servo and button input.
+  * `numpy`: Used for numerical operations such as calculating averages.
+  * `time`: Provides delay and timing functions when needed.
 
-sensor_msgs.msg.LaserScan – Used to receive LiDAR readings.
+---
 
-std_msgs.msg.Float32 and String – Used to send motor velocity and string messages between nodes.
+### **2. Node and Publishers**
 
-ros_robot_controller_msgs.msg.SetAckerServoState and ButtonState – Custom messages for controlling the steering servo and reading the start button.
-
-numpy – For calculations like averages and filtering LiDAR data.
-
-time – For simple timing operations inside the node.
-
-2. Class Definition and Publishers
+```python
 class AckerLidarController(Node):
     def __init__(self):
         super().__init__('acker_lidar_node')
+```
 
+**Explanation:**
+Defines a ROS 2 node named **`acker_lidar_node`**, responsible for reading LiDAR data, processing it with a PID controller, and sending commands to the robot’s steering and motor.
 
-Explanation:
-We define a ROS 2 node called AckerLidarController, which handles:
-
-Reading LiDAR data.
-
-Running a PID control loop to keep the car centered.
-
-Publishing commands to the servo (for steering) and the motor (for speed).
-
-Then we create publishers:
-
+```python
 self.acker_publisher = self.create_publisher(SetAckerServoState, '/ros_robot_controller/acker_servo/set_state', 10)
 self.vel_pub = self.create_publisher(Float32, '/motor_vel', 10)
+```
 
+**Explanation:**
 
-These send:
+* Publishes the steering position to **`/ros_robot_controller/acker_servo/set_state`**.
+* Publishes motor velocity commands (PWM duty) to **`/motor_vel`**.
 
-Servo positions to /ros_robot_controller/acker_servo/set_state
+---
 
-Motor speed (PWM duty cycle) to /motor_vel
+### **3. Subscriptions**
 
-3. Subscriptions
+```python
 self.scan_subscription = self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
 self.button_subscription = self.create_subscription(ButtonState, '/ros_robot_controller/button', self.button_callback, 10)
 self.obst_subscription = self.create_subscription(String, '/obstaculos', self.obst_callback, 10)
+```
 
+**Explanation:**
 
-Explanation:
-The node listens to three topics:
+* **`/scan`**: Receives LiDAR readings.
+* **`/ros_robot_controller/button`**: Reads the state of the physical start button.
+* **`/obstaculos`**: Indicates the type of obstacle detected (red or green) to adjust the path.
 
-/scan → LiDAR readings from the 360° sensor.
+---
 
-/ros_robot_controller/button → The start button on the car.
+### **4. PID Control Constants and Parameters**
 
-/obstaculos → Indicates if a “green” or “red” obstacle is detected (used to bias turning).
-
-4. PID Controller Setup
+```python
 self.Kp = 1000.0
 self.Ki = 0.005
 self.Kd = 200.0
+```
 
+**Explanation:**
+Defines the constants for the PID controller.
 
-Explanation:
-The PID (Proportional–Integral–Derivative) controller keeps the car centered between the walls.
+* **Kp** (Proportional): Reacts to the current steering error.
+* **Ki** (Integral): Corrects accumulated offset over time.
+* **Kd** (Derivative): Stabilizes and smooths motion.
 
-Kp: reacts to current error.
+---
 
-Ki: corrects long-term drift.
+### **5. Servo and Setpoint Configuration**
 
-Kd: smooths quick changes.
-
-It calculates how much the servo should turn left or right based on the distance difference from LiDAR.
-
-5. Setpoint Adjustment Based on Obstacles
+```python
+self.center_position = 1500
+self.max_position = 2050
+self.min_position = 1000
 self.declare_parameter('sp_step', 0.70)
 self.sp_step = float(self.get_parameter('sp_step').value)
 self.sp_diff = 0.0
+```
 
+**Explanation:**
 
-Explanation:
-The setpoint (sp_diff) shifts slightly when the system detects an obstacle:
+* Defines the **servo limits** (minimum, maximum, and center).
+* **`sp_step`** defines how much to shift the setpoint when an obstacle is detected.
 
-If a green obstacle is found → the car moves slightly left.
+  * Green obstacle → steer slightly left.
+  * Red obstacle → steer slightly right.
 
-If a red obstacle is found → the car moves slightly right.
+---
 
-6. Button Activation
+### **6. Button Callback**
+
+```python
 def button_callback(self, msg):
     self.button_pressed = True
     self.vel_pub.publish(Float32(data=90.0))
+```
 
+**Explanation:**
 
-Explanation:
-When the start button is pressed, the node activates the car’s motor (starting with a safe initial duty of 90%).
+* When the physical button is pressed, the robot starts moving.
+* Publishes a velocity of **90.0** as the initial speed to the motor.
 
-7. Reading LiDAR Data
+---
+
+### **7. LiDAR Reading**
+
+```python
 def scan_callback(self, msg: LaserScan):
-    ...
-    left_avg = sum(valid_left) / len(valid_left)
-    right_avg = sum(valid_right) / len(valid_right)
-    self.current_error = (right_avg - left_avg) - self.sp_diff
+    total_angles = len(msg.ranges)
+    left_center = int(total_angles * (240 / 360))
+    right_center = int(total_angles * (120 / 360))
+```
 
+**Explanation:**
 
-Explanation:
-The LiDAR readings are divided into left and right sections.
-The node computes the average distance on each side and finds the error between them:
+* The LiDAR gives 360° distance readings.
+* The code splits them into **left** and **right** zones for comparison.
 
-error = 0 → the car is centered.
+```python
+self.current_error = (right_avg - left_avg) - self.sp_diff
+```
 
-error > 0 → too close to the left wall → turn right.
+**Explanation:**
+Calculates how far the robot is from being centered:
 
-error < 0 → too close to the right wall → turn left.
+* **`error = 0`** → perfectly centered.
+* **Positive error** → too close to the left wall → turn right.
+* **Negative error** → too close to the right wall → turn left.
 
-8. PID Output and Servo Control
+---
+
+### **8. PID Control Function**
+
+```python
 def pid_control(self):
     proportional = self.Kp * self.current_error
     self.integral += self.Ki * self.current_error
@@ -132,13 +156,19 @@ def pid_control(self):
     output = proportional + self.integral + derivative
     self.previous_error = self.current_error
     return output
+```
 
+**Explanation:**
+This function applies the PID algorithm:
 
-Explanation:
-The PID calculates a control value called output, used to adjust the servo angle.
-This ensures the robot follows walls smoothly and remains stable when driving.
+* Calculates proportional, integral, and derivative terms.
+* Returns the **output**, which represents how much the steering must change to stay centered.
 
-9. Control Loop
+---
+
+### **9. Control Loop**
+
+```python
 def control_loop(self):
     if self.button_pressed:
         steering = self.pid_control()
@@ -146,30 +176,37 @@ def control_loop(self):
         position = min(max(position, self.min_position), self.max_position)
         self.send_servo_command(position, 0.1)
         self.vel_pub.publish(Float32(data=100.0))
+```
 
+**Explanation:**
 
-Explanation:
-Every 0.1 seconds, this loop runs:
+* Runs every 0.1 seconds.
+* Uses the PID result to compute the new steering position.
+* Sends the command to the servo motor.
+* Keeps the car moving at a constant speed (100%).
+* If the button is not pressed, the robot remains stopped.
 
-Calculates the new servo position from the PID controller.
+---
 
-Sends the position command to the servo.
+### **10. Main Function**
 
-Keeps the car moving at a constant speed (100 duty).
-
-If the start button isn’t pressed, the motor stays off.
-
-10. Main Function
+```python
 def main(args=None):
     rclpy.init(args=args)
     controller = AckerLidarController()
     rclpy.spin(controller)
+```
 
+**Explanation:**
 
-Explanation:
-This is where the ROS 2 node starts running.
-It keeps the controller active, continuously processing LiDAR and button inputs, and sending commands to steer and move the car.
+* Initializes ROS 2.
+* Creates an instance of the node.
+* Keeps it running so it can continuously read sensors and control the motors until the program ends.
 
-✅ Tip: You can add a link at the top of your README like this:
+---
 
-[Back to Top ↑](#ackerlidar_nodepy)
+### **Summary**
+
+This node uses **LiDAR data** and a **PID controller** to keep the robot centered between walls or obstacles.
+It reacts to **red and green signals** by shifting its path slightly left or right.
+The car only starts after the **button** is pressed and continuously adjusts steering while moving.
