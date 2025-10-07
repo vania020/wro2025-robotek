@@ -13,7 +13,7 @@
 + Car Name: **Riska**
 + Club Name: **Robotek**
 + Team Members: **Isabella Gonzales & Vania Pachas**
-+ Coach: **Anthony Valladolid Ballon**
++ Coach: **Anthony Valladolid**
 
 ---
 
@@ -299,16 +299,13 @@ Without ROS, everything would have to be written in one long, complicated progra
   <tr>
     <td><b>Environmental Perception with LiDAR</b></td>
     <td>
-      Using LiDAR, we obtain precise 360° distance data, essential for detecting obstacles and walls. 
-      ROS packages like <code>laser_scan_matcher</code> and <code>gmapping</code> process this data 
-      to create real-time maps of the environment.
+      Most manufacturers of advanced sensors, such as LiDARs, provide an official package to use their hardware with ROS. In the case of the DTOF STL-19P, the manufacturer provides a package that automatically publishes the LiDAR data so it can be processed afterward. Support with Python ROS is fully compatible with Python, which allows for versatile and high-level code development. In addition, being open-source, it has a large community that provides support and assistance for robot development.
     </td>
   </tr>
   <tr>
-    <td><b>Autonomous Navigation & Path Planning</b></td>
+    <td><b>Debugging & Simulation</b></td>
     <td>
-      With ROS navigation tools such as <code>move_base</code>, the car can plan optimal routes 
-      and adjust them in real time—especially useful for the Obstacle Challenge.
+      ROS includes tools to quickly debug the content published on topics. It also provides tools such as RViz, which allows real-time data visualization, and Gazebo, which enables running simulations.
     </td>
   </tr>
   <tr>
@@ -657,7 +654,7 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
 
 ### <ins>**Control Node Structure**</ins>
 
-Since our vehicl
+Since we use ROS 2 as the middleware that connects all the components of our autonomous vehicle, there is no single “main” code that runs either the Open Challenge or the Obstacle Challenge. Instead, the system is built as a collection of independent but interconnected ROS 2 nodes, each performing a specific function such as reading the camera, processing LiDAR data, or controlling the motors. These nodes communicate constantly through topics and messages, allowing the car to behave as a cohesive, intelligent system.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/52664f04-fa23-48df-a97d-d70433b9a828" width="80%">
@@ -674,8 +671,17 @@ This table better explains our ROS topics and messages:
 | **Raspberry Pi 5 Controller Node**      | Subscriber         | `/positionServo`               | `ros_robot_controller_msgs/SetAckerServoState`                     | Executes servo position commands and moves the front wheels to reach the target angle.                                                      |
 | **RRC Controller Button**               | Publisher          | `/button`                      | `ros_robot_controller_msgs/ButtonState`                            | Sends an activation signal when the onboard button is pressed, starting the robot’s control loop.                                           |
 
+### ** What is a Message type?**
 
-### 🧩 **Notes**
+A **message type** is like a template that defines **what kind of data** is sent through a *topic*. For example, ROS already includes many built-in types, such as:
+
+* `std_msgs/String` → used to send text.
+* `std_msgs/Float32` → used to send a decimal number.
+* `sensor_msgs/LaserScan` → used to send LiDAR data (distance readings around 360°).
+* `geometry_msgs/Twist` → used to send linear and angular velocities (very common in mobile robots).
+* And you can also have **custom message types**, like the ones included in your own package `ros_robot_controller_msgs`.
+* 
+### **Important clarifiactions**
 
 * For simplicity, **some topic names were shortened** in the diagrams.
 
@@ -689,15 +695,11 @@ This table better explains our ROS topics and messages:
 * The **AckerLidar Node** acts as the core controller that links everything:
   it subscribes to LiDAR and camera data, processes the PID control, and publishes both the steering and velocity commands.
 
-### 📨 **Message types**
 
-A **message type** is like a template that defines **what kind of data** is sent through a *topic*. For example, ROS already includes many built-in types, such as:
 
-* `std_msgs/String` → used to send text.
-* `std_msgs/Float32` → used to send a decimal number.
-* `sensor_msgs/LaserScan` → used to send LiDAR data (distance readings around 360°).
-* `geometry_msgs/Twist` → used to send linear and angular velocities (very common in mobile robots).
-* And you can also have **custom message types**, like the ones included in your own package `ros_robot_controller_msgs`.
+> [!NOTE]
+> If you would like to see a detailed description and explanation of the code behind each node, please visit our [`src`](https://github.com/vania020/wro2025-robotek/tree/main/src) folder 🖥️🚗
+> 
 
 ---
 
@@ -744,43 +746,7 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
 
 ### **Open Challenge Flowchart**
 
-<table>
-  <tr>
-    <!-- Columna izquierda: imagen -->
-    <td align="center" width="60%">
-      <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="95%">
-    </td>
-    <!-- Columna derecha: texto explicativo -->
-    <td width="40%" valign="top">
-
-1. **Start Robot & Initialization**  
-   ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics).
-
-2. **Continuous Loop**  
-   The system enters a continuous loop (`while rclpy.ok()`), running dozens of times per second. Each cycle updates sensor readings and steering actions.
-
-3. **LiDAR Scan Environment**  
-   The sensor performs a 360° scan to detect the walls and extract points on both sides of the track.
-
-4. **Extract Wall Distances (D₁, D₂)**  
-   The algorithm filters the LiDAR data to isolate the left and right regions, computes the average distance for each, and updates D₁ and D₂.
-
-5. **Compute Error (D₁ - D₂)**  
-   The difference between these distances represents how “off-center” the car is from the ideal middle of the lane.
-
-6. **PID Steering Adjustment**  
-   The PID controller processes this error and outputs an angle correction, which is sent to the **servo motor** using an Ackermann steering model.
-
-7. **Update Lap Counter**  
-   The control node counts laps based on internal flags or distance traveled (depending on the implementation in the ROS2 package).
-
-8. **3 Laps Completed → Stop Vehicle**  
-   After completing three full laps, the system safely reduces speed and stops the motor node.
-
-    </td>
-  </tr>
-</table>
-
+<p align="center"> <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%"> </p> 1. **Start Robot & Initialization** ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics). 2. **Continuous Loop** The system enters a continuous loop (while rclpy.ok()), running dozens of times per second. Each cycle updates sensor readings and steering actions. 3. **LiDAR Scan Environment** The sensor performs a 360° scan to detect the walls and extract points on both sides of the track. 4. **Extract Wall Distances (D₁, D₂)** The algorithm filters the LiDAR data to isolate the left and right regions, computes the average distance for each, and updates D₁ and D₂. 5. **Compute Error (D₁ - D₂)** The difference between these distances represents how “off-center” the car is from the ideal middle of the lane. 6. **PID Steering Adjustment** The PID controller processes this error and outputs an angle correction, which is sent to the **servo motor** using an Ackermann steering model. 7. **Update Lap Counter** The control node counts laps based on internal flags or distance traveled (depending on the implementation in the ROS2 package). 8. **3 Laps Completed → Stop Vehicle** After completing three full laps, the system safely reduces speed and stops the motor node.
 
 ### **Nodes and Communication**
 
@@ -792,6 +758,7 @@ During the Open Challenge, three ROS2 nodes work together in real time:
 | **`MotorPWMNode`** | Motor Control | Receives speed values (`Float32`) and controls the DC motor through PWM signals, ensuring smooth acceleration. |
 | **`SetAckerServoState`** | Steering Control | Adjusts the steering servo angle according to PID output, maintaining Ackermann kinematics. |
 
+
 ---
 
 
@@ -801,7 +768,7 @@ During the Open Challenge, three ROS2 nodes work together in real time:
   <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="100%">
 </p>
 
-### ➡️ **Obstacle Challenge Flowchart**
+### **Obstacle Challenge Flowchart**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/def1b241-3253-4e54-824d-86904a846773" width="80%">
