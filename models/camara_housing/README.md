@@ -1,4 +1,13 @@
 # Camera Housing
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner Ruwance" width="100%">
+</p>
+
+<p align="center">
+  <img src=./camara_housing.png width="100%">
+</p>
+
 ![Camera Housing](./camara_housing.png)
 
 **Description:**  
