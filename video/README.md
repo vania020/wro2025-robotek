@@ -9,6 +9,6 @@
 | Challenge | Preview |
 |------------|----------|
 | 🟢 **Open Challenge** | [![Open Challenge](https://img.youtube.com/vi/iRfN6pBE0Ac/maxresdefault.jpg)](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
-| 🔴 **Obstacle Challenge** | [![Obstacle Challenge](https://img.youtube.com/vi/iRfN6pBE0Ac/maxresdefault.jpg)](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
+| 🔴 **Obstacle Challenge** | [![Obstacle Challenge](https://www.youtube.com/watch?v=5Ic2xejqBcA/maxresdefault.jpg)](https://www.youtube.com/watch?v=5Ic2xejqBcA) |
 
 </div>
