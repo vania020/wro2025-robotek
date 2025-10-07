@@ -1,4 +1,4 @@
-# Raspberry Pi Housing
+<img width="1500" height="250" alt="RUWANCE (1)" src="https://github.com/user-attachments/assets/7b1ab69f-91f9-43df-92b8-2583a122aaaf" />
 
 ![Raspberry Housing](./raspberry_housing.png)
 
