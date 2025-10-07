@@ -1,7 +1,4 @@
-
-# Into the Code
-
-## **Camera Node — `camara_node.py`**
+## Code Explanation — [`camara_node.py`](./camara.py) 
 
 ### ✅ **Summary**
 
