@@ -7,6 +7,8 @@ This piece is the **main platform of our vehicle**. It supports all the main com
 
 For the fabrication process, we started by sketching the base on squared paper and then prototyping it on cardboard. We used acrylic to test the dimensions on our first models. After confirming the fit, we finalized the design in Fusion 360 and cut it in MDF for the final version. 
 
+<br>
+
 <p align = "center">
   <img src = "https://github.com/user-attachments/assets/e04d6d9c-100d-4ad1-b536-d3c2bc3671d8" width="50%">
 </p>
