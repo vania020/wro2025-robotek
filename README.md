@@ -457,9 +457,15 @@ Below, you will find a table with our 3D-printed parts and their descriptions.
   </thead> 
   <tbody> 
     <tr> 
-      <td align="center"><b>Vehicle Base</b></td> 
-      <td align="center"> <img src="models/vehicle_base/vehicle_base.png" width="90%"> </td> 
-      <td align="center"> <a href="models/vehicle_base/" target="_self">View</a> </td> 
+      <td 
+        align="center"><b>Vehicle Base</b>
+      </td> 
+      <td 
+        align="center"> <img src="models/vehicle_base/vehicle_base.png" width="90%"> 
+      </td> 
+      <td 
+        align="center"> <a href="models/vehicle_base/" target="_self">View</a> 
+      </td> 
     </tr> 
     <tr> 
       <td align="center"><b>Vehicle Wheels</b></td> 
