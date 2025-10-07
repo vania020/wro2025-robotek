@@ -646,8 +646,41 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 
 <br>
 
+This is also a wiring di
+
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
+
+### <ins>**ROS Topics Overview**</ins>
+
+| **Node**                                | **Role**           | **Topic**                      | **Message Type**                                                   | **What It Transmits**                                                                                                                       |
+| --------------------------------------- | ------------------ | ------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **LiDAR Node**                          | Publisher          | `/scan`                        | `sensor_msgs/LaserScan`                                            | Sends 360° distance readings from the LiDAR; each value represents how far an obstacle is at a given angle.                                 |
+| **Camera Node**                         | Publisher          | `/obstaculos`                  | `std_msgs/String`                                                  | Publishes the detected obstacle color (`rojo`, `verde`, or `ninguno`), which defines how the main controller adjusts the steering setpoint. |
+| **AckerLidar Node** *(Main Controller)* | Central Controller | `/motor_vel`, `/positionServo` | `std_msgs/Float32`, `ros_robot_controller_msgs/SetAckerServoState` | `/motor_vel`: Motor duty cycle (speed %). `/positionServo`: Steering position (PWM in µs) for Ackermann control.                            |
+| **Motor Node**                          | Subscriber         | `/motor_vel`                   | `std_msgs/Float32`                                                 | Receives motor velocity commands from the main controller and translates them into PWM signals for the DC motor driver (L298N).             |
+| **Raspberry Pi 5 Controller Node**      | Subscriber         | `/positionServo`               | `ros_robot_controller_msgs/SetAckerServoState`                     | Executes servo position commands and moves the front wheels to reach the target angle.                                                      |
+| **RRC Controller Button**               | Publisher          | `/button`                      | `ros_robot_controller_msgs/ButtonState`                            | Sends an activation signal when the onboard button is pressed, starting the robot’s control loop.                                           |
+
+---
+
+### 🧩 **Notes**
+
+* For simplicity, **some topic names were shortened** in the diagrams.
+
+  * The real ROS topic `/ros_robot_controller/acker_servo/set_state` is represented as **`/positionServo`**.
+  * The real ROS topic `/ros_robot_controller/button` is represented as **`/button`**.
+
+* The naming convention was simplified only for documentation clarity; all logic and connections in the code remain unchanged.
+
+* The **AckerLidar Node** acts as the core controller that links everything:
+  it subscribes to LiDAR and camera data, processes the PID control, and publishes both the steering and velocity commands.
+
+---
+
+¿Quieres que te lo deje en **Markdown puro** (como arriba) o en **HTML table** con bordes y centrado para mantener el mismo formato visual que tus otras secciones (como la de “Car Versions”)?
+
+
 
 ### <ins>**Open Challenge**</ins>
 <p align="center">
