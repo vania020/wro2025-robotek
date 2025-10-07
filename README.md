@@ -444,6 +444,10 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
 </p>
 
 ### <ins>**3D Pieces**</ins>
+This is the 3D model of our vehicle, besides, you will find a table with our 3D-printed part and their description.
+
+<img width="1920" height="1080" alt="assembly " src="https://github.com/user-attachments/assets/3efc5d12-f77e-447b-8fb1-fdd75fd965ec" />
+
 
 <table align="center" width="100%" style="table-layout: fixed;">
   <thead>
@@ -469,7 +473,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
         <img src="models/vehicle_wheels/vehicle_wheels.png" width="90%">
       </td>
       <td align="center">
-        <a href="models/vehicle_wheels/">View</a>
+        <a href="models/vehicle_wheels/" target="_self">View</a>
       </td>
     </tr>
     <tr>
@@ -478,7 +482,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
         <img src="models/camara_housing/camara_housing.png" width="90%">
       </td>
       <td align="center">
-        <a href="models/camara_housing/">View</a>
+        <a href="models/camara_housing/" target="_self">View</a>
       </td>
     </tr>
     <tr>
@@ -487,7 +491,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
         <img src="models/lidar_housing/lidar_housing.png" width="90%">
       </td>
       <td align="center">
-        <a href="models/lidar_housing/">View</a>
+        <a href="models/lidar_housing/" target="_self">View</a>
       </td>
     </tr>
     <tr>
@@ -496,7 +500,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
         <img src="models/raspberry_housing/raspberry_housing.png" width="90%">
       </td>
       <td align="center">
-        <a href="models/raspberry_housing/">View</a>
+        <a href="models/raspberry_housing/" target="_self">View</a>
       </td>
     </tr>
   </tbody>
