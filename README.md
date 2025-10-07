@@ -781,6 +781,15 @@ During the Open Challenge, three ROS2 nodes work together in real time:
 <br><br>
 ## 8. Performance Videos 
 
+<div align="center">
+
+| Challenge | YouTube Video |
+|------------|----------------|
+| **Open Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
+| **Obstacle Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=5Ic2xejqBcA) |
+
+</div>
+
 
 
 
