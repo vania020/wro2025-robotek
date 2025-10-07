@@ -447,48 +447,63 @@ Below, you will find a table with our 3D-printed parts and their descriptions.
   <img src="https://github.com/user-attachments/assets/3efc5d12-f77e-447b-8fb1-fdd75fd965ec" width="90%">
 </p>
 
-<table align="center" width="100%" style="table-layout: fixed;"> 
+<table align="center" width="100%" style="table-layout: fixed;">
   <thead>
-    <tr> 
-      <th width="30%">Component</th> 
-      <th width="40%">Preview</th> 
-      <th width="30%">Folder</th> 
+    <tr>
+      <th width="30%">Component</th>
+      <th width="40%">Preview</th>
+      <th width="30%">Folder</th>
     </tr>
-  </thead> 
-  <tbody> 
-    <tr> 
-      <td 
-        align="center"><b>Vehicle Base</b>
-      </td> 
-      <td 
-        align="center"> <img src="models/vehicle_base/vehicle_base.png" width="90%"> 
-      </td> 
-      <td 
-        align="center"> <a href="models/vehicle_base/" target="_self">View</a> 
-      </td> 
-    </tr> 
-    <tr> 
-      <td align="center"><b>Vehicle Wheels</b></td> 
-      <td align="center"> <img src="models/vehicle_wheels/vehicle_wheels.png" width="90%"> </td> 
-      <td align="center"> <a href="models/vehicle_wheels/" target="_self">View</a> </td>
-    </tr> 
-    <tr> 
-      <td align="center"><b>Camera Housing</b></td> 
-      <td align="center"> <img src="models/camara_housing/camara_housing.png" width="90%"> </td> 
-      <td align="center"> <a href="models/camara_housing/" target="_self">View</a> </td> 
-    </tr> 
-    <tr> 
-      <td align="center"><b>LiDAR Housing</b></td> 
-      <td align="center"> <img src="models/lidar_housing/lidar_housing.png" width="90%"> </td> 
-      <td align="center"> <a href="models/lidar_housing/" target="_self">View</a> </td> 
-    </tr> 
-    <tr> 
-      <td align="center"><b>Raspberry Housing</b></td> 
-      <td align="center"> <img src="models/raspberry_housing/raspberry_housing.png" width="90%"> </td> 
-      <td align="center"> <a href="models/raspberry_housing/" target="_self">View</a> </td> 
-    </tr> 
-  </tbody> 
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Vehicle Base</b></td>
+      <td align="center">
+        <img src="models/vehicle_base/vehicle_base.png" width="90%">
+      </td>
+      <td align="center">
+        <a href="models/vehicle_base/" target="_blank">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Vehicle Wheels</b></td>
+      <td align="center">
+        <img src="models/vehicle_wheels/vehicle_wheels.png" width="90%">
+      </td>
+      <td align="center">
+        <a href="models/vehicle_wheels/" target="_blank">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Camera Housing</b></td>
+      <td align="center">
+        <img src="models/camara_housing/camara_housing.png" width="90%">
+      </td>
+      <td align="center">
+        <a href="models/camara_housing/" target="_blank">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>LiDAR Housing</b></td>
+      <td align="center">
+        <img src="models/lidar_housing/lidar_housing.png" width="90%">
+      </td>
+      <td align="center">
+        <a href="models/lidar_housing/" target="_blank">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Raspberry Housing</b></td>
+      <td align="center">
+        <img src="models/raspberry_housing/raspberry_housing.png" width="90%">
+      </td>
+      <td align="center">
+        <a href="models/raspberry_housing/" target="_blank">View</a>
+      </td>
+    </tr>
+  </tbody>
 </table>
+
 
 ## 5. Power & Sense Management 
 
