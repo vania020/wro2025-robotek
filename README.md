@@ -448,9 +448,9 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
 <table align="center" width="100%" style="table-layout: fixed;">
   <thead>
     <tr>
-      <th width="33%">Component</th>
-      <th width="34%">Preview</th>
-      <th width="33%">Folder</th>
+      <th width="30%">Component</th>
+      <th width="40%">Preview</th>
+      <th width="30%">Folder</th>
     </tr>
   </thead>
   <tbody>
