@@ -649,7 +649,7 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 This is also a diagram that shows the **electrical wiring** and pin-level connections between all components — including power lines, GPIOs, and communication ports. It focuses on **signal paths and voltage levels** rather than physical appearance.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
+  <img src="https://github.com/user-attachments/assets/6e7abe3c-c553-48f9-9c59-543b3cd9996b" width="80%">
 </p>
 
 ## 6. Obstacle Management 
