@@ -349,117 +349,125 @@ With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash 
 
 <br>
 
-## 4. Mobility Management 
+## 4. Mobility Management  
 
-### <ins>**Steering System - Ackermann**</ins>
+---
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" alt="Ackermann" width="70%">
-</p>
-
-Our autonomous car uses an Ackermann steering system, controlled by a 15 kg·cm digital servo, which provides precise and stable control for navigation and turns. <br>
-
-The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
-
-### **Our own modifications ⚒️**
-In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels. <br><br>
+### <ins>**Steering System – Ackermann**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300" height= "200">
-  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300" height= "200">
+  <img src="https://github.com/user-attachments/assets/8cfcffdb-48aa-4297-a41c-b494a0f222c0" width="70%">
 </p>
 
+Our autonomous car uses an **Ackermann steering system**, controlled by a **15 kg·cm digital servo**, which provides precise and stable control for navigation and turns.  
 
-<br> 
+The Ackermann steering geometry reduces tire slip by ensuring all wheels follow circular paths with a **shared turning center**.  
+In this configuration:
+- The **rear wheels remain fixed**, forming the rotation axis.
+- The **inner front wheel** turns at a greater angle than the outer one.  
 
-One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.<br><br>
+This setup allows **smooth cornering** and **efficient steering control**.
 
-For this reason, we decided to switch to the system we currently use, which is part of the Hiwonder kit, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+---
+
+#### ⚒️ **Custom Design & Evolution**
+
+In the early versions, we implemented a **custom Ackermann mechanism**.  
+We designed and 3D-printed a **gear-and-rack system** driven by a stepper motor — the rack (a toothed bar) converted motor rotation into steering motion.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300">
+  <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300">
 </p>
+
+However, 3D printing such **fine details** (gear teeth) proved inconsistent, leading to friction and misalignment.  
+We enlarged the gears to fix the issue, but the design became **too bulky** for the chassis.  
+
+So, we transitioned to the **HiWonder kit Ackermann**, adapting it to our chassis.  
+Instead of gears, it uses **linkages connected by screws and bearings** that transfer servo motion directly to the wheels — a more compact and reliable setup.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="320">
+</p>
+
+---
+
+#### ⚙️ **Servo Adjustment**
 
 > [!WARNING]
-> At first, the Ackermann of the Hiwonderkit worked fine, the car could turn and even get through some obstacles. But after a lot of testing, we noticed that whenever the car turned left, the Ackermann didn’t rotate as much as it did when turning right. This made obstacle avoidance harder, especially in the field corners, so we knew we had to make adjustments.
+> The original servo layout (horizontal) limited turning angles on the **left side**, making cornering inconsistent.  
 
-We realized that the servo needed to be repositioned. First, it was placed horizontally under the Ackerman linkages. We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis. This way, the linkages could move freely with more angles, and we also freed up extra space for the other components. This new placement also allowed us to reduce the length of the chassis. <br><br>
+To fix this, we:
+1. **Repositioned the servo vertically** under the chassis.  
+2. Allowed **greater angular movement** of the linkages.  
+3. **Freed chassis space**, reducing total length and improving component arrangement.
 
-
-<table>  
+<table align="center" width="100%">
   <tr>
-    <th width="30%">Initial position</th>
-    <th width="30%">Idea</th>
-    <th width="30%">Final Position</th>
+    <th>Initial Position</th>
+    <th>Redesign Idea</th>
+    <th>Final Position</th>
   </tr>
-  
   <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd"/>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8"/>
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" />
-    </td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/c2211141-81ed-4bbd-ad60-2111033b03cd" width="90%"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fe8e9d70-c1c7-496e-81b4-c050766807a8" width="90%"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/85a6c25b-8473-4ee0-b0c3-f3ce70bd4888" width="90%"></td>
   </tr>
-
   <tr>
-    <td>
-      Servo mounted horizontally (limited angles)
-    </td>
-    <td>
-      Servo repositioned vertically
-    </td>
-    <td>
-      Final placement with improved steering
-    </td>
+    <td align="center">Servo mounted horizontally (limited range)</td>
+    <td align="center">Proposed vertical configuration</td>
+    <td align="center">Final version with improved steering</td>
   </tr>
-  
 </table>
-  
+
+---
+
 ### <ins>**Motor and Drivetrain**</ins>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f636176b-af6a-4b72-bb31-53f025ab41b1" width="70%">
 </p>
 
-The drivetrain of our autonomous car is powered by a **25 mm metal gear DC motor**, chosen for its compact size and high torque.  
-The motor is mounted on the chassis and directly connected to the **rear axle** through a gear system, ensuring efficient transfer of power to the wheels.
+The drivetrain is powered by a **25 mm metal gear DC motor**, chosen for its compact size and high torque.  
+It connects directly to the **rear axle** through a **gear reduction system**, ensuring smooth and efficient power transfer.
 
 ---
 
 #### ⚙️ **Gear Reduction System**
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" width="50%">
+  <img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" width="60%">
 </p>
 
-To optimize torque and control, the drivetrain features a **two-gear reduction system**:
-- The **small gear** is mounted on the motor shaft.  
-- It drives a **larger gear** attached to the rear axle.  
-- This ratio increases **torque at the wheels**, providing greater force for acceleration and stability even when motor speed remains constant.
+- A **small gear** is mounted on the motor shaft.  
+- It drives a **larger gear** on the rear axle.  
+- This setup increases **torque** at the wheels, allowing better acceleration and control even at constant motor speed.
 
 ---
 
 #### 🧩 **Assembly Improvements**
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width="50%">
 </p>
 
-During assembly, a small **gap** appeared between the metal chassis and the axle supports, which caused instability in the drivetrain.  
-To fix this, we designed **custom 3D-printed cylindrical spacers** that fill the gap and keep the axle firmly in place.
+During assembly, we noticed a small **gap** between the chassis and axle supports, which caused drivetrain instability.  
+To solve this, we designed **custom 3D-printed cylindrical spacers** to keep the axle securely aligned.
 
-This simple yet effective improvement:
-- Reduces **vibrations** and **mechanical noise**.  
-- Prevents **axle misalignment**.  
-- Ensures a **smoother power transmission** from the motor to the wheels.
+**Results:**
+- Reduced **vibrations** and **mechanical noise**.  
+- Prevented **axle misalignment**.  
+- Achieved **smoother power transmission** from motor to wheels.
 
-### <ins>**3D Pieces**</ins>
-This is the 3D model of our vehicle, besides, you will find a table with our 3D-printed part and their description.
+---
 
-<img width="1920" height="1080" alt="assembly " src="https://github.com/user-attachments/assets/3efc5d12-f77e-447b-8fb1-fdd75fd965ec" />
+### <ins>**3D Components Overview**</ins>
 
+This section shows the **main 3D-printed components** of our vehicle and their reference models.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3efc5d12-f77e-447b-8fb1-fdd75fd965ec" width="85%">
+</p>
 
 <table align="center" width="100%" style="table-layout: fixed;">
   <thead>
@@ -472,53 +480,32 @@ This is the 3D model of our vehicle, besides, you will find a table with our 3D-
   <tbody>
     <tr>
       <td align="center"><b>Vehicle Base</b></td>
-      <td align="center">
-        <img src="models/vehicle_base/vehicle_base.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/vehicle_base/" target="_self">View</a>
-      </td>
+      <td align="center"><img src="models/vehicle_base/vehicle_base.png" width="90%"></td>
+      <td align="center"><a href="models/vehicle_base/" target="_self">View</a></td>
     </tr>
     <tr>
       <td align="center"><b>Vehicle Wheels</b></td>
-      <td align="center">
-        <img src="models/vehicle_wheels/vehicle_wheels.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/vehicle_wheels/" target="_self">View</a>
-      </td>
+      <td align="center"><img src="models/vehicle_wheels/vehicle_wheels.png" width="90%"></td>
+      <td align="center"><a href="models/vehicle_wheels/" target="_self">View</a></td>
     </tr>
     <tr>
       <td align="center"><b>Camera Housing</b></td>
-      <td align="center">
-        <img src="models/camara_housing/camara_housing.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/camara_housing/" target="_self">View</a>
-      </td>
+      <td align="center"><img src="models/camara_housing/camara_housing.png" width="90%"></td>
+      <td align="center"><a href="models/camara_housing/" target="_self">View</a></td>
     </tr>
     <tr>
       <td align="center"><b>LiDAR Housing</b></td>
-      <td align="center">
-        <img src="models/lidar_housing/lidar_housing.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/lidar_housing/" target="_self">View</a>
-      </td>
+      <td align="center"><img src="models/lidar_housing/lidar_housing.png" width="90%"></td>
+      <td align="center"><a href="models/lidar_housing/" target="_self">View</a></td>
     </tr>
     <tr>
       <td align="center"><b>Raspberry Housing</b></td>
-      <td align="center">
-        <img src="models/raspberry_housing/raspberry_housing.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/raspberry_housing/" target="_self">View</a>
-      </td>
+      <td align="center"><img src="models/raspberry_housing/raspberry_housing.png" width="90%"></td>
+      <td align="center"><a href="models/raspberry_housing/" target="_self">View</a></td>
     </tr>
   </tbody>
 </table>
 
-<br>
 
 ## 5. Power & Sense Management 
 
