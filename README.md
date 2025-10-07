@@ -606,7 +606,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 
 ### <ins>**Wiring Diagram**<ins>
 
-The following diagrams illustrate how all the main components of the car are interconnected, ensuring proper communication and stable power distribution across the system.  
+The following visual wiring diagram illustrates the **physical connections** between the modules (Raspberry Pi, LiDAR, camera, motor, etc.) using **realistic component images**. It helps visualize the system layout and understand **how components are arranged and linked** in the robot.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
@@ -646,27 +646,11 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 
 <br>
 
-This is also a wiring di
+This is also a diagram that shows the **electrical wiring** and pin-level connections between all components — including power lines, GPIOs, and communication ports. It focuses on **signal paths and voltage levels** rather than physical appearance.  
 
-## 6. Obstacle Management
-
-### 6.1 Autonomous Driving Logic (General)
-This section explains the overall logic behind the robot’s autonomous driving and how it reacts to obstacles.
-
-#### 6.1.1 Main Control Node Structure (⚙️)
-Explains the architecture of the main ROS2 control node and how it connects to LiDAR, camera, and motor nodes.
-
-#### 6.1.2 PID Controller for Steering (🧭)
-Describes the PID algorithm used to stabilize and correct the steering angle during navigation.
-
-#### 6.1.3 Camera Processing (📸)
-Details the image-processing module that detects colors or obstacles from camera input.
-
----
-
-### 6.2 Open Challenge (🚀)
-Describes how all systems integrate to face dynamic or competitive obstacle-avoidance challenges.
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
+</p>
 
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
