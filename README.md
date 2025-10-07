@@ -648,15 +648,41 @@ The **7.4 V Li-Po battery** supplies energy to the entire system, split into two
 
 This is also a wiring di
 
+## 6. Obstacle Management
+
+### 6.1 Autonomous Driving Logic (General)
+This section explains the overall logic behind the robot’s autonomous driving and how it reacts to obstacles.
+
+#### 6.1.1 Main Control Node Structure (⚙️)
+Explains the architecture of the main ROS2 control node and how it connects to LiDAR, camera, and motor nodes.
+
+#### 6.1.2 PID Controller for Steering (🧭)
+Describes the PID algorithm used to stabilize and correct the steering angle during navigation.
+
+#### 6.1.3 Camera Processing (📸)
+Details the image-processing module that detects colors or obstacles from camera input.
+
+---
+
+### 6.2 Open Challenge (🚀)
+Describes how all systems integrate to face dynamic or competitive obstacle-avoidance challenges.
+
+
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
 
-### <ins>**ROS Topics Overview**</ins>
+### <ins>**Control Node Structure**</ins>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/52664f04-fa23-48df-a97d-d70433b9a828" width="80%">
+</p>
+
+This table better explains our ROS topics and messages:
 
 | **Node**                                | **Role**           | **Topic**                      | **Message Type**                                                   | **What It Transmits**                                                                                                                       |
 | --------------------------------------- | ------------------ | ------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **LiDAR Node**                          | Publisher          | `/scan`                        | `sensor_msgs/LaserScan`                                            | Sends 360° distance readings from the LiDAR; each value represents how far an obstacle is at a given angle.                                 |
-| **Camera Node**                         | Publisher          | `/obstaculos`                  | `std_msgs/String`                                                  | Publishes the detected obstacle color (`rojo`, `verde`, or `ninguno`), which defines how the main controller adjusts the steering setpoint. |
+| **LiDAR Node**                          | Publisher          | `/scan`                        | `sensor_msgs/LaserScan`                                            | It sends 360° distance readings from the LiDAR; each value represents how far an obstacle is at a given angle.                                 |
+| **Camera Node**                         | Publisher          | `/obstaculos`                  | `std_msgs/String`                                                  | It publishes the detected obstacle color in a text form: (`rojo`, `verde`, or `ninguno`), which defines how the main controller adjusts the steering setpoint. |
 | **AckerLidar Node** *(Main Controller)* | Central Controller | `/motor_vel`, `/positionServo` | `std_msgs/Float32`, `ros_robot_controller_msgs/SetAckerServoState` | `/motor_vel`: Motor duty cycle (speed %). `/positionServo`: Steering position (PWM in µs) for Ackermann control.                            |
 | **Motor Node**                          | Subscriber         | `/motor_vel`                   | `std_msgs/Float32`                                                 | Receives motor velocity commands from the main controller and translates them into PWM signals for the DC motor driver (L298N).             |
 | **Raspberry Pi 5 Controller Node**      | Subscriber         | `/positionServo`               | `ros_robot_controller_msgs/SetAckerServoState`                     | Executes servo position commands and moves the front wheels to reach the target angle.                                                      |
@@ -671,15 +697,23 @@ This is also a wiring di
   * The real ROS topic `/ros_robot_controller/acker_servo/set_state` is represented as **`/positionServo`**.
   * The real ROS topic `/ros_robot_controller/button` is represented as **`/button`**.
 
+* The button input `/ros_robot_controller/button` is processed internally by the main node and does not appear as a separate node because it doesn’t exchange messages with others.
+
 * The naming convention was simplified only for documentation clarity; all logic and connections in the code remain unchanged.
 
 * The **AckerLidar Node** acts as the core controller that links everything:
   it subscribes to LiDAR and camera data, processes the PID control, and publishes both the steering and velocity commands.
 
 ---
+### 📨 **Message types**
 
-¿Quieres que te lo deje en **Markdown puro** (como arriba) o en **HTML table** con bordes y centrado para mantener el mismo formato visual que tus otras secciones (como la de “Car Versions”)?
+A **message type** is like a template that defines **what kind of data** is sent through a *topic*. For example, ROS already includes many built-in types, such as:
 
+* `std_msgs/String` → used to send text.
+* `std_msgs/Float32` → used to send a decimal number.
+* `sensor_msgs/LaserScan` → used to send LiDAR data (distance readings around 360°).
+* `geometry_msgs/Twist` → used to send linear and angular velocities (very common in mobile robots).
+* And you can also have **custom message types**, like the ones included in your own package `ros_robot_controller_msgs`.
 
 
 ### <ins>**Open Challenge**</ins>
