@@ -705,9 +705,48 @@ A **message type** is like a template that defines **what kind of data** is sent
 
 ### <ins>**Open Challenge**</ins>
 
+The **Open Challenge** is the first autonomous driving test. In this stage, the robot must complete three laps **without any external input** relying only on its onboard **LiDAR sensor**, **PID controller**, and **Ackermann steering system**. The goal is to keep the car centered between the inner and external walls of the challenge during the entire lap.
+
+To achieve that, the robot constantly measures two key distances:
+
+- **D₁** → Distance from the car to the **left wall**  
+- **D₂** → Distance from the car to the **right wall**
+
+The **control goal** is defined by the equation:
+
+> **D₁ - D₂ = 0**  
+> *(Setpoint = 0 → car is centered)*
+
+When this balance holds true, it means that both walls are equidistant, and the car is aligned in the center of the track.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="80%">
+</p>
+
+### **How It Works: LiDAR + Control Loop**
+
+The LiDAR sensor scans the surrounding environment in real time, detecting obstacles and measuring the distances around the car.  
+From these scans, two zones are analyzed — one on the **left** and one on the **right** — to extract D₁ and D₂.
+
+These values are sent to the **AckerLidarNode**, the main control node in charge of:
+- Reading and processing LiDAR data  
+- Computing the distance difference `error = D₁ - D₂`  
+- Sending control signals to the **steering** and **motor** nodes
+
+The logic is simple but continuous:  
+1. If **D₁ > D₂**, the car is too close to the right wall → it turns slightly **left**.  
+2. If **D₁ < D₂**, the car is too close to the left wall → it turns slightly **right**.  
+3. If **D₁ = D₂**, the car is centered → it continues straight.
+
+This process runs in a **PID feedback loop**, where:
+- The **P (Proportional)** term corrects small deviations quickly.  
+- The **I (Integral)** term reduces long-term bias (not always needed).  
+- The **D (Derivative)** term prevents oscillations and overshoot.  
+
+The result is a **smooth, stable trajectory** that keeps the car aligned throughout the race.
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/672a9f3c-875b-4f9e-a2d6-b38b62be8fdf" width="48%">
-  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="48%">
+  <img src="https://github.com/user-attachments/assets/0b9e80ab-a3b6-4cbc-9457-b2b9e9251c7a" width="80%">
 </div>
 
 ### ➡️ **Open Challenge Flowchart**
@@ -716,12 +755,49 @@ A **message type** is like a template that defines **what kind of data** is sent
   <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="80%">
 </p>
 
+#### Step-by-Step Description
+
+1. **Start Robot & Initialization**  
+   ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics).
+
+2. **Continuous Loop**  
+   The system enters a continuous loop (`while rclpy.ok()`), running dozens of times per second. Each cycle updates sensor readings and steering actions.
+
+3. **LiDAR Scan Environment**  
+   The sensor performs a 360° scan to detect the walls and extract points on both sides of the track.
+
+4. **Extract Wall Distances (D₁, D₂)**  
+   The algorithm filters the LiDAR data to isolate the left and right regions, computes the average distance for each, and updates D₁ and D₂.
+
+5. **Compute Error (D₁ - D₂)**  
+   The difference between these distances represents how “off-center” the car is from the ideal middle of the lane.
+
+6. **PID Steering Adjustment**  
+   The PID controller processes this error and outputs an angle correction, which is sent to the **servo motor** using an Ackermann steering model.
+
+7. **Update Lap Counter**  
+   The control node counts laps based on internal flags or distance traveled (depending on the implementation in the ROS2 package).
+
+8. **3 Laps Completed → Stop Vehicle**  
+   After completing three full laps, the system safely reduces speed and stops the motor node.
+
+---
+
+### <ins>**Nodes and Communication**</ins>
+
+During the Open Challenge, three ROS2 nodes work together in real time:
+
+| Node | Role | Description |
+|------|------|-------------|
+| **`AckerLidarNode`** | 🧠 Main Control Node | Subscribes to LiDAR data, calculates the distance difference, runs the PID controller, and sends steering/motor commands. |
+| **`MotorPWMNode`** | ⚙️ Motor Control | Receives speed values (`Float32`) and controls the DC motor through PWM signals, ensuring smooth acceleration. |
+| **`SetAckerServoState`** | 🔄 Steering Control | Adjusts the steering servo angle according to PID output, maintaining Ackermann kinematics. |
 
 
 ### <ins>**Obstacle Challenge**</ins>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="80%">
+  <img src="https://github.com/user-attachments/assets/709c3f14-f9d9-4626-b078-1e8304557f87" width="100%">
 </p>
 
 ### ➡️ **Obstacle Challenge Flowchart**
