@@ -48,8 +48,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 5. [Mobility Management](#4-mobility-management)
    + [Steering System - Ackermann](#steering-system-ackermann)
    + [Motor and Drivetrain](#motor-and-drivetrain)
-   + [Chassis Design Process](#chassis-design-process)
-   + [3D Printed Parts](#3d-printed-parts)
+   + [3D Pieces](#3d-pieces)
    
 6. [Power & Sense Management](#5-power--sense-management)
    + [Power Source](#power-source)
@@ -444,16 +443,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
 <img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width=50%/>
 </p>
 
-### <ins>**Chassis Design Process**</ins>
-This autonomous car project features a carefully constructed design that combines metal components with custom 3D-printed parts to create a durable, lightweight, and functional structure.
-
-The base and upper casing were crafted from aluminum to provide strength and lightweight support for all components. The base was designed to securely mount the Raspberry Pi and support the weight of the vehicle’s systems, offering a stable foundation and balanced weight distribution critical for stability. The upper casing, which houses the LiDAR sensor, was designed to ensure the sensor has an unobstructed view while protecting it from potential impacts and environmental factors.
-
-<p align = "center">
-  <img src = "https://github.com/user-attachments/assets/b878388c-313e-4fd7-aca1-75f875a06fa5" width="70%">
-  </p>
-
-### <ins>**3D Printed Parts**</ins>
+### <ins>**3D Pieces**</ins>
 
 | Component | Preview | Folder |
 |------------|----------|--------|
