@@ -455,7 +455,14 @@ The base and upper casing were crafted from aluminum to provide strength and lig
 
 ### <ins>**3D Printed Parts**</ins>
 
-<br>
+| Component | Preview | Folder |
+|------------|----------|--------|
+| Vehicle Base | ![Vehicle Base](models/vehicle_base/vehicle_base.png) | [View](models/vehicle_base/) |
+| Vehicle Wheels | ![Vehicle_Wheels](models/vehicle_wheels/vehicle_wheels.png) | [View](models/vehicle_wheels/) |
+| Camera Housing | ![Camera](models/camara_housing/camara_housing.png) | [View](models/camara_housing/) |
+| LiDAR Housing | ![LiDAR](models/lidar_housing/lidar_housing.png) | [View](models/lidar_housing/) |
+| Raspberry Housing | ![Raspberry](models/raspberry_housing/raspberry_housing.png) | [View](models/raspberry_housing/) |
+
 <br>
 
 ## 5. Power & Sense Management 
