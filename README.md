@@ -815,6 +815,29 @@ During the Open Challenge, three ROS2 nodes work together in real time:
 <br><br>
 ## 7. Assembly Instructions 
 
+### **Ackermann System**
+To build the Ackermann system on the car, first screw the fixed parts that attach the system to the base.
+Next, attach the two movable pieces that steer the wheels to the sides of the fixed part. Make sure these pieces can still rotate freely. Each of these pieces has two holes use the hole that is closer to the wheels.
+Then, connect the wheel pieces with a linkage that has bearings on both ends. The bearings should be screwed into the other holes of the wheel pieces, forming a movable, half-rectangular structure.
+Attach a second linkage, identical to the first but shorter, to one side of the system. This linkage connects to one of the holes on the wheel pieces, the same ones linked to the bearings of the first linkage. This shorter linkage will move the steering system and must be connected directly to the servo motor, which should be mounted vertically on the base.
+Important: The servo’s output shaft and the side where the second linkage is attached should be on opposite sides.
+Finally, attach the wheel hubs, the parts that hold the actual wheels, to the movable pieces via bearings. These bearings should allow the wheels to rotate freely.
+ 
+### **Motor System**
+Screw the motor mount, which is the piece that holds both the motor and its axle, onto the base. Then, screw the motor to this mount.
+Insert the axle into the mount. The mount has two circular openings that the axle passes through. The axle should be supported by two bearings, which keep it centered, and two locking rings, which prevent side movement.
+Once the axle is in place, connect the motor shaft and the axle using spacers, ensuring they do not collide with the motor screws.
+ 
+### **Housings**
+After both systems are assembled, install the housings on the top side of the base. Mount the camera, LiDAR, batteries, and Raspberry Pi according to the model layout:
++ The LiDAR housing goes at the front, ensuring its field of view is unobstructed.
++ The camera housing goes right behind the LiDAR housing, which it’s taller, so its view remains clear.
++ The battery and Raspberry Pi housings go behind them, forming a sort of ceiling above the servo motor that protrudes from the base.
+ 
+### **Electronics**
+Finally, install all electronic components, attaching them to their designated housings and connecting them according to the wiring diagram.
+
+
 <br><br>
 ## 8. Performance Videos 
 
