@@ -351,8 +351,6 @@ With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash 
 
 ## 4. Mobility Management  
 
----
-
 ### <ins>**Steering System – Ackermann**</ins>
 
 <p align="center">
