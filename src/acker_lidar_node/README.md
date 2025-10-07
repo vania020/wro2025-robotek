@@ -1,5 +1,10 @@
 ## Code Explanation — [`acker_lidar_node.py`](./acker_lidar_node.py) 
 
+### **Summary**
+
+This node uses **LiDAR data** and a **PID controller** to keep the robot centered between walls or obstacles. It reacts to **red and green signals** by shifting its path slightly left or right. The car only starts after the **button** is pressed and continuously adjusts steering while moving.
+
+
 ### 1. Libraries and Initialization
 
 ```python
@@ -192,8 +197,3 @@ It keeps the controller active, listening to LiDAR and button inputs, and publis
 
 ---
 
-### **Summary**
-
-This node uses **LiDAR data** and a **PID controller** to keep the robot centered between walls or obstacles.
-It reacts to **red and green signals** by shifting its path slightly left or right.
-The car only starts after the **button** is pressed and continuously adjusts steering while moving.
