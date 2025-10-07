@@ -705,12 +705,7 @@ A **message type** is like a template that defines **what kind of data** is sent
 
 ### <ins>**Open Challenge**</ins>
 
-The **Open Challenge** is the first autonomous driving test. In this stage, the robot must complete three laps **without any external input** relying only on its onboard **LiDAR sensor**, **PID controller**, and **Ackermann steering system**. The goal is to keep the car centered between the inner and external walls of the challenge during the entire lap.
-
-To achieve that, the robot constantly measures two key distances:
-
-- **D₁** → Distance from the car to the **left wall**  
-- **D₂** → Distance from the car to the **right wall**
+The **Open Challenge** is the first autonomous driving test. In this stage, the robot must complete three laps **without any external input** relying only on its onboard **LiDAR sensor**, **PID controller**, and **Ackermann steering system**. The goal is to keep the car centered between the inner and external walls of the challenge during the entire lap. To achieve that, the robot constantly measures two key distances: **D₁** → Distance from the car to the **left wall** and **D₂** → Distance from the car to the **right wall**
 
 The **control goal** is defined by the equation:
 
@@ -725,14 +720,14 @@ When this balance holds true, it means that both walls are equidistant, and the 
 
 ### **How It Works: LiDAR + Control Loop**
 
-The LiDAR sensor scans the surrounding environment in real time, detecting obstacles and measuring the distances around the car. From these scans, two zones are analyzed, one on the **left** and one on the **right** — to extract D₁ and D₂.
+The LiDAR sensor scans the surrounding environment in real time, detecting obstacles and measuring the distances around the car. From these scans, two zones are analyzed, one on the **left** and one on the **right** to extract D₁ and D₂.
 
 These values are sent to the **AckerLidarNode**, the main control node in charge of:
 - Reading and processing LiDAR data  
 - Computing the distance difference `error = D₁ - D₂`  
 - Sending control signals to the **steering** and **motor** nodes
 
-The logic is simple but continuous:  
+The logic is the following:  
 1. If **D₁ > D₂**, the car is too close to the right wall → it turns slightly **left**.  
 2. If **D₁ < D₂**, the car is too close to the left wall → it turns slightly **right**.  
 3. If **D₁ = D₂**, the car is centered → it continues straight.
@@ -756,7 +751,6 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
     <td align="center" width="45%">
       <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="95%">
     </td>
-
     <!-- Columna derecha: texto explicativo -->
     <td width="55%" valign="top">
 
@@ -795,9 +789,9 @@ During the Open Challenge, three ROS2 nodes work together in real time:
 
 | Node | Role | Description |
 |------|------|-------------|
-| **`AckerLidarNode`** | 🧠 Main Control Node | Subscribes to LiDAR data, calculates the distance difference, runs the PID controller, and sends steering/motor commands. |
-| **`MotorPWMNode`** | ⚙️ Motor Control | Receives speed values (`Float32`) and controls the DC motor through PWM signals, ensuring smooth acceleration. |
-| **`SetAckerServoState`** | 🔄 Steering Control | Adjusts the steering servo angle according to PID output, maintaining Ackermann kinematics. |
+| **`AckerLidarNode`** |Main Control Node | Subscribes to LiDAR data, calculates the distance difference, runs the PID controller, and sends steering/motor commands. |
+| **`MotorPWMNode`** | Motor Control | Receives speed values (`Float32`) and controls the DC motor through PWM signals, ensuring smooth acceleration. |
+| **`SetAckerServoState`** | Steering Control | Adjusts the steering servo angle according to PID output, maintaining Ackermann kinematics. |
 
 ---
 
