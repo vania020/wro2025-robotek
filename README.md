@@ -652,6 +652,9 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
   <img src="https://github.com/user-attachments/assets/6e7abe3c-c553-48f9-9c59-543b3cd9996b" width="80%">
 </p>
 
+> [!NOTE]
+> Visit our [`schemes`](https://github.com/vania020/wro2025-robotek/tree/main/vschemes) folder to access all of our diagrams and schemes 🔑🚗
+
 ## 6. Obstacle Management 
 ### <ins>**Autonomous Driving Logic**<ins>
 
