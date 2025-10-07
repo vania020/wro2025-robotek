@@ -361,45 +361,31 @@ With the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), we flash 
 
 Our autonomous car uses an Ackermann steering system, controlled by a **15 kg·cm digital servo**, which provides precise and stable control for navigation and turns.  
 
-The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning.  
-This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle.  
-To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
+The Ackermann steering geometry is designed to reduce tire slip by ensuring that all wheels align as radii of circles that share a common center when the car is turning. This configuration keeps the rear wheels fixed and places the center of rotation along a line extended from the rear axle. To achieve this geometry, the inside front wheel turns at a greater angle than the outside front wheel, allowing smoother and more efficient cornering.
 
 ---
 
 ### **Our own modifications ⚒️**
 
-In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism.  
-We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth.  
-When the motor rotated the gear, the rack would move, which in turn rotated the wheels.  
+In the first versions of the car, we implemented the Ackermann steering system using a custom mechanism. We designed and 3D printed a gear connected to a stepper motor, along with a rack, which is a stick with grooves that fit into the gear teeth. When the motor rotated the gear, the rack would move, which in turn rotated the wheels.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/211ba653-b04c-4f56-9fca-0c7498eb9aff" width="300" height="200">
   <img src="https://github.com/user-attachments/assets/e45a7e54-3c88-4524-b427-0ecff04898f5" width="300" height="200">
 </p>
 
-One of the challenges we faced was the 3D printing process itself.  
-Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes.  
-To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.
+One of the challenges we faced was the 3D printing process itself. Printing small details such as gear teeth was difficult and often imprecise, which caused problems in the initial prototypes. To solve this, we made the gear teeth larger, and while this worked mechanically, the final design ended up taking too much space inside the chassis.
 
-For this reason, we decided to switch to the system we currently use, which is part of the **HiWonder kit**, adapted to fit in our chassis base.  
-Instead of gears, it uses a system of linkages connected by screws and supported by bearings.  
-These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
+For this reason, we decided to switch to the system we currently use, which is part of the **HiWonder kit**, adapted to fit in our chassis base. Instead of gears, it uses a system of linkages connected by screws and supported by bearings. These linkages move and transfer the motion to the wheels, achieving the Ackermann steering effect in a more compact way.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4843c1d0-fb98-4bd4-b9e3-5fe4925295cd" width="300" height="200">
 </p>
 
 > [!WARNING]
-> At first, the Ackermann of the HiWonder kit worked fine — the car could turn and even get through some obstacles.  
-> But after a lot of testing, we noticed that whenever the car turned left, the Ackermann didn’t rotate as much as it did when turning right.  
-> This made obstacle avoidance harder, especially in the field corners, so we knew we had to make adjustments.
+> At first, the Ackermann of the HiWonder kit worked fine — the car could turn and even get through some obstacles. But after a lot of testing, we noticed that whenever the car turned left, the Ackermann didn’t rotate as much as it did when turning right. This made obstacle avoidance harder, especially in the field corners, so we knew we had to make adjustments.
 
-We realized that the servo needed to be repositioned.  
-First, it was placed horizontally under the Ackermann linkages.  
-We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis.  
-This way, the linkages could move freely with more angles, and we also freed up extra space for the other components.  
-This new placement also allowed us to reduce the length of the chassis.  
+We realized that the servo needed to be repositioned. First, it was placed horizontally under the Ackermann linkages. We brainstormed how to make it more efficient and changed the position of the servomotor, mounting it vertically with the accessory facing downward under the chassis. This way, the linkages could move freely with more angles, and we also freed up extra space for the other components. This new placement also allowed us to reduce the length of the chassis.  
 
 <table>  
   <tr>
