@@ -12,7 +12,7 @@ We designed this structure as a **space-efficient housing** that could hold the 
 
 **Model Details**
 - Format: `.stl`
-- Material: PLA+ or PETG
+- Material: PLA
 - Layer height: 0.16 mm
 - Infill: 20%
 - Supports: Minimal (internal)
