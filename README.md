@@ -460,7 +460,7 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
         <img src="models/vehicle_base/vehicle_base.png" width="90%">
       </td>
       <td align="center">
-        <a href="models/vehicle_base/">View</a>
+        <a href="models/vehicle_base/" target="_self">View</a>
       </td>
     </tr>
     <tr>
