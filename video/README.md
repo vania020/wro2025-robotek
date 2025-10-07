@@ -3,12 +3,12 @@
 <br>
 <br>
 
-
 <div align="center">
 
-| Challenge | Preview |
-|------------|----------|
-| 🟢 **Open Challenge** | [![Open Challenge](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
-| 🔴 **Obstacle Challenge** | [![Obstacle Challenge](https://www.youtube.com/watch?v=5Ic2xejqBcA) |
+| Challenge | YouTube Video |
+|------------|----------------|
+| **Open Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
+| **Obstacle Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=5Ic2xejqBcA) |
 
 </div>
+
