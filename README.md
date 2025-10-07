@@ -422,6 +422,42 @@ We realized that the servo needed to be repositioned. First, it was placed horiz
 ### <ins>**Motor and Drivetrain**</ins>
 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/f636176b-af6a-4b72-bb31-53f025ab41b1" width="70%">
+</p>
+
+The drivetrain of our autonomous car is powered by a **25 mm metal gear DC motor**, chosen for its compact size and high torque.  
+The motor is mounted on the chassis and directly connected to the **rear axle** through a gear system, ensuring efficient transfer of power to the wheels.
+
+---
+
+#### ⚙️ **Gear Reduction System**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" width="70%">
+</p>
+
+To optimize torque and control, the drivetrain features a **two-gear reduction system**:
+- The **small gear** is mounted on the motor shaft.  
+- It drives a **larger gear** attached to the rear axle.  
+- This ratio increases **torque at the wheels**, providing greater force for acceleration and stability even when motor speed remains constant.
+
+---
+
+#### 🧩 **Assembly Improvements**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3747319-fd2e-4542-ac6d-be17239430e3" width="50%">
+</p>
+
+During assembly, a small **gap** appeared between the metal chassis and the axle supports, which caused instability in the drivetrain.  
+To fix this, we designed **custom 3D-printed cylindrical spacers** that fill the gap and keep the axle firmly in place.
+
+This simple yet effective improvement:
+- Reduces **vibrations** and **mechanical noise**.  
+- Prevents **axle misalignment**.  
+- Ensures a **smoother power transmission** from the motor to the wheels.
+
+### <ins>**Motor and Drivetrain**</ins>
+
+<p align="center">
 <img src="https://github.com/user-attachments/assets/f636176b-af6a-4b72-bb31-53f025ab41b1" width= 70% />
 </p>
 
