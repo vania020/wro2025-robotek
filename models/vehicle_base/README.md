@@ -7,8 +7,7 @@ This piece is the **main platform of our vehicle**. It supports all the main com
 
 **Fabrication Process**
 
-We started by sketching and prototyping the base on cardboard and acrylic to test the dimensions. After confirming the fit, we finalized the design in Fusion 360 and cut it in MDF for the final version. This iterative process helped us improve **stability, space efficiency, and assembly alignment**.
-
+We started by sketching the base on squared paper and then prototyping it on cardboard. We used acrylic to test the dimensions on our first models. After confirming the fit, we finalized the design in Fusion 360 and cut it in MDF for the final version. 
 
 ![vehicle_base_design](https://github.com/user-attachments/assets/e04d6d9c-100d-4ad1-b536-d3c2bc3671d8)
 
