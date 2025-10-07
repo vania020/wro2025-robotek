@@ -445,13 +445,62 @@ This simple solution reduces vibrations, prevents misalignment, and ensures smoo
 
 ### <ins>**3D Pieces**</ins>
 
-| Component | Preview | Folder |
-|------------|----------|--------|
-| Vehicle Base | ![Vehicle Base](models/vehicle_base/vehicle_base.png) | [View](models/vehicle_base/) |
-| Vehicle Wheels | ![Vehicle_Wheels](models/vehicle_wheels/vehicle_wheels.png) | [View](models/vehicle_wheels/) |
-| Camera Housing | ![Camera](models/camara_housing/camara_housing.png) | [View](models/camara_housing/) |
-| LiDAR Housing | ![LiDAR](models/lidar_housing/lidar_housing.png) | [View](models/lidar_housing/) |
-| Raspberry Housing | ![Raspberry](models/raspberry_housing/raspberry_housing.png) | [View](models/raspberry_housing/) |
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Preview</th>
+      <th>Folder</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Vehicle Base</b></td>
+      <td align="center">
+        <img src="models/vehicle_base/vehicle_base.png" width="220px">
+      </td>
+      <td align="center">
+        <a href="models/vehicle_base/">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Vehicle Wheels</b></td>
+      <td align="center">
+        <img src="models/vehicle_wheels/vehicle_wheels.png" width="220px">
+      </td>
+      <td align="center">
+        <a href="models/vehicle_wheels/">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Camera Housing</b></td>
+      <td align="center">
+        <img src="models/camara_housing/camara_housing.png" width="220px">
+      </td>
+      <td align="center">
+        <a href="models/camara_housing/">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>LiDAR Housing</b></td>
+      <td align="center">
+        <img src="models/lidar_housing/lidar_housing.png" width="220px">
+      </td>
+      <td align="center">
+        <a href="models/lidar_housing/">View</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Raspberry Housing</b></td>
+      <td align="center">
+        <img src="models/raspberry_housing/raspberry_housing.png" width="220px">
+      </td>
+      <td align="center">
+        <a href="models/raspberry_housing/">View</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
