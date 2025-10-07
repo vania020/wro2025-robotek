@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src=./camara_housing.png width="100%">
+  <img src=./camara_housing.png width="80%">
 </p>
 
 ![Camera Housing](./camara_housing.png)
