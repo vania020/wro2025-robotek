@@ -1,4 +1,4 @@
-## Code Explanation — [`acker_lidar_node.py`] (./acker_lidar_node.py) 
+## Code Explanation — `acker_lidar_node.py`(./acker_lidar_node.py) 
 
 ### 1. Libraries and Initialization
 
