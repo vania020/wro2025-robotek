@@ -654,9 +654,10 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
 > Visit our [`schemes`](https://github.com/vania020/wro2025-robotek/tree/main/schemes) folder to access all of our diagrams and schemes 🔑🚗
 
 ## 6. Obstacle Management 
-### <ins>**Autonomous Driving Logic**<ins>
 
 ### <ins>**Control Node Structure**</ins>
+
+Since our vehicl
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/52664f04-fa23-48df-a97d-d70433b9a828" width="80%">
@@ -746,11 +747,11 @@ The result is a **smooth, stable trajectory** that keeps the car aligned through
 <table>
   <tr>
     <!-- Columna izquierda: imagen -->
-    <td align="center" width="45%">
+    <td align="center" width="60%">
       <img src="https://github.com/user-attachments/assets/ed4b525c-7d0a-49ee-9f34-ae5922455ce9" width="95%">
     </td>
     <!-- Columna derecha: texto explicativo -->
-    <td width="55%" valign="top">
+    <td width="40%" valign="top">
 
 1. **Start Robot & Initialization**  
    ROS2 nodes are launched: the LiDAR begins scanning, and the control node initializes all parameters (PID gains, setpoint, motor topics).
