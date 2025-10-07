@@ -17,10 +17,10 @@ This component holds our DOF camera. It ensures a correct viewing of the obstacl
 
 <table>
   <tr>
-    <td align="center" width="60%">
-      <img src="./camara_housing.png" width="90%">
+    <td align="center" width="50%">
+      <img src="./camara_housing.png" width="100%">
     </td>
-    <td width="40%">
+    <td width="50%">
       <b>Camera Housing</b><br><br>
       This component holds our 2DOF camera. It ensures correct viewing of obstacles thanks to its slight inclination angle.  
       The mount includes screw holes and is designed to fit the front section of the robot chassis.<br><br>
