@@ -7,6 +7,6 @@
 
 | Node | Code Description | Function |
 |------|------|-----------|
-| 🛰️ Acker LiDAR Node | [`acker_lidar_node.py`](./acker_lidar_node/acker_lidar_node.py) | Reads and processes LiDAR scans. |
-| 🎥 Camera Node | [`camara.py`](./camara/camara.py) | Detects obstacles and colors. |
-| ⚙️ Motor Node | [`motor.py`](./motor/motor.py) | Sends PWM signals to control wheel speed. |
+| 🛰️ Acker LiDAR Node | [`acker_lidar_node.py`](./acker_lidar_node/) | Reads and processes LiDAR scans. |
+| 🎥 Camera Node | [`camara.py`](./camara) | Detects obstacles and colors. |
+| ⚙️ Motor Node | [`motor.py`](./motor) | Sends PWM signals to control wheel speed. |
