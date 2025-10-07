@@ -657,6 +657,14 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
 Since we use ROS 2 as the middleware that connects all the components of our autonomous vehicle, there is no single “main” code that runs either the Open Challenge or the Obstacle Challenge. Instead, the system is built as a collection of independent but interconnected ROS 2 nodes, each performing a specific function such as reading the camera, processing LiDAR data, or controlling the motors. These nodes communicate constantly through topics and messages, allowing the car to behave as a cohesive, intelligent system.
 
 You can access our node codes here:
+<br>
+
+| Node | Code Description | Function |
+|------|------|-----------|
+| 🛰️ Acker LiDAR Node | [`acker_lidar_node`](./src/acker_lidar_node) | Reads and processes LiDAR scans. |
+| 🎥 Camera Node | [`camara`](./src/camara) | Detects obstacles and colors. |
+| ⚙️ Motor Node | [`motor`](./src/motor) | Sends PWM signals to control wheel speed. |
+
 
 
 <p align="center">
