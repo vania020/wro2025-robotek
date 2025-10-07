@@ -1,7 +1,7 @@
 # Camera Housing
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fbcddbcc-7a4a-4e44-bd8f-0d2e3b5a059e" alt="Banner Ruwance" width="100%">
+  <img src="https://github.com/user-attachments/assets/18663c6d-ac6f-460e-a705-aba01630a73f" width="100%">
 </p>
 
 <p align="center">
