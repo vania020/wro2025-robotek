@@ -111,8 +111,9 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
 
 
 ## 2. Vehicle Overview
-<p align="center">
+This is our car named **Kyra**, it is the result of multiple versions and modifications since 2024:) Since then, we have been studying, learning and testing different methods to improve our car. It has been an interesting and challenging journey in robotics, but every effort was worth it!
 
+<p align="center">
   <img src="https://github.com/user-attachments/assets/88871f98-e533-4bf0-9a45-785f721ad036" alt="Vehicle Overview" width="100%">
 </p>
 
