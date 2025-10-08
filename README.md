@@ -95,7 +95,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
       Hello! My name is Isabella, I'm 16 years old, and I love robotics. I founded Robotek Perú, a club where students can learn robotics and join competitions, and this is my second time at the WRO. My favorite hobbies are singing with my choir, practicing taekwondo, and art. <br><br>
    
   <td width="45%" align="center">
-    <img src="https://github.com/user-attachments/assets/07735d5c-00a2-43e7-8e0f-f4cf62ae2247" alt="Isa"/>
+    <img src="https://github.com/user-attachments/assets/decc08ce-4294-4859-8b7f-eccb05b879a1" alt="Isa"/>
     </td>
   </tr>
   
