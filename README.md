@@ -41,7 +41,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
      
 4. [System Setup](#3-system-setup)
    + [Operating Environment Overview](#operating-environment-overview)
-   + [ROS](#robot-operating-system-ros-)
+   + [Robot Operating System (ROS)](#robot-operating-system-ros-)
    + [Ubuntu](#ubuntu-)
    + [Raspberry Pi](#raspberry-pi-)
      
