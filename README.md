@@ -612,7 +612,7 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 The following visual wiring diagram illustrates the **physical connections** between the modules (Raspberry Pi, LiDAR, camera, motor, etc.) using **realistic component images**. It helps visualize the system layout and understand **how components are arranged and linked** in the robot.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/42416f9e-0c0a-4751-b446-b05c707c9434" width="80%">
+  <img src="https://github.com/user-attachments/assets/09d43288-bf94-4896-a6ce-74c77d681729" width="80%">
 </p>
 
 #### **1. Raspberry Pi 5 Connections**
