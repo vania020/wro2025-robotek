@@ -41,12 +41,12 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
      
 4. [System Setup](#3-system-setup)
    + [Operating Environment Overview](#operating-environment-overview)
-   + [ROS](#ros)
-   + [Ubuntu](#ubuntu)
-   + [Raspberry Pi](#raspberry-pi)
+   + [ROS](#robot-operating-system-ros-)
+   + [Ubuntu](#ubuntu-)
+   + [Raspberry Pi](#raspberry-pi-)
      
 5. [Mobility Management](#4-mobility-management)
-   + [Steering System - Ackermann](#steering-system-ackermann)
+   + [Steering System - Ackermann](#steering-system--ackermann)
    + [Motor and Drivetrain](#motor-and-drivetrain)
    + [3D Pieces](#3d-pieces)
    
@@ -57,7 +57,7 @@ We are Team Ruwance, proudly representing Perú at the 2025 World Robot Olympiad
    + [Wiring Diagram](#wiring-diagram)
 
 7. [Obstacle Management](#6-obstacle-management)
-   + [Autonomous Driving Logic](#autonomous-driving-logic)
+   + [Control Node Structure](#control-node-structure)
    + [Open Challenge](#open-challenge)
    + [Obstacle Challenge](#obstacle-challenge)
      
@@ -301,7 +301,13 @@ Without ROS, everything would have to be written in one long, complicated progra
   <tr>
     <td><b>Environmental Perception with LiDAR</b></td>
     <td>
-      Most manufacturers of advanced sensors, such as LiDARs, provide an official package to use their hardware with ROS. In the case of the DTOF STL-19P, the manufacturer provides a package that automatically publishes the LiDAR data so it can be processed afterward. Support with Python ROS is fully compatible with Python, which allows for versatile and high-level code development. In addition, being open-source, it has a large community that provides support and assistance for robot development.
+      Most manufacturers of advanced sensors, such as LiDARs, provide an official package to use their hardware with ROS. In the case of the DTOF STL-19P, the manufacturer provides a package that automatically publishes the LiDAR data so it can be processed afterward.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Support with Python</b></td>
+    <td>
+      ROS is fully compatible with Python, which allows for versatile and high-level code development. In addition, being open-source, it has a large community that provides support and assistance for robot development.
     </td>
   </tr>
   <tr>
@@ -658,12 +664,12 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
 
 Since we use ROS 2 as the middleware that connects all the components of our autonomous vehicle, there is no single “main” code that runs either the Open Challenge or the Obstacle Challenge. Instead, the system is built as a collection of independent but interconnected ROS 2 nodes, each performing a specific function such as reading the camera, processing LiDAR data, or controlling the motors. These nodes communicate constantly through topics and messages, allowing the car to behave as a cohesive, intelligent system.
 
-You can access our node codes here:
+You can access our custom node codes here:
 <br>
 
 | Node | Code Description | Function |
 |------|------|-----------|
-| 🛰️ Acker LiDAR Node | [`acker_lidar_node`](./src/acker_lidar_node) | Reads and processes LiDAR scans. |
+| 🛰️ Acker LiDAR Node | [`acker_lidar_node`](./src/acker_lidar_node) | Processes LiDAR scans and controls the robot. |
 | 🎥 Camera Node | [`camara`](./src/camara) | Detects obstacles and colors. |
 | ⚙️ Motor Node | [`motor`](./src/motor) | Sends PWM signals to control wheel speed. |
 
