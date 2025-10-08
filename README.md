@@ -5,12 +5,12 @@
 </p>
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23FFA500.svg?style=for-the-badge&logo=Instagram&logoColor=white&style=plastic)](https://www.instagram.com/robotekperu/)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&style=plastic)](https://www.youtube.com)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&style=plastic)](https://www.youtube.com/@Robotekperu)
 [![Facebook](https://img.shields.io/badge/Facebook-%232B25CF.svg?style=for-the-badge&logo=Facebook&logoColor=white&style=plastic)](https://www.facebook.com/p/Robotek-Per%C3%BA-61566493439700/)
 
 
 + Team Name: **Ruwance**
-+ Car Name: **Riska**
++ Car Name: **Kyra**
 + Club Name: **Robotek**
 + Team Members: **Isabella Gonzales & Vania Pachas**
 + Coach: **Anthony Valladolid**
@@ -122,11 +122,11 @@ Our autonomous vehicle is built to take on both the Open and Obstacle Challenges
 
 | Front | Left | Right |
 | :--: | :--: | :--: | 
-| <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
+| <img src="https://github.com/user-attachments/assets/28923492-d764-4988-a0c9-e2183df74ae1" width="90%" /> | <img src="https://github.com/user-attachments/assets/2265c607-e2aa-4e1a-9f56-c9a5992ae09a" width="90%" /> |  <img src="https://github.com/user-attachments/assets/80249658-56e7-4098-839c-93499d065515" width="90%" /> | 
 
 | Back  | Top  | Bottom |
 | :--: | :--: |:--: |  
-| <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="90%" /> | <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> |  <img src="https://github.com/user-attachments/assets/63ed0743-32e4-4605-b754-b6c322b21799" width="85%" /> | 
+| <img src="https://github.com/user-attachments/assets/b8727deb-2396-4c2e-8c75-e689d34e1701" width="90%" /> | <img src="https://github.com/user-attachments/assets/7149db8b-3c9a-4099-995a-b4f2d22a28e5" width="90%" /> |  <img src="https://github.com/user-attachments/assets/e96e91e3-e632-4904-bc53-c4c556ba8ca1" width="90%" /> | 
 > [!NOTE]
 > Visit our [`v-photos`](https://github.com/vania020/wro2025-robotek/tree/main/v-photos) folder for more detailed photos of the car 📸🚗
 
