@@ -662,7 +662,7 @@ This is also a diagram that shows the **electrical wiring** and pin-level connec
 
 ### <ins>**Control Node Structure**</ins>
 
-Since we use ROS 2 as the middleware that connects all the components of our autonomous vehicle, there is no single “main” code that runs either the Open Challenge or the Obstacle Challenge. Instead, the system is built as a collection of independent but interconnected ROS 2 nodes, each performing a specific function such as reading the camera, processing LiDAR data, or controlling the motors. These nodes communicate constantly through topics and messages, allowing the car to behave as a cohesive, intelligent system.
+Since we use ROS 2 as the middleware that connects all the components of our autonomous vehicle, there isn't a single code that runs either the Open Challenge or the Obstacle Challenge. Instead, the system is built as a collection of independent but interconnected ROS 2 nodes, each performing a specific function such as reading the camera, processing LiDAR data, or controlling the motors. These nodes communicate constantly through topics and messages, allowing the car to behave as a cohesive, intelligent system.
 
 You can access our custom node codes here:
 <br>
