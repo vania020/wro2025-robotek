@@ -841,9 +841,9 @@ Finally, install all electronic components, attaching them to their designated h
 <div align="center">
 
 | Challenge | YouTube Video |
-|------------|----------------|
-| <img width="1700"  alt="RUWANCE (2)" src="https://github.com/user-attachments/assets/5c8465dd-1485-4cca-ba6b-3220097664b3" /> | [Watch on YouTube 🎥]([https://www.youtube.com/watch?v=iRfN6pBE0Ac](https://youtu.be/wX616LgmSGo?si=lTu6liZ41IkfMFjK)) |
-| **Obstacle Challenge** | [Watch on YouTube 🎥]([https://www.youtube.com/watch?v=5Ic2xejqBcA](https://youtu.be/DUVe36ZpR18?si=IGmmhTL5FZdeEi8m)) |
+|----------|----------------|
+| <img width="500" alt="RUWANCE 2" src="https://github.com/user-attachments/assets/5c8465dd-1485-4cca-ba6b-3220097664b3" /> | <a href="https://youtu.be/wX616LgmSGo?si=lTu6liZ41IkfMFjK">Watch on YouTube 🎥</a> |
+| <img width="500" alt="RUWANCE 1" src="https://github.com/user-attachments/assets/7f719110-e0da-45d8-abb8-cda6af6cd81c" /> | <a href="https://youtu.be/DUVe36ZpR18?si=IGmmhTL5FZdeEi8m">Watch on YouTube 🎥</a> |
 
 </div>
 
