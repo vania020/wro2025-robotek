@@ -424,10 +424,10 @@ We realized that the servo needed to be repositioned. First, it was placed horiz
 
 The drivetrain of our autonomous car is powered by a **25 mm metal gear DC motor**, chosen for its compact size and high torque. The motor is mounted on the chassis and directly connected to the rear axle through a system of gears, ensuring efficient transfer of power to the wheels.  
 
-Our drivetrain includes a gear reduction system:  
-- The small gear is mounted on the motor shaft.  
-- This small gear drives a larger gear connected to the rear axle.  
-- The result is a reduction ratio that increases torque at the wheels, providing more force for acceleration and stability, even if the motor speed itself remains constant.
+Our drivetrain includes a gear system:  
+- The large gear is mounted on the motor shaft.  
+- This large gear drives a smaller gear connected to the rear axle.  
+- The result is an increase in the speed of the wheels.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1b89468f-1234-4610-8944-20d835b95d5b" width="50%">
@@ -486,17 +486,7 @@ Below, you will find a table with our 3D-printed parts and their descriptions.
         <a href="models/camara_housing/" target="_blank">View</a>
       </td>
     </tr>
-    <tr>
-      <td align="center"><b>LiDAR Housing</b></td>
-      <td align="center">
-        <img src="models/lidar_housing/lidar_housing.png" width="90%">
-      </td>
-      <td align="center">
-        <a href="models/lidar_housing/" target="_blank">View</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>Raspberry Housing</b></td>
+       <td align="center"><b>Raspberry Housing</b></td>
       <td align="center">
         <img src="models/raspberry_housing/raspberry_housing.png" width="90%">
       </td>
@@ -595,9 +585,8 @@ The 2DOF Monocular Camera complements the LiDAR by adding visual perception. Thi
 | STL-19P TOF Lidar | 1 | Provides precise, 360-degree distance measurements for real-time navigation and obstacle detection in dynamic environments. | <img width="850" alt="Lidar" src="https://github.com/user-attachments/assets/927d47f4-c856-461d-9e6e-ba1c35318990" /> |
 | Lidar Adapter Board | 1 | Converts the LiDAR’s UART signals to USB for PC connection and data reading. | <img width="850" alt="Adapter" src="https://github.com/user-attachments/assets/407671ef-bed2-4a04-8aef-0cb69cab464a" /> |
 | 15 kg.cm Digital Servo | 1 | Provides accurate steering control. | <img width="850" alt="Servo" src="https://github.com/user-attachments/assets/b949c033-fc6d-4032-8d41-b136ea6ddc90" /> |
-| 65 mm Anti-Slip Rubber Wheel | 2 | High-grip wheels to improve traction and stability. | <img width="850" alt="Wheel" src="https://github.com/user-attachments/assets/3f50620d-b008-4426-86f5-2c4f5ee6aff6" /> |
 | 25MM Metal Gear Motor | 1 | Core drive motor for powering the wheels with torque and speed. | <img width="850" alt="Motor" src="https://github.com/user-attachments/assets/de6786ac-3dc2-4d36-89e3-03435708c338" /> |
-| Rubber Tire Edge | 2 | Ensures 3d- printed wheels stability and grip on the floor. | <img width="850" alt="tire" src="https://github.com/user-attachments/assets/840e6304-55cd-4e40-b4e4-76193dc6ad4f" /> |
+| Suitcase Wheel Protector | 4 | Ensures 3d-printed wheels stability and grip on the floor. | <img width="850" alt="tire" src="https://github.com/user-attachments/assets/7544f94e-684d-4f12-aa88-d533e06f4869" /> |
 | Monocular Camera | 1 | A camera used for capturing images and videos, can be used for computer vision or live streaming. | <img width="850" alt="Camera" src="https://github.com/user-attachments/assets/47eeb574-59c4-4cdf-be45-4133167f8739" /> |
 | L298N Motor Driver | 1 | Controls motor direction and speed from the Raspberry Pi. | <img width="850" alt="Motor Driver" src="https://github.com/user-attachments/assets/3ab3c2e0-8b73-4996-9412-b28877301502" /> |
 | Jumper Cables | 4–8 | Electrical connections between the motor driver and Pi. | <img width="850" alt="Jumper Cables" src="https://github.com/user-attachments/assets/44758ea5-a6b2-4366-a1fb-7a0eeac5135b" /> |
@@ -853,8 +842,8 @@ Finally, install all electronic components, attaching them to their designated h
 
 | Challenge | YouTube Video |
 |------------|----------------|
-| **Open Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=iRfN6pBE0Ac) |
-| **Obstacle Challenge** | [Watch on YouTube 🎥](https://www.youtube.com/watch?v=5Ic2xejqBcA) |
+| <img width="1700"  alt="RUWANCE (2)" src="https://github.com/user-attachments/assets/5c8465dd-1485-4cca-ba6b-3220097664b3" /> | [Watch on YouTube 🎥]([https://www.youtube.com/watch?v=iRfN6pBE0Ac](https://youtu.be/wX616LgmSGo?si=lTu6liZ41IkfMFjK)) |
+| **Obstacle Challenge** | [Watch on YouTube 🎥]([https://www.youtube.com/watch?v=5Ic2xejqBcA](https://youtu.be/DUVe36ZpR18?si=IGmmhTL5FZdeEi8m)) |
 
 </div>
 
